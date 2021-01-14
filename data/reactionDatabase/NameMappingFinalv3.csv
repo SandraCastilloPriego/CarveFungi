@@ -1,0 +1,2419 @@
+id,name,charge,Kegg,Formula,ChEBI,PubChem
+cellodextrin_e,cellodextrin,0,C01898,,ChEBI:3523,
+h2o_c,water,0,C00001,H2O,ChEBI:15377,3303
+h2o_e,water,0,C00001,H2O,ChEBI:15377,3303
+h2o_l,water,0,C00001,H2O,ChEBI:15377,3303
+h2o_m,water,0,C00001,H2O,ChEBI:15377,3303
+h2o_n,water,0,C00001,H2O,ChEBI:15377,3303
+h2o_r,water,0,C00001,H2O,ChEBI:15377,3303
+h2o_x,water,0,C00001,H2O,ChEBI:15377,3303
+atp_c,ATP(4-),-4,C00002,C10H12N5O13P3,ChEBI:15422,3304
+atp_m,ATP(4-),-4,C00002,C10H12N5O13P3,ChEBI:15422,3304
+atp_x,ATP(4-),-4,C00002,C10H12N5O13P3,ChEBI:15422,3304
+nad_c,NAD(1-),-1,C00003,C21H26N7O14P2,ChEBI:15846,3305
+nad_m,NAD(1-),-1,C00003,C21H26N7O14P2,ChEBI:15846,3305
+nad_r,NAD(1-),-1,C00003,C21H26N7O14P2,ChEBI:15846,3305
+nad_x,NAD(1-),-1,C00003,C21H26N7O14P2,ChEBI:15846,3305
+nadh_c,NADH(2-),-2,C00004,C21H27N7O14P2,ChEBI:16908,3306
+nadh_m,NADH(2-),-2,C00004,C21H27N7O14P2,ChEBI:16908,3306
+nadh_r,NADH(2-),-2,C00004,C21H27N7O14P2,ChEBI:16908,3306
+nadh_x,NADH(2-),-2,C00004,C21H27N7O14P2,ChEBI:16908,3306
+nadph_c,NADPH(4-),-4,C00005,C21H26N7O17P3,ChEBI:16474,3307
+nadph_m,NADPH(4-),-4,C00005,C21H26N7O17P3,ChEBI:16474,3307
+nadph_r,NADPH(4-),-4,C00005,C21H26N7O17P3,ChEBI:16474,3307
+nadph_x,NADPH(4-),-4,C00005,C21H26N7O17P3,ChEBI:16474,3307
+nadp_c,NADP(3-),-3,C00006,C21H25N7O17P3,ChEBI:18009,3308
+nadp_m,NADP(3-),-3,C00006,C21H25N7O17P3,ChEBI:18009,3308
+nadp_r,NADP(3-),-3,C00006,C21H25N7O17P3,ChEBI:18009,3308
+nadp_x,NADP(3-),-3,C00006,C21H25N7O17P3,ChEBI:18009,3308
+o2_c,dioxygen,0,C00007,O2,ChEBI:15379,3309
+o2_e,dioxygen,0,C00007,O2,ChEBI:15379,3309
+o2_m,dioxygen,0,C00007,O2,ChEBI:15379,3309
+o2_r,dioxygen,0,C00007,O2,ChEBI:15379,3309
+o2_x,dioxygen,0,C00007,O2,ChEBI:15379,3309
+adp_c,ADP(3-),-3,C00008,C10H12N5O10P2,ChEBI:16761,3310
+adp_m,ADP(3-),-3,C00008,C10H12N5O10P2,ChEBI:16761,3310
+pi_c,hydrogenphosphate,-2,C00009,HPO4,ChEBI:18367,3311
+pi_e,hydrogenphosphate,-2,C00009,HPO4,ChEBI:18367,3311
+pi_m,hydrogenphosphate,-2,C00009,HPO4,ChEBI:18367,3311
+pi_r,hydrogenphosphate,-2,C00009,HPO4,ChEBI:18367,3311
+coa_c,coenzyme A(4-),-4,C00010,C21H32N7O16P3S,ChEBI:15346,3312
+coa_m,coenzyme A(4-),-4,C00010,C21H32N7O16P3S,ChEBI:15346,3312
+coa_r,coenzyme A(4-),-4,C00010,C21H32N7O16P3S,ChEBI:15346,3312
+coa_x,coenzyme A(4-),-4,C00010,C21H32N7O16P3S,ChEBI:15346,3312
+co2_c,carbon dioxide,0,C00011,CO2,ChEBI:16526,3313
+co2_e,carbon dioxide,0,C00011,CO2,ChEBI:16526,3313
+co2_m,carbon dioxide,0,C00011,CO2,ChEBI:16526,3313
+co2_n,carbon dioxide,0,C00011,CO2,ChEBI:16526,3313
+co2_r,carbon dioxide,0,C00011,CO2,ChEBI:16526,3313
+co2_x,carbon dioxide,0,C00011,CO2,ChEBI:16526,3313
+ppi_c,diphosphate(3-),-3,C00013,HP2O7,ChEBI:18361,3315
+ppi_e,diphosphate(3-),-3,C00013,HP2O7,ChEBI:18361,3315
+ppi_m,diphosphate(3-),-3,C00013,HP2O7,ChEBI:18361,3315
+ppi_r,diphosphate(3-),-3,C00013,HP2O7,ChEBI:18361,3315
+ppi_x,diphosphate(3-),-3,C00013,HP2O7,ChEBI:18361,3315
+udp_c,UDP(3-),-3,C00015,C9H11N2O12P2,ChEBI:17659,3317
+udp_m,UDP(3-),-3,C00015,C9H11N2O12P2,ChEBI:17659,3317
+fad_c,FAD(3-),-3,C00016,C27H30N9O15P2,ChEBI:16238,3318
+fad_m,FAD(3-),-3,C00016,C27H30N9O15P2,ChEBI:16238,3318
+prot_c,protein,0,C00017,C2H4NO2R,ChEBI:16541,3319
+protein_1g_c,protein,0,C00017,C2H4NO2R,ChEBI:16541,3319
+pydx5p_c,pyridoxal 5'-phosphate(2-),-2,C00018,C8H8NO6P,ChEBI:18405,3320
+amet_c,S-adenosyl-L-methionine zwitterion,1,C00019,C15H23N6O5S,ChEBI:15414,3321
+amet_e,S-adenosyl-L-methionine zwitterion,1,C00019,C15H23N6O5S,ChEBI:15414,3321
+amet_m,S-adenosyl-L-methionine zwitterion,1,C00019,C15H23N6O5S,ChEBI:15414,3321
+amp_c,AMP(2-),-2,C00020,C10H12N5O7P,ChEBI:16027,15938965
+amp_e,AMP(2-),-2,C00020,C10H12N5O7P,ChEBI:16027,15938965
+amp_m,AMP(2-),-2,C00020,C10H12N5O7P,ChEBI:16027,15938965
+amp_x,AMP(2-),-2,C00020,C10H12N5O7P,ChEBI:16027,15938965
+ahcys_c,S-adenosyl-L-homocysteine zwitterion,-1,C00021,C14H19N6O5S,ChEBI:16680,3323
+ahcys_m,S-adenosyl-L-homocysteine zwitterion,-1,C00021,C14H19N6O5S,ChEBI:16680,3323
+pyr_c,pyruvate,-1,C00022,C3H3O3,ChEBI:15361,3324
+pyr_e,pyruvate,-1,C00022,C3H3O3,ChEBI:15361,3324
+pyr_m,pyruvate,-1,C00022,C3H3O3,ChEBI:15361,3324
+pyr_x,pyruvate,-1,C00022,C3H3O3,ChEBI:15361,3324
+accoa_c,acetyl-CoA(4-),-4,C00024,C23H34N7O17P3S,ChEBI:15351,3326
+accoa_m,acetyl-CoA(4-),-4,C00024,C23H34N7O17P3S,ChEBI:15351,3326
+accoa_x,acetyl-CoA(4-),-4,C00024,C23H34N7O17P3S,ChEBI:15351,3326
+gluL_c,L-glutamate,-1,C00025,C5H8NO4,ChEBI:16015,3327
+gluL_e,L-glutamate,-1,C00025,C5H8NO4,ChEBI:16015,3327
+gluL_m,L-glutamate,-1,C00025,C5H8NO4,ChEBI:16015,3327
+gluL_x,L-glutamate,-1,C00025,C5H8NO4,ChEBI:16015,3327
+akg_c,2-oxoglutarate,-2,C00026,C5H4O5,ChEBI:16810,164533
+akg_e,2-oxoglutarate,-2,C00026,C5H4O5,ChEBI:16810,164533
+akg_m,2-oxoglutarate,-2,C00026,C5H4O5,ChEBI:16810,164533
+akg_x,2-oxoglutarate,-2,C00026,C5H4O5,ChEBI:16810,164533
+h2o2_c,hydrogen peroxide,0,C00027,H2O2,ChEBI:16240,3329
+h2o2_m,hydrogen peroxide,0,C00027,H2O2,ChEBI:16240,3329
+h2o2_x,hydrogen peroxide,0,C00027,H2O2,ChEBI:16240,3329
+udpg_c,UDP-D-glucose(2-),-2,C00029,C15H22N2O17P2,ChEBI:18066,3331
+glcD_c,alpha-D-glucose,0,C00031,C6H12O6,ChEBI:4167,3333
+glcD_e,alpha-D-glucose,0,C00031,C6H12O6,ChEBI:4167,3333
+pheme_m,ferroheme b,-2,C00032,C34H30FeN4O4,ChEBI:17627,3334
+ac_c,acetate,-1,C00033,C2H3O2,ChEBI:15366,3335
+ac_e,acetate,-1,C00033,C2H3O2,ChEBI:15366,3335
+ac_m,acetate,-1,C00033,C2H3O2,ChEBI:15366,3335
+gdp_c,GDP(3-),-3,C00035,C10H12N5O11P2,ChEBI:17552,3337
+oaa_c,oxaloacetate(2-),-2,C00036,C4H2O5,ChEBI:16452,3338
+oaa_e,oxaloacetate(2-),-2,C00036,C4H2O5,ChEBI:16452,3338
+oaa_m,oxaloacetate(2-),-2,C00036,C4H2O5,ChEBI:16452,3338
+oaa_x,oxaloacetate(2-),-2,C00036,C4H2O5,ChEBI:16452,3338
+gly_c,glycine zwitterion,0,C00037,C2H5NO2,ChEBI:15428,3339
+gly_e,glycine zwitterion,0,C00037,C2H5NO2,ChEBI:15428,3339
+gly_m,glycine zwitterion,0,C00037,C2H5NO2,ChEBI:15428,3339
+dna_1g_c,DNA 1 g,0,C00039,,ChEBI:16991,3341
+acoa_c,acyl-CoA,-4,C00040,C22H29O17P3N7SR,ChEBI:17984,3342
+acoa_m,acyl-CoA,-4,C00040,C22H29O17P3N7SR,ChEBI:17984,3342
+acoa_r,acyl-CoA,-4,C00040,C22H29O17P3N7SR,ChEBI:17984,3342
+alaL_c,L-alanine zwitterion,0,C00041,C3H7NO2,ChEBI:16977,3343
+alaL_e,L-alanine zwitterion,0,C00041,C3H7NO2,ChEBI:16977,3343
+alaL_m,L-alanine zwitterion,0,C00041,C3H7NO2,ChEBI:16977,3343
+succ_c,succinate(2-),-2,C00042,C4H4O4,ChEBI:15741,3344
+succ_e,succinate(2-),-2,C00042,C4H4O4,ChEBI:15741,3344
+succ_m,succinate(2-),-2,C00042,C4H4O4,ChEBI:15741,3344
+uacgam_c,UDP-N-acetyl-alpha-D-glucosamine(2-),-2,C00043,C17H25N3O17P2,ChEBI:16264,3345
+gtp_c,GTP(4-),-4,C00044,C10H12N5O14P3,ChEBI:15996,3346
+rna_1g_c,RNA 1 g,0,C00046,,,3348
+lysL_c,L-lysinium,1,C00047,C6H15N2O2,ChEBI:18019,3349
+lysL_e,L-lysinium,1,C00047,C6H15N2O2,ChEBI:18019,3349
+glx_c,glyoxylate,-1,C00048,C2HO3,ChEBI:16891,3350
+glx_e,glyoxylate,-1,C00048,C2HO3,ChEBI:16891,3350
+glx_m,glyoxylate,-1,C00048,C2HO3,ChEBI:16891,3350
+glx_x,glyoxylate,-1,C00048,C2HO3,ChEBI:16891,3350
+aspL_c,L-aspartate,-1,C00049,C4H6NO4,ChEBI:17053,3351
+aspL_e,L-aspartate,-1,C00049,C4H6NO4,ChEBI:17053,3351
+aspL_m,L-aspartate,-1,C00049,C4H6NO4,ChEBI:17053,3351
+aspL_x,L-aspartate,-1,C00049,C4H6NO4,ChEBI:17053,3351
+gthrd_c,reduced glutathione,0,C00051,C10H17N3O6S,ChEBI:16856,3353
+gthrd_e,reduced glutathione,0,C00051,C10H17N3O6S,ChEBI:16856,3353
+gthrd_m,reduced glutathione,0,C00051,C10H17N3O6S,ChEBI:16856,3353
+gthrd_x,reduced glutathione,0,C00051,C10H17N3O6S,ChEBI:16856,3353
+udpgal_c,UDP-alpha-D-galactose(2-),-2,C00052,C15H22N2O17P2,ChEBI:18307,3354
+paps_c,3'-phosphonato-5'-adenylyl sulfate(4-),-4,C00053,C10H11N5O13P2S,ChEBI:17980,3355
+pap_c,"adenosine 3',5'-bismonophosphate(4-)",-4,C00054,C10H11N5O10P2,ChEBI:17985,3356
+pap_e,"adenosine 3',5'-bismonophosphate(4-)",-4,C00054,C10H11N5O10P2,ChEBI:17985,3356
+pap_m,"adenosine 3',5'-bismonophosphate(4-)",-4,C00054,C10H11N5O10P2,ChEBI:17985,3356
+cmp_c,CMP(2-),-2,C00055,C9H12N3O8P,ChEBI:17361,3357
+cmp_e,CMP(2-),-2,C00055,C9H12N3O8P,ChEBI:17361,3357
+cmp_m,CMP(2-),-2,C00055,C9H12N3O8P,ChEBI:17361,3357
+for_c,formate,-1,C00058,CHO2,ChEBI:15740,3358
+for_e,formate,-1,C00058,CHO2,ChEBI:15740,3358
+for_m,formate,-1,C00058,CHO2,ChEBI:15740,3358
+for_r,formate,-1,C00058,CHO2,ChEBI:15740,3358
+so4_c,sulfate,-2,C00059,SO4,ChEBI:16189,3359
+so4_e,sulfate,-2,C00059,SO4,ChEBI:16189,3359
+fmn_c,FMN(3-),-3,C00061,C17H18N4O9P,ChEBI:17621,3361
+fmn_e,FMN(3-),-3,C00061,C17H18N4O9P,,
+fmnh2_c,FMNH2,0,C00061,C17H21N4O9P,,
+fmnh2_e,FMNH2,0,C00061,C17H21N4O9P,ChEBI:17621,3361
+argL_c,L-argininium,1,C00062,C6H15N4O2,ChEBI:16467,3362
+argL_e,L-argininium,1,C00062,C6H15N4O2,ChEBI:16467,3362
+ctp_c,CTP(4-),-4,C00063,C9H12N3O14P3,ChEBI:17677,7058166
+ctp_m,CTP(4-),-4,C00063,C9H12N3O14P3,ChEBI:17677,7058166
+glnL_c,L-glutamine zwitterion,0,C00064,C5H10N2O3,ChEBI:18050,3364
+glnL_e,L-glutamine zwitterion,0,C00064,C5H10N2O3,ChEBI:18050,3364
+serL_c,L-serine zwitterion,0,C00065,C3H7NO3,ChEBI:17115,3365
+serL_e,L-serine zwitterion,0,C00065,C3H7NO3,ChEBI:17115,3365
+serL_m,L-serine zwitterion,0,C00065,C3H7NO3,ChEBI:17115,3365
+fald_c,formaldehyde,0,C00067,CH2O,ChEBI:16842,3367
+fald_x,formaldehyde,0,C00067,CH2O,ChEBI:16842,3367
+thmpp_c,thiamine(+) diphosphate(3-),-2,C00068,C12H16N4O7P2S,ChEBI:9532,3368
+metL_c,L-methionine zwitterion,0,C00073,C5H11NO2S,ChEBI:16643,3373
+metL_e,L-methionine zwitterion,0,C00073,C5H11NO2S,ChEBI:16643,3373
+metL_m,L-methionine zwitterion,0,C00073,C5H11NO2S,ChEBI:16643,3373
+pep_c,phosphonatoenolpyruvate,-3,C00074,C3H2O6P,ChEBI:18021,3374
+pep_e,phosphonatoenolpyruvate,-3,C00074,C3H2O6P,ChEBI:18021,3374
+utp_c,UTP(4-),-4,C00075,C9H11N2O15P3,ChEBI:15713,3375
+utp_m,UTP(4-),-4,C00075,C9H11N2O15P3,ChEBI:15713,3375
+orn_c,L-ornithinium(1+),1,C00077,C5H13N2O2,ChEBI:15729,3377
+orn_e,L-ornithinium(1+),1,C00077,C5H13N2O2,ChEBI:15729,3377
+orn_m,L-ornithinium(1+),1,C00077,C5H13N2O2,ChEBI:15729,3377
+trpL_c,L-tryptophan  zwitterion,0,C00078,C11H12N2O2,ChEBI:16828,3378
+trpL_e,L-tryptophan  zwitterion,0,C00078,C11H12N2O2,ChEBI:16828,3378
+pheL_c,L-phenylalanine zwitterion,0,C00079,C9H11NO2,ChEBI:17295,3379
+pheL_e,L-phenylalanine zwitterion,0,C00079,C9H11NO2,ChEBI:17295,3379
+h_c,H+,1,C00080,H,ChEBI:15378,3380
+h_e,H+,1,C00080,H,ChEBI:15378,3380
+h_g,H+,1,C00080,H,ChEBI:15378,3380
+h_l,H+,1,C00080,H,ChEBI:15378,3380
+h_m,H+,1,C00080,H,ChEBI:15378,3380
+h_n,H+,1,C00080,H,ChEBI:15378,3380
+h_r,H+,1,C00080,H,ChEBI:15378,3380
+h_x,H+,1,C00080,H,ChEBI:15378,3380
+hi_m,H+,1,C00080,H,ChEBI:15378,3380
+itp_c,ITP(4-),-4,C00081,C10H11N4O14P3,ChEBI:16039,3381
+tyrL_c,L-tyrosine zwitterion,0,C00082,C9H11NO3,ChEBI:17895,3382
+tyrL_e,L-tyrosine zwitterion,0,C00082,C9H11NO3,ChEBI:17895,3382
+malcoa_c,malonyl-CoA(5-),-5,C00083,C24H33N7O19P3S,ChEBI:15531,3383
+malcoa_m,malonyl-CoA(5-),-5,C00083,C24H33N7O19P3S,ChEBI:15531,3383
+malcoa_r,malonyl-CoA(5-),-5,C00083,C24H33N7O19P3S,ChEBI:15531,3383
+acald_c,acetaldehyde,0,C00084,C2H4O,ChEBI:15343,3384
+acald_e,acetaldehyde,0,C00084,C2H4O,ChEBI:15343,3384
+acald_m,acetaldehyde,0,C00084,C2H4O,ChEBI:15343,3384
+f6p_c,beta-D-fructofuranose 6-phosphate(2-),-2,C00085,C6H11O9P,ChEBI:15946,3385
+urea_c,urea,0,C00086,CH4N2O,ChEBI:16199,3386
+urea_e,urea,0,C00086,CH4N2O,ChEBI:16199,3386
+no2_c,nitrite,-1,C00088,NO2,ChEBI:16301,3388
+no2_e,nitrite,-1,C00088,NO2,ChEBI:16301,3388
+sucr_c,sucrose,0,C00089,C12H22O11,ChEBI:17992,3389
+sucr_e,sucrose,0,C00089,C12H22O11,ChEBI:17992,3389
+catechol_c,catechol,0,C00090,C6H6O2,ChEBI:18135,3390
+catechol_e,catechol,0,C00090,C6H6O2,ChEBI:18135,3390
+succoa_c,succinyl-CoA,-5,C00091,C25H35N7O19P3S,ChEBI:15380,3391
+succoa_m,succinyl-CoA,-5,C00091,C25H35N7O19P3S,ChEBI:15380,3391
+glyc3p_c,sn-glycerol 3-phosphate(2-),-2,C00093,C3H7O6P,ChEBI:15978,3393
+glyc3p_m,sn-glycerol 3-phosphate(2-),-2,C00093,C3H7O6P,ChEBI:15978,3393
+glyc3p_x,sn-glycerol 3-phosphate(2-),-2,C00093,C3H7O6P,ChEBI:15978,3393
+so3_c,sulfite,-2,C00094,SO3,ChEBI:48854,3394
+so3_e,sulfite,-2,C00094,SO3,ChEBI:48854,3394
+fru_c,D-fructose,0,C00095,C6H12O6,ChEBI:15824,3395
+fru_e,D-fructose,0,C00095,C6H12O6,ChEBI:15824,3395
+gdpmann_c,GDP-alpha-D-mannose(2-),-2,C00096,C16H23N5O16P2,ChEBI:15820,3396
+cysL_c,L-cysteine zwitterion,0,C00097,C3H7NO2S,ChEBI:17561,3397
+cysL_e,L-cysteine zwitterion,0,C00097,C3H7NO2S,ChEBI:17561,3397
+cysL_m,L-cysteine zwitterion,0,C00097,C3H7NO2S,ChEBI:17561,3397
+ala_B_c,beta-alanine zwitterion,0,C00099,C3H7NO2,ChEBI:16958,3399
+ala_B_e,beta-alanine zwitterion,0,C00099,C3H7NO2,ChEBI:16958,3399
+ppcoa_c,propionyl-CoA(4-),-4,C00100,C24H36N7O17P3S,ChEBI:15539,3400
+ppcoa_m,propionyl-CoA(4-),-4,C00100,C24H36N7O17P3S,ChEBI:15539,3400
+ppcoa_x,propionyl-CoA(4-),-4,C00100,C24H36N7O17P3S,ChEBI:15539,3400
+thf_c,"(6S)-5,6,7,8-tetrahydrofolate",-2,C00101,C19H21N7O6,ChEBI:15635,3401
+thf_m,"(6S)-5,6,7,8-tetrahydrofolate",-2,C00101,C19H21N7O6,ChEBI:15635,3401
+g1p_c,alpha-D-glucose 1-phosphate(2-),-2,C00103,C6H11O9P,ChEBI:29042,3403
+g1p_e,alpha-D-glucose 1-phosphate(2-),-2,C00103,C6H11O9P,ChEBI:29042,3403
+idp_c,IDP(3-),-3,C00104,C10H11N4O11P2,ChEBI:17808,3404
+ump_c,UMP(2-),-2,C00105,C9H11N2O9P,ChEBI:16695,3405
+ump_e,UMP(2-),-2,C00105,C9H11N2O9P,ChEBI:16695,3405
+ump_m,UMP(2-),-2,C00105,C9H11N2O9P,ChEBI:16695,3405
+ura_c,uracil,0,C00106,C4H4N2O2,ChEBI:17568,3406
+ura_e,Uracil,0,C00106,C4H4N2O2,ChEBI:17568,3406
+anth_c,anthranilate,-1,C00108,C7H6NO2,ChEBI:16567,3408
+2obut_c,2-oxobutanoate,-1,C00109,C4H5O3,ChEBI:16763,3409
+2obut_e,2-oxobutanoate,-1,C00109,C4H5O3,ChEBI:16763,3409
+2obut_m,2-oxobutanoate,-1,C00109,C4H5O3,ChEBI:16763,3409
+dolp_c,dolichyl phosphate,-2,C00110,C20H37O4P1,ChEBI:16214,3410
+dhap_c,glycerone phosphate,-2,C00111,C3H5O6P,CHEBI:57642,3411
+dhap_m,glycerone phosphate,-2,C00111,C3H5O6P,CHEBI:57642,3411
+dhap_x,glycerone phosphate,-2,C00111,C3H5O6P,CHEBI:57642,3411
+cdp_c,CDP(3-),-3,C00112,C9H12N3O11P2,ChEBI:17239,3412
+chol_c,choline,1,C00114,C5H14NO,ChEBI:15354,3414
+chol_e,choline,1,C00114,C5H14NO,ChEBI:15354,3414
+glyc_c,glycerol,0,C00116,C3H8O3,ChEBI:17754,3416
+glyc_e,glycerol,0,C00116,C3H8O3,ChEBI:17754,3416
+glyc_m,glycerol,0,C00116,C3H8O3,ChEBI:17754,3416
+glyc_x,glycerol,0,C00116,C3H8O3,ChEBI:17754,3416
+r5p_c,aldehydo-D-ribose 5-phosphate(2-),-2,C00117,C5H9O8P,ChEBI:17797,3417
+g3p_c,D-glyceraldehyde 3-phosphate(2-),-2,C00118,C3H5O6P,ChEBI:29052,3418
+prpp_c,5-O-phosphonato-alpha-D-ribofuranosyl diphosphate(5-),-5,C00119,C5H8O14P3,ChEBI:17111,3419
+btn_c,biotinate,-1,C00120,C10H15N2O3S,ChEBI:15956,3420
+btn_e,biotinate,-1,C00120,C10H15N2O3S,ChEBI:15956,3420
+btn_m,biotinate,-1,C00120,C10H15N2O3S,ChEBI:15956,3420
+ribD_c,D-ribose,0,C00121,C5H10O5,ChEBI:47013,3421
+ribD_e,D-ribose,0,C00121,C5H10O5,ChEBI:47013,3421
+fum_c,fumarate(2-),-2,C00122,C4H2O4,ChEBI:18012,3422
+fum_e,fumarate(2-),-2,C00122,C4H2O4,ChEBI:18012,3422
+fum_m,fumarate(2-),-2,C00122,C4H2O4,ChEBI:18012,3422
+leuL_c,L-leucine zwitterion,0,C00123,C6H13NO2,ChEBI:15603,3423
+leuL_e,L-leucine zwitterion,0,C00123,C6H13NO2,ChEBI:15603,3423
+leuL_m,L-leucine zwitterion,0,C00123,C6H13NO2,ChEBI:15603,3423
+gal_c,D-galactopyranose,0,C00124,C6H12O6,ChEBI:4139,3424
+gal_e,D-galactopyranose,0,C00124,C6H12O6,ChEBI:4139,3424
+ficytc_c,ferricytochrome c,0,C00125,C34H29N4O4Fe,ChEBI:15991,3425
+ficytc_m,ferricytochrome c,0,C00125,C34H29N4O4Fe,ChEBI:15991,3425
+focytc_c,ferrocytochrome c,0,C00126,C34H30N4O4Fe,ChEBI:16928,3426
+focytc_m,ferrocytochrome c,0,C00126,C34H30N4O4Fe,ChEBI:16928,3426
+gthox_c,oxidized glutathione,0,C00127,C20H32N6O12S2,ChEBI:17858,3427
+gthox_e,oxidized glutathione,0,C00127,C20H32N6O12S2,ChEBI:17858,3427
+gthox_m,oxidized glutathione,0,C00127,C20H32N6O12S2,ChEBI:17858,3427
+ipdp_c,isopentenyl diphosphate,-3,C00129,C5H9O7P2,ChEBI:16584,3429
+ipdp_m,isopentenyl diphosphate,-3,C00129,C5H9O7P2,ChEBI:16584,3429
+imp_c,IMP(2-),-2,C00130,C10H11N4O8P,ChEBI:17202,3430
+datp_c,dATP(4-),-4,C00131,C10H12N5O12P3,ChEBI:16284,3431
+meoh_c,methanol,0,C00132,CH4O,ChEBI:17790,3432
+meoh_e,methanol,0,C00132,CH4O,ChEBI:17790,3432
+meoh_x,methanol,0,C00132,CH4O,ChEBI:17790,3432
+alaD_c,D-alanine zwitterion,0,C00133,C3H7NO2,ChEBI:15570,3433
+alaD_e,D-alanine zwitterion,0,C00133,C3H7NO2,ChEBI:15570,3433
+alaD_x,D-alanine zwitterion,0,C00133,C3H7NO2,ChEBI:15570,3433
+ptrc_c,putrescine,2,C00134,C4H14N2,ChEBI:17148,3434
+ptrc_e,putrescine,2,C00134,C4H14N2,ChEBI:17148,3434
+hisL_c,L-histidine zwitterion,0,C00135,C6H9N3O2,ChEBI:15971,3435
+hisL_e,L-histidine zwitterion,0,C00135,C6H9N3O2,ChEBI:15971,3435
+btcoa_c,butyryl-CoA(4-),-4,C00136,C25H38N7O17P3S,ChEBI:15517,3436
+btcoa_m,butyryl-CoA(4-),-4,C00136,C25H38N7O17P3S,ChEBI:15517,3436
+btcoa_x,butyryl-CoA(4-),-4,C00136,C25H38N7O17P3S,ChEBI:15517,3436
+inost_c,myo-Inositol,0,C00137,C6H12O6,ChEBI:17268,3437
+inost_e,myo-inositol,0,C00137,C6H12O6,ChEBI:17268,3437
+inost_m,myo-inositol,0,C00137,C6H12O6,ChEBI:17268,3437
+acgam_c,N-acetyl-D-glucosamine,0,C00140,C8H15NO6,ChEBI:506227,3440
+acgam_e,N-acetyl-D-glucosamine,0,C00140,C8H15NO6,ChEBI:506227,3440
+3mob_c,3-methyl-2-oxobutanoate,-1,C00141,C5H7O3,ChEBI:11851,3441
+3mob_m,3-methyl-2-oxobutanoate,-1,C00141,C5H7O3,ChEBI:11851,3441
+mlthf_c,"(6R)-5,10-methylenetetrahydrofolate(2-)",-2,C00143,C20H21N7O6,ChEBI:1989,3443
+mlthf_m,"(6R)-5,10-methylenetetrahydrofolate(2-)",-2,C00143,C20H21N7O6,ChEBI:1989,3443
+gmp_c,GMP(2-),-2,C00144,C10H12N5O8P,ChEBI:17345,3444
+gmp_e,GMP(2-),-2,C00144,C10H12N5O8P,ChEBI:17345,3444
+phenol_c,phenol,0,C00146,C6H6O,ChEBI:15882,3446
+phenol_e,phenol,0,C00146,C6H6O,ChEBI:15882,3446
+ade_c,adenine,0,C00147,C5H5N5,ChEBI:16708,3447
+ade_e,adenine,0,C00147,C5H5N5,ChEBI:16708,3447
+proL_c,L-proline zwitterion,0,C00148,C5H9NO2,ChEBI:17203,3448
+proL_e,L-proline zwitterion,0,C00148,C5H9NO2,ChEBI:17203,3448
+proL_m,L-proline zwitterion,0,C00148,C5H9NO2,ChEBI:17203,3448
+malL_c,(S)-malate,-2,C00149,C4H4O5,ChEBI:15589,3449
+malL_e,(S)-malate,-2,C00149,C4H4O5,ChEBI:15589,3449
+malL_m,(S)-malate,-2,C00149,C4H4O5,ChEBI:15589,3449
+malL_x,(S)-malate,-2,C00149,C4H4O5,ChEBI:15589,3449
+asnL_c,L-asparagine zwitterion,0,C00152,C4H8N2O3,ChEBI:17196,3452
+asnL_e,L-asparagine zwitterion,0,C00152,C4H8N2O3,ChEBI:17196,3452
+ncam_c,nicotinamide,0,C00153,C6H6N2O,ChEBI:17154,3453
+pmtcoa_c,palmitoyl-CoA(4-),-4,C00154,C37H62N7O17P3S,ChEBI:15525,3454
+pmtcoa_m,palmitoyl-CoA(4-),-4,C00154,C37H62N7O17P3S,ChEBI:15525,3454
+pmtcoa_x,palmitoyl-CoA(4-),-4,C00154,C37H62N7O17P3S,ChEBI:15525,3454
+hcysL_c,L-homocysteine zwitterion,0,C00155,C4H9NO2S,ChEBI:17588,3455
+4hbz_c,4-hydroxybenzoate,-1,C00156,C7H5O3,ChEBI:17879,3456
+4hbz_e,4-hydroxybenzoate,-1,C00156,C7H5O3,ChEBI:17879,3456
+4hbz_m,4-hydroxybenzoate,-1,C00156,C7H5O3,ChEBI:17879,3456
+pc_c,"1,2-diacyl-sn-glycero-3-phosphocholine",1,C00157,C10H19NO8PR2,ChEBI:16110,3457
+cit_c,citrate(3-),-3,C00158,C6H5O7,ChEBI:16947,3458
+cit_e,citrate(3-),-3,C00158,C6H5O7,ChEBI:16947,3458
+cit_m,citrate(3-),-3,C00158,C6H5O7,ChEBI:16947,3458
+cit_x,citrate(3-),-3,C00158,C6H5O7,ChEBI:16947,3458
+man_c,D-mannose,0,C00159,C6H12O6,ChEBI:4208,3459
+man_e,D-mannose,0,C00159,C6H12O6,ChEBI:4208,3459
+glyclt_c,glycolate(1-),-1,C00160,C2H3O3,ChEBI:17497,3460
+glyclt_e,glycolate(1-),-1,C00160,C2H3O3,ChEBI:17497,3460
+fa_c,fatty acid,0,C00162,C1HO2R1,ChEBI:35366,3462
+fa_l,fatty acid,0,C00162,C1HO2R1,ChEBI:35366,3462
+fa_m,fatty acid,0,C00162,C1HO2R1,ChEBI:35366,3462
+ppa_c,propionate,-1,C00163,C3H5O2,ChEBI:17272,3463
+ppa_e,propionate,-1,C00163,C3H5O2,ChEBI:17272,3463
+ppa_m,propionate,-1,C00163,C3H5O2,ChEBI:17272,3463
+acac_c,acetoacetate,-1,C00164,C4H5O3,ChEBI:13705,3464
+acac_e,acetoacetate,-1,C00164,C4H5O3,ChEBI:13705,3464
+acac_m,acetoacetate,-1,C00164,C4H5O3,ChEBI:13705,3464
+phpyr_c,keto-phenylpyruvate,-1,C00166,C9H7O3,ChEBI:18005,3466
+phpyr_e,keto-phenylpyruvate,-1,C00166,C9H7O3,ChEBI:18005,3466
+hpyr_c,3-hydroxypyruvate,-1,C00168,C3H3O4,ChEBI:17180,3468
+cbp_c,carbamoyl phosphate(2-),-2,C00169,CH2NO5P,ChEBI:17672,3469
+cbp_e,carbamoyl phosphate(2-),-2,C00169,CH2NO5P,ChEBI:17672,3469
+5mta_c,5'-S-methyl-5'-thioadenosine,0,C00170,C11H15N5O3S,ChEBI:17509,3470
+thym_c,thymine,0,C00178,C5H6N2O2,ChEBI:17821,3478
+thym_e,thymine,0,C00178,C5H6N2O2,ChEBI:17821,3478
+agm_c,agmatinium(2+),2,C00179,C5H16N4,ChEBI:17431,3479
+agm_e,agmatinium(2+),2,C00179,C5H16N4,ChEBI:17431,3479
+bz_c,benzoate(1-),-1,C00180,C7H5O2,ChEBI:16150,242
+bz_e,benzoate(1-),-1,C00180,C7H5O2,ChEBI:16150,242
+xylD_c,D-xylose,0,C00181,C5H10O5,ChEBI:15936,3481
+xylD_e,D-xylose,0,C00181,C5H10O5,ChEBI:15936,3481
+glycogen_1g_c,glycogen 1 g,0,C00182,,ChEBI:28087,3482
+glycogen_c,glycogen,0,C00182,,ChEBI:28087,3482
+glycogen_e,glycogen,0,C00182,,ChEBI:28087,3482
+valL_c,L-valine zwitterion,0,C00183,C5H11NO2,ChEBI:16414,3483
+valL_e,L-valine zwitterion,0,C00183,C5H11NO2,ChEBI:16414,3483
+valL_m,L-valine zwitterion,0,C00183,C5H11NO2,ChEBI:16414,3483
+dha_c,dihydroxyacetone,0,C00184,C3H6O3,ChEBI:16016,3484
+dha_e,dihydroxyacetone,0,C00184,C3H6O3,ChEBI:16016,3484
+lacL_c,(S)-lactate,-1,C00186,C3H5O3,ChEBI:16651,3486
+lacL_e,(S)-lactate,-1,C00186,C3H5O3,ChEBI:16651,3486
+lacL_x,(S)-lactate,-1,C00186,C3H5O3,ChEBI:16651,3486
+cholest_c,cholesterol,0,C00187,C27H46O,ChEBI:16113,3487
+cholest_e,cholesterol,0,C00187,C27H46O,ChEBI:16113,3487
+cholest_l,cholesterol,0,C00187,C27H46O,ChEBI:16113,3487
+cholest_r,cholesterol,0,C00187,C27H46O,ChEBI:16113,3487
+cholest_1g_r,cholesterol 1g,0,C00187,,ChEBI:16113,3487
+thrL_c,L-threonine zwitterion,0,C00188,C4H9NO3,ChEBI:16857,3488
+thrL_e,L-threonine zwitterion,0,C00188,C4H9NO3,ChEBI:16857,3488
+thrL_m,L-threonine zwitterion,0,C00188,C4H9NO3,ChEBI:16857,3488
+etha_c,ethanolaminium(1+),1,C00189,C2H8NO,ChEBI:16000,3489
+etha_e,ethanolaminium(1+),1,C00189,C2H8NO,ChEBI:16000,3489
+glcur_c,D-glucopyranuronate,-1,C00191,C6H9O7,ChEBI:15748,3491
+glcur_e,D-glucopyranuronate,-1,C00191,C6H9O7,ChEBI:15748,3491
+23dhb_c,"2,3-dihydroxybenzoate",-1,C00196,C7H5O4,ChEBI:18026,3496
+23dhb_e,"2,3-dihydroxybenzoate",-1,C00196,C7H5O4,ChEBI:18026,3496
+3pg_c,3-phosphonato-D-glycerate(3-),-3,C00197,C3H4O7P,ChEBI:17794,3497
+3pg_e,3-phosphonato-D-glycerate(3-),-3,C00197,C3H4O7P,ChEBI:17794,3497
+g15lac_c,"D-glucono-1,5-lactone",0,C00198,C6H10O6,ChEBI:16217,3498
+ru5pD_c,D-ribulose 5-phosphate,-2,C00199,C5H9O8P,ChEBI:17363,3499
+dadp_c,dADP(3-),-3,C00206,C10H12N5O9P2,ChEBI:16174,3506
+acetone_c,acetone,0,C00207,C3H6O,ChEBI:15347,3507
+malt_c,maltose,0,C00208,C12H22O11,ChEBI:17306,3508
+malt_e,maltose,0,C00208,C12H22O11,ChEBI:17306,3508
+oxa_c,oxalate(2-),-2,C00209,C2O4,ChEBI:16995,3509
+oxa_e,oxalate(2-),-2,C00209,C2O4,ChEBI:16995,3509
+adn_c,adenosine,0,C00212,C10H13N5O4,ChEBI:16335,3512
+adn_e,adenosine,0,C00212,C10H13N5O4,ChEBI:16335,3512
+sarcs_c,sarcosine zwitterion,0,C00213,C3H7NO2,ChEBI:15611,3513
+sarcs_e,sarcosine zwitterion,0,C00213,C3H7NO2,ChEBI:15611,3513
+thymd_c,thymidine,0,C00214,C10H14N2O5,ChEBI:17748,3514
+thymd_e,thymidine,0,C00214,C10H14N2O5,ChEBI:17748,3514
+arabD_c,D-arabinose,0,C00216,C5H10O5,ChEBI:17108,3516
+arabD_e,D-arabinose,0,C00216,C5H10O5,ChEBI:17108,3516
+mma_c,methylammonium,1,C00218,CH6N,ChEBI:16830,3518
+mma_e,methylammonium,1,C00218,CH6N,ChEBI:16830,3518
+glc_bD_c,beta-D-glucose,0,C00221,C6H12O6,ChEBI:15903,3521
+msa_c,malonate semialdehyde,0,C00222,C3H4O3,ChEBI:17960,3522
+msa_e,malonate semialdehyde,0,C00222,C3H4O3,ChEBI:17960,3522
+msa_m,malonate semialdehyde,0,C00222,C3H4O3,ChEBI:17960,3522
+4coumcoa_c,4-coumaroyl-CoA,-4,C00223,C30H38N7O18P3S,ChEBI:57355,3523
+aps_c,5'-adenylyl sulfate(2-),-2,C00224,C10H12N5O10PS,ChEBI:17709,3524
+actp_c,acetyl phosphate(2-),-2,C00227,C2H3O5P,ChEBI:15350,3527
+ACP_c,holo-[acp],0,C00229,C21H32N7O16P3S,ChEBI:18359,3528
+ACP_m,holo-[acp],0,C00229,C21H32N7O16P3S,ChEBI:18359,3528
+aACP_c,acyl-carrier protein,0,C00229,,ChEBI:18359,3528
+34dhbz_c,"3,4-dihydroxybenzoate",-1,C00230,C7H5O4,ChEBI:36062,3529
+34dhbz_e,"3,4-dihydroxybenzoate",-1,C00230,C7H5O4,ChEBI:36062,3529
+34dhbz_m,"3,4-dihydroxybenzoate",-1,C00230,C7H5O4,ChEBI:36062,3529
+34dhbzol_c,"3,4-dihydroxy benzoic alcohol",0,C00230,C7H6O4,ChEBI:36062,3529
+xu5pD_c,D-xylulose 5-phosphate,-2,C00231,C5H9O8P,ChEBI:16332,3530
+sucsal_c,succinicate semialdehyde(1-),-1,C00232,C4H5O3,ChEBI:16265,3531
+sucsal_e,succinicate semialdehyde(1-),-1,C00232,C4H5O3,ChEBI:16265,3531
+sucsal_m,succinicate semialdehyde(1-),-1,C00232,C4H5O3,ChEBI:16265,3531
+4mop_c,4-methyl-2-oxopentanoate,-1,C00233,C6H9O3,ChEBI:17865,3532
+4mop_m,4-methyl-2-oxopentanoate,-1,C00233,C6H9O3,ChEBI:17865,3532
+10fthf_c,10-formyltetrahydrofolate(2-),-2,C00234,C20H21N7O7,ChEBI:15637,3533
+10fthf_m,10-formyltetrahydrofolate(2-),-2,C00234,C20H21N7O7,ChEBI:15637,3533
+dmpp_c,dimethylallyl diphosphate,-3,C00235,C5H9O7P2,ChEBI:16057,3534
+13dpg_c,3-phosphonato-D-glyceroyl phosphate(4-),-4,C00236,C3H4O10P2,CHEBI:57604,46878409
+co_c,carbon monoxide,0,C00237,CO,ChEBI:17245,3536
+dcmp_c,dCMP(2-),-2,C00239,C9H12N3O7P,ChEBI:15918,3538
+gua_c,guanine,0,C00242,C5H5N5O,ChEBI:16235,3541
+gua_e,guanine,0,C00242,C5H5N5O,ChEBI:16235,3541
+lcts_c,alpha-lactose,0,C00243,C12H22O11,ChEBI:17716,3542
+lcts_e,alpha-lactose,0,C00243,C12H22O11,ChEBI:17716,3542
+no3_c,nitrate,-1,C00244,NO3,ChEBI:48107,3543
+no3_e,nitrate,-1,C00244,NO3,ChEBI:48107,3543
+taur_c,taurine zwitterion,0,C00245,C2H7NO3S,ChEBI:15891,3544
+taur_e,taurine zwitterion,0,C00245,C2H7NO3S,ChEBI:15891,3544
+but_c,butyrate,-1,C00246,C4H7O2,ChEBI:17968,3545
+but_e,butyrate,-1,C00246,C4H7O2,ChEBI:17968,3545
+but_m,butyrate,-1,C00246,C4H7O2,ChEBI:17968,3545
+but_x,butyrate,-1,C00246,C4H7O2,ChEBI:17968,3545
+srbL_c,L-sorbopyranose,0,C00247,C6H12O6,ChEBI:48649,3546
+srbL_e,L-sorbopyranose,0,C00247,C6H12O6,ChEBI:48649,3546
+lpam_m,(R)-lipoamide,0,C00248,C8H15NOS2,ChEBI:17460,3547
+hxda_c,palmitate,-1,C00249,C16H31O2,ChEBI:15756,3548
+hxda_e,palmitate,-1,C00249,C16H31O2,ChEBI:15756,3548
+hxda_m,palmitate,-1,C00249,C16H31O2,ChEBI:15756,3548
+hxda_x,palmitate,-1,C00249,C16H31O2,ChEBI:15756,3548
+pydx_c,pyridoxal,0,C00250,C8H9NO3,ChEBI:17310,3549
+pydx_e,pyridoxal,0,C00250,C8H9NO3,ChEBI:17310,3549
+chor_c,chorismate(2-),-2,C00251,C10H8O6,ChEBI:17333,3550
+nac_c,nicotinate,-1,C00253,C6H4NO2,ChEBI:15940,3552
+nac_e,nicotinate,-1,C00253,C6H4NO2,ChEBI:15940,3552
+pphn_c,"(1s,4s)-prephenate(2-)",-2,C00254,C10H8O6,ChEBI:29934,3553
+ribflv_c,riboflavin(1-),-1,C00255,C17H19N4O6,ChEBI:17015,3554
+ribflv_e,riboflavin(1-),-1,C00255,C17H19N4O6,ChEBI:17015,3554
+lacD_c,(R)-lactate,-1,C00256,C3H5O3,ChEBI:16004,3555
+lacD_e,(R)-lactate,-1,C00256,C3H5O3,ChEBI:16004,3555
+lacD_m,(R)-lactate,-1,C00256,C3H5O3,ChEBI:16004,3555
+lacD_x,(R)-lactate,-1,C00256,C3H5O3,ChEBI:16004,3555
+glcn_c,D-gluconate,-1,C00257,C6H11O7,ChEBI:18391,3556
+glcn_e,D-gluconate,-1,C00257,C6H11O7,ChEBI:18391,3556
+glycR_c,D-glycerate,-1,C00258,C3H5O4,ChEBI:16659,3557
+glycR_e,D-glycerate,-1,C00258,C3H5O4,ChEBI:16659,3557
+arabL_c,L-arabinose,0,C00259,C5H10O5,ChEBI:17535,3558
+arabL_e,L-arabinose,0,C00259,C5H10O5,ChEBI:17535,3558
+bzal_c,benzaldehyde,0,C00261,C7H6O,ChEBI:17169,3559
+bzal_e,benzaldehyde,0,C00261,C7H6O,ChEBI:17169,3559
+hxan_c,hypoxanthine,0,C00262,C5H4N4O,ChEBI:17368,3560
+hxan_e,hypoxanthine,0,C00262,C5H4N4O,ChEBI:17368,3560
+homL_c,L-homoserine zwitterion,0,C00263,C4H9NO3,ChEBI:15699,3561
+homL_e,L-homoserine zwitterion,0,C00263,C4H9NO3,ChEBI:15699,3561
+gcald_c,glycolaldehyde,0,C00266,C2H4O2,ChEBI:17071,3564
+gcald_e,glycolaldehyde,0,C00266,C2H4O2,ChEBI:17071,3564
+cdpdag_c,CDP-diacylglycerol(2-),-2,C00269,C14H17N3O15P2R2,ChEBI:17962,3567
+cdpdag_m,CDP-diacylglycerol(2-),-2,C00269,C14H17N3O15P2R2,ChEBI:17962,3567
+thbiopt_c,tetrahydrobiopterin,0,C00272,C9H15N5O3,ChEBI:15372,3570
+man6p_c,alpha-D-mannose 6-phosphate(2-),-2,C00275,C6H11O9P,ChEBI:17369,3572
+man6p_e,alpha-D-mannose 6-phosphate(2-),-2,C00275,C6H11O9P,ChEBI:17369,3572
+e4p_c,D-erythrose 4-phosphate(2-),-2,C00279,C4H7O7P,ChEBI:48153,3574
+h2s_c,hydrogen sulfide,0,C00283,H2S,ChEBI:16136,3578
+h2s_m,hydrogen sulfide,0,C00283,H2S,ChEBI:16136,3578
+dgtp_c,dGTP(4-),-4,C00286,C10H12N5O13P3,ChEBI:16497,3581
+hco3_c,hydrogencarbonate,-1,C00288,HCO3,ChEBI:17544,3583
+hco3_m,hydrogencarbonate,-1,C00288,HCO3,ChEBI:17544,3583
+hco3_n,hydrogencarbonate,-1,C00288,HCO3,ChEBI:17544,3583
+ins_c,inosine,0,C00294,C10H12N4O5,ChEBI:17596,3588
+ins_e,inosine,0,C00294,C10H12N4O5,ChEBI:17596,3588
+orot_c,orotate,-1,C00295,C5H3N2O4,ChEBI:16742,3589
+orot_e,orotate,-1,C00295,C5H3N2O4,ChEBI:16742,3589
+quin_c,(-)-quinate,-1,C00296,C7H11O6,ChEBI:17521,3590
+quin_e,(-)-quinate,-1,C00296,C7H11O6,ChEBI:17521,3590
+uri_c,uridine,0,C00299,C9H12N2O6,ChEBI:16704,3593
+uri_e,uridine,0,C00299,C9H12N2O6,ChEBI:16704,3593
+adprib_c,ADP-D-ribose(2-),-2,C00301,C15H21N5O14P2,ChEBI:16960,3595
+cdpchol_c,CDP-choline(1-),-1,C00307,C14H25N4O11P2,ChEBI:16436,3601
+rblD_c,D-ribulose,0,C00309,C5H10O5,ChEBI:17173,3603
+rblD_e,D-ribulose,0,C00309,C5H10O5,ChEBI:17173,3603
+xyluD_c,D-xylulose,0,C00310,C5H10O5,ChEBI:17140,3604
+xyluD_e,D-xylulose,0,C00310,C5H10O5,ChEBI:17140,3604
+xyluL_c,L-xylulose,0,C00312,C5H10O5,ChEBI:17399,3606
+xyluL_e,L-xylulose,0,C00312,C5H10O5,ChEBI:17399,3606
+oxalcoa_c,oxalyl-CoA(5-),-5,C00313,C23H31N7O19P3S,ChEBI:15535,3607
+pydxn_c,pyridoxine,0,C00314,C8H11NO3,ChEBI:16709,3608
+pydxn_e,pyridoxine,0,C00314,C8H11NO3,ChEBI:16709,3608
+spmd_c,spermidine(3+),3,C00315,C7H22N3,ChEBI:16610,3609
+spmd_e,spermidine(3+),3,C00315,C7H22N3,ChEBI:16610,3609
+spmd_g,spermidine(3+),3,C00315,C7H22N3,ChEBI:16610,3609
+crn_c,L-carnitine,0,C00318,C7H15NO3,ChEBI:16347,3612
+crn_e,L-carnitine,0,C00318,C7H15NO3,ChEBI:16347,3612
+crn_m,L-carnitine,0,C00318,C7H15NO3,ChEBI:16347,3612
+crn_x,L-carnitine,0,C00318,C7H15NO3,ChEBI:16347,3612
+sphings_c,sphingosine(1+),1,C00319,C18H38NO2,ChEBI:16393,3613
+sphings_e,sphingosine(1+),1,C00319,C18H38NO2,ChEBI:16393,3613
+2oxoadp_c,2-oxoadipate(2-),-2,C00322,C6H6O5,ChEBI:15753,3616
+2oxoadp_m,2-oxoadipate(2-),-2,C00322,C6H6O5,ChEBI:15753,3616
+caffylcoa_c,caffeoyl-CoA,-4,C00323,C30H38N7O19P3S,ChEBI:15518,3617
+citrL_c,L-citrulline zwitterion,0,C00327,C6H13N3O3,ChEBI:16349,3621
+citrL_e,L-citrulline zwitterion,0,C00327,C6H13N3O3,ChEBI:16349,3621
+Lkynr_c,L-kynurenine,0,C00328,C10H12N2O3,ChEBI:16946,3622
+gam_c,D-glucosamine(1+),1,C00329,C6H14NO5,ChEBI:47977,3623
+gam_e,D-glucosamine(1+),1,C00329,C6H14NO5,ChEBI:47977,3623
+dgsn_c,2'-deoxyguanosine,0,C00330,C10H13N5O4,ChEBI:17172,3624
+dgsn_e,2'-deoxyguanosine,0,C00330,C10H13N5O4,ChEBI:17172,3624
+indpyr_c,3-(indol-3-yl)pyruvate,-1,C00331,C11H8NO3,ChEBI:29750,3625
+indpyr_e,3-(indol-3-yl)pyruvate,-1,C00331,C11H8NO3,ChEBI:29750,3625
+aacoa_c,acetoacetyl-CoA(4-),-4,C00332,C25H36N7O18P3S,ChEBI:15345,45266540
+aacoa_m,acetoacetyl-CoA(4-),-4,C00332,C25H36N7O18P3S,ChEBI:15345,45266540
+aacoa_x,acetoacetyl-CoA(4-),-4,C00332,C25H36N7O18P3S,ChEBI:15345,45266540
+galur_c,D-galacturonate,-1,C00333,C6H9O7,ChEBI:12952,3627
+galur_e,D-galacturonate,-1,C00333,C6H9O7,ChEBI:12952,3627
+4abut_c,4-aminobutanoate,-1,C00334,C4H8NO2,ChEBI:16865,3628
+4abut_e,4-aminobutanoate,-1,C00334,C4H8NO2,ChEBI:16865,3628
+4abut_m,4-aminobutanoate,-1,C00334,C4H8NO2,ChEBI:16865,3628
+dhorS_c,(S)-dihydroorotate,-1,C00337,C5H5N2O4,ChEBI:17025,3630
+grdp_c,geranyl diphosphate(3-),-3,C00341,C10H17O7P2,ChEBI:17211,3634
+trdrd_c,reduced thioredoxin,0,C00342,C10H14N4O4S2R4,ChEBI:15033,3635
+trdox_c,oxidized thioredoxin,0,C00343,C10H12N4O4S2R4,ChEBI:18191,3636
+pg_m,phosphatidylglycerol(1-),-1,C00344,C8H12O10PR2,ChEBI:17517,3637
+pg_monounsat_1g_m,phosphatidylglycerol(1-) 1 gram (monounsaturated),0,C00344,,ChEBI:17517,3637
+pg_polyunsat_1g_m,phosphatidylglycerol(1-) 1 gram (polyunsaturated),0,C00344,,ChEBI:17517,3637
+pg_sat_1g_m,phosphatidylglycerol(1-) 1 gram (saturated),0,C00344,,ChEBI:17517,3637
+6pgc_c,6-phosphonatooxy-D-gluconate,-3,C00345,C6H10O10P,ChEBI:48928,3638
+6pgc_e,6-phosphonatooxy-D-gluconate,-3,C00345,C6H10O10P,ChEBI:48928,3638
+ethamp_c,O-phosphonatoethanaminium(1-),-1,C00346,C2H7NO4P,ChEBI:17553,3639
+pe_c,phosphatidylethanolamine zwitterion,0,C00350,C7H12NO8PR2,ChEBI:16038,3643
+pe_m,phosphatidylethanolamine zwitterion,0,C00350,C7H12NO8PR2,ChEBI:16038,3643
+gam6p_c,alpha-D-glucosamine 6-phosphate,-1,C00352,C6H13NO8P,ChEBI:15873,3645
+gam6p_e,alpha-D-glucosamine 6-phosphate,-1,C00352,C6H13NO8P,ChEBI:15873,3645
+ggdp_c,geranylgeranyl diphosphate(3-),-3,C00353,C20H33O7P2,ChEBI:48861,3646
+ggdp_e,geranylgeranyl diphosphate(3-),-3,C00353,C20H33O7P2,ChEBI:48861,3646
+fdp_c,"beta-D-fructofuranose 1,6-bisphosphate(4-)",-4,C00354,C6H10O12P2,ChEBI:16905,3647
+3h3mglutcoa_c,(S)-3-hydroxy-3-methylglutaryl-CoA,-5,C00356,C27H39N7O20P3S,ChEBI:15467,3649
+3h3mglutcoa_m,(S)-3-hydroxy-3-methylglutaryl-CoA,-5,C00356,C27H39N7O20P3S,ChEBI:15467,3649
+hmgcoa_c,(3S)-3-hydroxy-3-methylglutaryl-CoA(5-),-5,C00356,C27H39N7O20P3S,ChEBI:15467,3649
+acgam6p_c,N-acetyl-D-glucosamine 6-phosphate,-2,C00357,C8H14NO9P,ChEBI:15784,3650
+damp_c,dAMP(2-),-2,C00360,C10H12N5O6P,ChEBI:17713,3651
+dgdp_c,dGDP(3-),-3,C00361,C10H12N5O10P2,ChEBI:28862,3652
+dgmp_c,dGMP(2-),-2,C00362,C10H12N5O7P,ChEBI:16192,3653
+dtdp_c,dTDP(3-),-3,C00363,C10H13N2O11P2,ChEBI:18075,3654
+dtmp_c,dTMP(2-),-2,C00364,C10H13N2O8P,ChEBI:17013,3655
+dtmp_e,dTMP(2-),-2,C00364,C10H13N2O8P,ChEBI:17013,3655
+dump_c,dUMP(2-),-2,C00365,C9H11N2O8P,ChEBI:17622,3656
+urate_c,urate,-2,C00366,C5H2N4O3,ChEBI:17775,3657
+urate_e,urate,-2,C00366,C5H2N4O3,ChEBI:17775,3657
+sterol_1g_r,sterol,0,C00370,,ChEBI:15889,3660
+retinal_c,retinal,0,C00376,C20H28O,ChEBI:17898,3666
+thm_c,thiamine(1+),1,C00378,C12H17N4OS,ChEBI:18385,3668
+thm_e,thiamine(1+),1,C00378,C12H17N4OS,ChEBI:18385,3668
+xylt_c,xylitol,0,C00379,C5H12O5,ChEBI:17151,3669
+xylt_e,xylitol,0,C00379,C5H12O5,ChEBI:17151,3669
+csn_c,cytosine,0,C00380,C4H5N3O,ChEBI:16040,3670
+csn_e,cytosine,0,C00380,C4H5N3O,ChEBI:16040,3670
+dolichol_c,dolichol,0,C00381,C20H36O,ChEBI:16091,3671
+xan_c,9H-xanthine,0,C00385,C5H4N4O2,ChEBI:17712,3675
+xan_e,9H-xanthine,0,C00385,C5H4N4O2,ChEBI:17712,3675
+gsn_c,guanosine,0,C00387,C10H13N5O5,ChEBI:16750,3677
+gsn_e,guanosine,0,C00387,C10H13N5O5,ChEBI:16750,3677
+hisam_c,histaminium(1+),1,C00388,C5H10N3,ChEBI:18295,3678
+hisam_e,histaminium(1+),1,C00388,C5H10N3,ChEBI:18295,3678
+mnl_c,D-mannitol,0,C00392,C6H14O6,ChEBI:16899,3682
+mnl_e,D-mannitol,0,C00392,C6H14O6,ChEBI:16899,3682
+aspD_c,D-aspartate zwitterion,-1,C00402,C4H6NO4,ChEBI:17364,3692
+aspD_e,D-aspartate zwitterion,-1,C00402,C4H6NO4,ChEBI:17364,3692
+aspD_x,D-aspartate zwitterion,-1,C00402,C4H6NO4,ChEBI:17364,3692
+polypi_c,polyphosphate,0,C00404,,ChEBI:16838,3694
+ferulcoa_c,feruloyl-CoA(4-),-4,C00406,C31H40N7O19P3S,ChEBI:15511,3696
+ileL_c,L-isoleucine zwitterion,0,C00407,C6H13NO2,ChEBI:17191,3697
+ileL_e,L-isoleucine zwitterion,0,C00407,C6H13NO2,ChEBI:17191,3697
+ileL_m,L-isoleucine zwitterion,0,C00407,C6H13NO2,ChEBI:17191,3697
+ch4s_c,methanethiol,0,C00409,CH4S,ChEBI:16007,3699
+ch4s_e,methanethiol,0,C00409,CH4S,ChEBI:16007,3699
+stcoa_c,stearoyl-CoA(4-),-4,C00412,C39H66N7O17P3S,ChEBI:15541,3702
+stcoa_m,stearoyl-CoA(4-),-4,C00412,C39H66N7O17P3S,ChEBI:15541,3702
+stcoa_r,stearoyl-CoA(4-),-4,C00412,C39H66N7O17P3S,ChEBI:15541,3702
+stcoa_x,stearoyl-CoA(4-),-4,C00412,C39H66N7O17P3S,ChEBI:15541,3702
+cychexanone_c,cyclohexanone,0,C00414,C6H10O,ChEBI:17854,3704
+dhf_c,dihydrofolate(2-),-2,C00415,C19H19N7O6,ChEBI:15633,3705
+dhf_m,dihydrofolate(2-),-2,C00415,C19H19N7O6,ChEBI:15633,3705
+paSC_c,phosphatidate,-2,C00416,C5H5O8PR2,ChEBI:16337,3706
+paSC_m,phosphatidate,-2,C00416,C5H5O8PR2,ChEBI:16337,3706
+acon_C_c,cis-aconitate(3-),-3,C00417,C6H3O6,ChEBI:16383,3707
+acon_C_m,cis-aconitate(3-),-3,C00417,C6H3O6,ChEBI:16383,3707
+mevR_c,(R)-mevalonate,-1,C00418,C6H11O4,ChEBI:17710,3708
+mevR_e,(R)-mevalonate,-1,C00418,C6H11O4,ChEBI:17710,3708
+triglyc_c,triglyceride,0,C00422,C6H5O6R3,ChEBI:17855,3712
+cinnm_c,trans-cinnamate(1-),-1,C00423,C9H7O2,ChEBI:15669,3713
+laldL_c,(S)-lactaldehyde,0,C00424,C3H6O2,ChEBI:18041,3714
+5aop_c,5-amino-4-oxopentanoate,-1,C00430,C5H8NO3,ChEBI:17549,3719
+5aop_e,5-amino-4-oxopentanoate,-1,C00430,C5H8NO3,ChEBI:17549,3719
+5aop_m,5-amino-4-oxopentanoate,-1,C00430,C5H8NO3,ChEBI:17549,3719
+5aptn_c,5-aminopentanoic acid zwitterion,0,C00431,C5H11NO2,ChEBI:15887,3720
+25diopnta_c,"2,5-dioxopentanoate",-1,C00433,C5H5O4,ChEBI:17415,3722
+acorn_m,N(2)-acetyl-L-ornithine zwitterion,0,C00437,C7H14N2O3,ChEBI:16543,3726
+cbasp_c,N-carbamoyl-L-aspartate(2-),-2,C00438,C5H6N2O5,ChEBI:15859,3727
+5mthf_c,5-methyltetrahydrofolate(2-),-2,C00440,C20H23N7O6,ChEBI:15641,3729
+aspsa_c,L-aspartic acid 4-semialdehyde betaine,0,C00441,C4H7NO3,ChEBI:13086,3730
+methf_c,"(6R)-5,10-methenyltetrahydrofolate",-1,C00445,C20H20N7O6,ChEBI:15638,3733
+methf_m,"(6R)-5,10-methenyltetrahydrofolate",-1,C00445,C20H20N7O6,ChEBI:15638,3733
+gal1p_c,alpha-D-galactose 1-phosphate(2-),-2,C00446,C6H11O9P,ChEBI:17973,3734
+s17bp_c,"sedoheptulose 1,7-bisphosphate(4-)",-4,C00447,C7H12O13P2,ChEBI:17969,3735
+frdp_c,"2-trans,6-trans-farnesyl diphosphate(3-)",-3,C00448,C15H25O7P2,ChEBI:17407,3736
+frdp_m,"2-trans,6-trans-farnesyl diphosphate(3-)",-3,C00448,C15H25O7P2,ChEBI:17407,3736
+frdp_r,"2-trans,6-trans-farnesyl diphosphate(3-)",-3,C00448,C15H25O7P2,ChEBI:17407,3736
+saccrpL_c,L-saccharopinate,-1,C00449,C11H19N2O6,ChEBI:16927,3737
+icit_c,isocitric acid,-3,C00451,C6H5O7,ChEBI:151,3739
+icit_e,isocitric acid,-3,C00451,C6H5O7,ChEBI:151,3739
+icit_m,isocitric acid,-3,C00451,C6H5O7,ChEBI:151,3739
+icit_x,isocitric acid,-3,C00451,C6H5O7,ChEBI:151,3739
+nmn_c,NMN(-),-1,C00455,C11H14N2O8P,ChEBI:16171,3741
+nmn_e,NMN(-),-1,C00455,C11H14N2O8P,ChEBI:16171,3741
+dctp_c,dCTP(4-),-4,C00458,C9H12N3O13P3,ChEBI:16311,3742
+dttp_c,dTTP(4-),-4,C00459,C10H13N2O14P3,ChEBI:18077,3743
+dttp_e,dTTP(4-),-4,C00459,C10H13N2O14P3,ChEBI:18077,3743
+dutp_c,dUTP(4-),-4,C00460,C9H11N2O14P3,ChEBI:17625,3744
+chitin_c,chitin,0,C00461,C8H13NO5,ChEBI:17029,3745
+chitin_e,chitin,0,C00461,C8H13NO5,ChEBI:17029,3745
+chitin_1g_c,chitin 1 g,0,C00461,,ChEBI:17029,3745
+etoh_c,ethanol,0,C00469,C2H6O,ChEBI:16236,3752
+etoh_e,ethanol,0,C00469,C2H6O,ChEBI:16236,3752
+etoh_m,ethanol,0,C00469,C2H6O,ChEBI:16236,3752
+pbqn_c,"1,4-benzoquinone",0,C00472,C6H4O2,ChEBI:16509,3755
+pbqn_e,"1,4-benzoquinone",0,C00472,C6H4O2,ChEBI:16509,3755
+rbt_c,D-ribitol,0,C00474,C5H12O5,ChEBI:15963,3757
+rbt_e,D-ribitol,0,C00474,C5H12O5,ChEBI:15963,3757
+cytd_c,cytidine,0,C00475,C9H13N3O5,ChEBI:17562,3758
+cytd_e,cytidine,0,C00475,C9H13N3O5,ChEBI:17562,3758
+ppal_c,propanal,0,C00479,C3H6O,ChEBI:17153,3762
+tym_c,tyraminium(1+),1,C00483,C8H12NO,ChEBI:15760,3766
+tym_e,tyraminium(1+),1,C00483,C8H12NO,ChEBI:15760,3766
+frmd_c,formamide,0,C00488,CH3NO,ChEBI:16397,3771
+frmd_e,formamide,0,C00488,CH3NO,ChEBI:16397,3771
+glutar_c,glutarate(2-),-2,C00489,C5H6O4,ChEBI:17859,3772
+glutar_m,glutarate(2-),-2,C00489,C5H6O4,ChEBI:17859,3772
+itacon_c,itaconate(2-),-2,C00490,C5H4O4,ChEBI:17240,3773
+itacon_e,itaconate(2-),-2,C00490,C5H4O4,ChEBI:17240,3773
+skm_c,shikimate,0,C00493,C7H10O5,ChEBI:16119,3776
+sulochrin_c,sulochrin,0,C00495,C17H16O7,ChEBI:16159,3778
+alltt_c,allantoate,-1,C00499,C4H7N4O4,ChEBI:17536,5287444
+alltt_e,allantoate,-1,C00499,C4H7N4O4,ChEBI:17536,5287444
+eryt_c,erythritol,0,C00503,C4H10O4,ChEBI:17113,3786
+eryt_e,erythritol,0,C00503,C4H10O4,ChEBI:17113,3786
+fol_c,folate(2-),-2,C00504,C19H17N7O6,ChEBI:27470,3787
+fol_e,folate(2-),-2,C00504,C19H17N7O6,ChEBI:27470,3787
+fol_m,folate(2-),-2,C00504,C19H17N7O6,ChEBI:27470,3787
+lcyst_c,L-cysteate(1-),-1,C00506,C3H6NO5S,ChEBI:17285,3789
+lcyst_e,L-cysteate(1-),-1,C00506,C3H6NO5S,ChEBI:17285,3789
+rmn_c,L-rhamnose,0,C00507,C6H12O5,ChEBI:62345,3790
+rmn_e,L-rhamnose,0,C00507,C6H12O5,ChEBI:62345,3790
+odecoa_c,oleoyl-CoA(4-),-4,C00510,C39H64N7O17P3S,ChEBI:15534,3793
+hxdal_c,hexadecanal,0,C00517,C16H32O,ChEBI:17600,3800
+hxdal_e,hexadecanal,0,C00517,C16H32O,ChEBI:17600,3800
+pantR_c,(R)-pantoate,-1,C00522,C6H11O4,ChEBI:14737,3805
+duri_c,2'-deoxyuridine,0,C00526,C9H12N2O5,ChEBI:16450,3809
+duri_e,2'-deoxyuridine,0,C00526,C9H12N2O5,ChEBI:16450,3809
+glutcoa_c,glutaryl-CoA(5-),-5,C00527,C26H37N7O19P3S,ChEBI:15524,3810
+glutcoa_m,glutaryl-CoA(5-),-5,C00527,C26H37N7O19P3S,ChEBI:15524,3810
+hqn_c,hydroquinone,0,C00530,C6H6O2,ChEBI:17594,3812
+hqn_e,hydroquinone,0,C00530,C6H6O2,ChEBI:17594,3812
+abt_c,L-arabinitol,0,C00532,C5H12O5,ChEBI:18403,3814
+abt_e,L-arabinitol,0,C00532,C5H12O5,ChEBI:18403,3814
+no_c,nitric oxide,0,C00533,NO,ChEBI:16480,3815
+pydam_c,pyridoxaminium(1+),1,C00534,C8H13N2O2,ChEBI:16410,3816
+pydam_e,pyridoxaminium(1+),1,C00534,C8H13N2O2,ChEBI:16410,3816
+dma_c,dimethylaminium,0,C00543,C2H7N,ChEBI:17170,3824
+dma_e,dimethylaminium,0,C00543,C2H7N,ChEBI:17170,3824
+hgentis_c,homogentisate,-1,C00544,C8H7O4,ChEBI:16169,3825
+hgentis_e,homogentisate,-1,C00544,C8H7O4,ChEBI:16169,3825
+mthgxl_c,methylglyoxal,0,C00546,C3H4O2,ChEBI:17158,3827
+4abutn_c,4-ammoniobutanal,1,C00555,C4H10NO,ChEBI:17769,3835
+4abutn_e,4-ammoniobutanal,1,C00555,C4H10NO,ChEBI:17769,3835
+4abutn_m,4-ammoniobutanal,1,C00555,C4H10NO,ChEBI:17769,3835
+bzalc_c,benzyl alcohol,0,C00556,C7H8O,ChEBI:17987,3836
+bzalc_e,benzyl alcohol,0,C00556,C7H8O,ChEBI:17987,3836
+dad_2_c,2'-deoxyadenosine,0,C00559,C10H13N5O3,ChEBI:17256,3839
+dad_2_e,2'-deoxyadenosine,0,C00559,C10H13N5O3,ChEBI:17256,3839
+tma_c,trimethylamine,0,C00565,C3H9N,ChEBI:18139,3844
+tma_e,trimethylamine,0,C00565,C3H9N,ChEBI:18139,3844
+4abz_c,4-aminobenzoate,-1,C00568,C7H6NO2,ChEBI:17836,3847
+4abz_e,4-aminobenzoate,-1,C00568,C7H6NO2,ChEBI:17836,3847
+4abz_m,4-aminobenzoate,-1,C00568,C7H6NO2,ChEBI:17836,3847
+cdpea_c,CDP-ethanolamine(1-),-1,C00570,C11H19N4O11P2,ChEBI:16732,3849
+camp_c,"3',5'-cyclic AMP(1-)",-1,C00575,C10H11N5O6P,ChEBI:17489,3854
+betald_c,betaine aldehyde,1,C00576,C5H12NO,ChEBI:15710,3855
+betald_e,betaine aldehyde,1,C00576,C5H12NO,ChEBI:15710,3855
+glyald_c,D-glyceraldehyde,0,C00577,C3H6O3,ChEBI:17378,3856
+dhlam_m,(R)-dihydrolipoamide,0,C00579,C8H17NOS2,ChEBI:17694,3858
+phaccoa_c,phenylacetyl-CoA(4-),-4,C00582,C29H38N7O17P3S,ChEBI:15537,3861
+pp12ol_c,"Propane-1,2-dio",0,C00583,C3H8O2,ChEBI:16997,3862
+3hbz_c,3-hydroxybenzoate,-1,C00587,C7H5O3,ChEBI:16193,3866
+3hbz_e,3-hydroxybenzoate,-1,C00587,C7H5O3,ChEBI:16193,3866
+cholp_c,choline phosphate(1-),-1,C00588,C5H13NO4P,ChEBI:18132,3330960
+cholp_e,choline phosphate(1-),-1,C00588,C5H13NO4P,ChEBI:18132,3330960
+confrl_c,coniferol,0,C00590,C10H12O3,ChEBI:17745,3869
+confrl_e,coniferol,0,C00590,C10H12O3,ChEBI:17745,3869
+pacald_c,phenylacetaldehyde,0,C00601,C8H8O,ChEBI:16424,3876
+pacald_e,phenylacetaldehyde,0,C00601,C8H8O,ChEBI:16424,3876
+urdglyc_c,(-)-ureidoglycolate,-1,C00603,C3H5N2O4,ChEBI:15412,3878
+3sala_c,3-sulfino-L-alanine(1-),-1,C00606,C3H6NO4S,ChEBI:16345,3881
+N1aspmd_c,N(1)-acetylspermidinium(2+),2,C00612,C9H23N3O,ChEBI:17927,3886
+3dhguln_c,3-dehydro-L-gulonate,-1,C00618,C6H9O7,ChEBI:16142,3892
+r1p_c,alpha-D-ribose 1-phosphate(2-),-2,C00620,C5H9O8P,ChEBI:16300,3894
+acglu_c,N-acetyl-L-glutamate(2-),-2,C00624,C7H9NO5,ChEBI:17533,3897
+acglu_e,N-acetyl-L-glutamate(2-),-2,C00624,C7H9NO5,ChEBI:17533,3897
+acglu_m,N-acetyl-L-glutamate(2-),-2,C00624,C7H9NO5,ChEBI:17533,3897
+pdx5p_c,pyridoxine 5'-phosphate(2-),-2,C00627,C8H10NO6P,ChEBI:28803,3900
+gentisate_c,"2,5-dihydroxybenzoate",-1,C00628,C7H5O4,ChEBI:17189,3901
+ibcoa_m,isobutyryl-CoA(4-),-4,C00630,C25H38N7O17P3S,ChEBI:15479,3903
+2pg_c,2-phosphonato-D-glycerate(3-),-3,C00631,C3H4O7P,ChEBI:17835,3904
+2pg_e,2-phosphonato-D-glycerate(3-),-3,C00631,C3H4O7P,ChEBI:17835,3904
+3hanthrn_c,3-hydroxyanthranilate,-1,C00632,C7H6NO3,ChEBI:15793,3905
+4hdbzld_c,4-hydroxybenzaldehyde,0,C00633,C7H6O2,ChEBI:17597,3906
+man1p_c,alpha-D-mannose 1-phosphate(2-),-2,C00636,C6H11O9P,ChEBI:18205,3909
+man1p_e,alpha-D-mannose 1-phosphate(2-),-2,C00636,C6H11O9P,ChEBI:18205,3909
+id3acald_c,indol-3-ylacetaldehyde,0,C00637,C10H9NO,ChEBI:18086,3910
+id3acald_e,indol-3-ylacetaldehyde,0,C00637,C10H9NO,ChEBI:18086,3910
+12dgr_c,"1,2-diacyl-sn-glycerol",0,C00641,C5H6O5R2,ChEBI:17815,3914
+12dgr_m,"1,2-diacyl-sn-glycerol",0,C00641,C5H6O5R2,ChEBI:17815,3914
+4hoxpac_c,(4-hydroxyphenyl)acetate,-1,C00642,C8H7O3,ChEBI:18101,3915
+4hoxpac_e,(4-hydroxyphenyl)acetate,-1,C00642,C8H7O3,ChEBI:18101,3915
+5htrp_c,5-hydroxy-L-tryptophan zwitterion,0,C00643,C11H12N2O3,ChEBI:17780,3916
+mnl1p_c,D-mannitol 1-phosphate(2-),-2,C00644,C6H13O9P,ChEBI:16298,3917
+acmana_c,N-acetyl-D-mannosamine,0,C00645,C8H15NO6,ChEBI:17122,3918
+pyam5p_c,pyridoxamine 5'-phosphate(1-),-1,C00647,C8H12N2O5P,ChEBI:18335,3919
+ara14lacD_c,"D-arabinono-1,4-lactone",0,C00652,C5H8O5,ChEBI:16292,3923
+xmp_c,5'-xanthylate(2-),-2,C00655,C10H11N4O9P,ChEBI:15652,3925
+f26bp_c,"beta-D-fructofuranose 2,6-bisphosphate(4-)",-4,C00665,C6H10O12P2,ChEBI:28602,3934
+g6p_c,alpha-D-glucose 6-phosphate(2-),-2,C00668,C6H11O9P,ChEBI:17665,3937
+g6p_e,alpha-D-glucose 6-phosphate(2-),-2,C00668,C6H11O9P,ChEBI:17665,3937
+glucys_c,L-gamma-glutamyl-L-cysteinate(1-),-1,C00669,C8H13N2O5S,ChEBI:17515,3938
+g3pc_c,sn-glycero-3-phosphocholine,0,C00670,C8H20NO6P,ChEBI:16870,3939
+g3pc_e,sn-glycero-3-phosphocholine,0,C00670,C8H20NO6P,ChEBI:16870,3939
+3mop_c,(S)-3-methyl-2-oxopentanoate,-1,C00671,C6H9O3,ChEBI:15614,3940
+3mop_e,(S)-3-methyl-2-oxopentanoate,-1,C00671,C6H9O3,ChEBI:15614,3940
+3mop_m,(S)-3-methyl-2-oxopentanoate,-1,C00671,C6H9O3,ChEBI:15614,3940
+2dr1p_c,2-deoxy-alpha-D-ribose 1-phosphate(2-),-2,C00672,C5H9O7P,ChEBI:11563,3941
+2dr5p_c,2-deoxy-D-ribose 5-phosphate,-2,C00673,C5H9O7P,ChEBI:16132,3942
+2dr5p_e,2-deoxy-D-ribose 5-phosphate,-2,C00673,C5H9O7P,ChEBI:16132,3942
+1ag3p_c,1-acyl-sn-glycerol 3-phosphate,-2,C00681,C4H6O7PR,ChEBI:16975,3950
+mmtcoa_m,(S)-methylmalonyl-CoA,-5,C00683,C25H35N7O19P3S,ChEBI:15466,3952
+tre6p_c,"alpha,alpha-trehalose 6-phosphate(2-)",-2,C00689,C12H21O14P,ChEBI:18283,3958
+xtp_c,XTP(4-),-4,C00700,C10H11N4O15P3,ChEBI:10049,3968
+o2s_c,superoxide,0,C00704,O2,ChEBI:18421,3971
+o2s_m,superoxide,0,C00704,O2,ChEBI:18421,3971
+dcdp_c,dCDP(3-),-3,C00705,C9H12N3O10P2,ChEBI:28846,3972
+14bxyl_e,xylan,0,C00707,C5H8O4,ChEBI:37166,3974
+pectin_e,pectin,0,C00714,,ChEBI:17309,3980
+14glun_c,"(1,4-alpha-D-glucosyl)n",0,C00718,,ChEBI:28102,3984
+glyb_c,glycine betaine,0,C00719,C5H11NO2,ChEBI:17750,3985
+glyb_e,glycine betaine,0,C00719,C5H11NO2,ChEBI:17750,3985
+chitos_c,chitosan,0,C00734,,ChEBI:16261,3997
+chitos_e,chitosan,0,C00734,,ChEBI:16261,3997
+diact_c,diacetyl,0,C00741,C4H6O2,ChEBI:16583,4004
+sheme_c,siroheme(8-),-8,C00748,C42H36FeN4O16,ChEBI:28599,4010
+sheme_e,siroheme(8-),-8,C00748,C42H36FeN4O16,ChEBI:28599,4010
+sprm_c,spermine(4+),4,C00750,C10H30N4,ChEBI:15746,4012
+sprm_e,spermine(4+),4,C00750,C10H30N4,ChEBI:15746,4012
+sql_r,squalene,0,C00751,C30H50,ChEBI:15440,4013
+vanlin_c,vanillin,0,C00755,C8H8O3,ChEBI:18346,4017
+vanln_c,vanillin,0,C00755,C8H8O3,ChEBI:18346,4017
+ocoh_c,octan-1-ol,0,C00756,C8H18O,ChEBI:16188,4018
+ocoh_e,octan-1-ol,0,C00756,C8H18O,ChEBI:16188,4018
+cellulose_e,cellulose,0,C00760,,ChEBI:18246,4022
+retn_c,retinoate,-1,C00777,C20H27O2,ChEBI:15367,4038
+srtn_c,serotonin(1+),1,C00780,C10H13N2O,ChEBI:28790,4041
+trnatyr_c,TRNA(Tyr),0,C00787,,ChEBI:29182,4045
+sbtD_c,D-sorbitol,0,C00794,C6H14O6,ChEBI:17924,4052
+sbtD_e,D-sorbitol,0,C00794,C6H14O6,ChEBI:17924,4052
+tagatose_c,tagatose,0,C00795,C6H12O6,ChEBI:4249,4053
+tagatose_e,tagatose,0,C00795,C6H12O6,ChEBI:4249,4053
+ethyla_c,ethylaminium,0,C00797,C2H7N,ChEBI:15862,4055
+ethyla_e,ethylaminium,0,C00797,C2H7N,ChEBI:15862,4055
+forcoa_c,formyl-CoA(4-),-4,C00798,C22H32N7O17P3S,ChEBI:15522,4056
+gulnL_c,L-gulonate,-1,C00800,C6H11O7,ChEBI:13115,4058
+pta_c,pentanoate,-1,C00803,C5H9O2,ChEBI:17418,4061
+pta_m,pentanoate,-1,C00803,C5H9O2,ChEBI:17418,4061
+pta_x,pentanoate,-1,C00803,C5H9O2,ChEBI:17418,4061
+salc_c,salicylate,-1,C00805,C7H5O3,ChEBI:16914,4063
+actnR_c,(R)-acetoin,0,C00810,C4H8O2,ChEBI:15686,4068
+actnR_e,(R)-acetoin,0,C00810,C4H8O2,ChEBI:15686,4068
+T4hcinnm_c,trans-4-coumarate(1-),-1,C00811,C9H7O3,ChEBI:32374,4069
+T4hcinnm_e,trans-4-coumarate(1-),-1,C00811,C9H7O3,ChEBI:32374,4069
+thrD_c,D-threonine,0,C00820,C4H9NO3,,
+nhexadecanol_c,hexadecan-1-ol,0,C00823,C16H34O,ChEBI:16125,4081
+sphgn_c,sphinganine(1+),1,C00836,C18H40NO2,ChEBI:16566,4094
+sphgn_e,sphinganine(1+),1,C00836,C18H40NO2,ChEBI:16566,4094
+3oxoadp_c,3-oxoadipate(2-),-2,C00846,C6H6O5,ChEBI:15775,4103
+3oxoadp_m,3-oxoadipate(2-),-2,C00846,C6H6O5,ChEBI:15775,4103
+aces_c,ethyl acetate,0,C00849,C4H8O2,ChEBI:27750,4106
+aces_e,ethyl acetate,0,C00849,C4H8O2,ChEBI:27750,4106
+cyclohexanol_c,cyclohexanol,0,C00854,C6H12O,ChEBI:18099,4111
+cyclohexanol_e,cyclohexanol,0,C00854,C6H12O,ChEBI:18099,4111
+dnad_c,deamido-NAD(2-),-2,C00857,C21H24N6O15P2,ChEBI:18304,45266646
+histd_c,L-histidinol(1+),1,C00860,C6H12N3O,ChEBI:16255,4117
+pntoR_c,(R)-pantothenate,-1,C00864,C9H16NO5,ChEBI:29032,4121
+pntoR_e,(R)-pantothenate,-1,C00864,C9H16NO5,ChEBI:29032,4121
+2Ebtcoa_m,(2E)-crotonoyl-CoA,-4,C00877,C25H40N7O17P3S,CHEBI:36926,4133
+2Ebtcoa_x,(2E)-crotonoyl-CoA,-4,C00877,C25H40N7O17P3S,CHEBI:36926,4133
+arabna_c,D-arabinonate,-1,C00878,C5H9O6,ChEBI:16157,4134
+galcta_c,D-galactonate,-1,C00880,C6H11O7,ChEBI:12931,4136
+dcyt_c,2'-deoxycytidine,0,C00881,C9H13N3O4,ChEBI:15698,4137
+dcyt_e,2'-deoxycytidine,0,C00881,C9H13N3O4,ChEBI:15698,4137
+dpcoa_c,3'-dephospho-CoA(2-),-2,C00882,C21H33N7O13P2S,ChEBI:15468,4138
+alatrna_c,Ala-tRNA(Ala),0,C00886,,ChEBI:17732,4142
+ptcoa_c,pentanoyl-CoA(4-),-4,C00888,C26H40N7O17P3S,ChEBI:15536,4144
+ptcoa_m,pentanoyl-CoA(4-),-4,C00888,C26H40N7O17P3S,ChEBI:15536,4144
+ptcoa_x,pentanoyl-CoA(4-),-4,C00888,C26H40N7O17P3S,ChEBI:15536,4144
+cinnamaldehyde_c,cinnamaldehyde,0,C00903,C9H8O,ChEBI:16731,4158
+dhpt_c,"7,8-dihydropteroate",-1,C00921,C14H13N6O3,ChEBI:17839,4175
+ppbng_c,porphobilinogen(1-),-1,C00931,C10H13N2O4,ChEBI:17381,4184
+35cgmp_c,"3',5'-cyclic GMP(1-)",-1,C00942,C10H11N5O7P,ChEBI:16356,4194
+3dhq_c,3-dehydroquinate,-1,C00944,C7H9O6,ChEBI:17947,4196
+ind3ac_c,indole-3-acetate,-1,C00954,C10H8NO2,ChEBI:16411,4205
+ind3ac_e,indole-3-acetate,-1,C00954,C10H8NO2,ChEBI:16411,4205
+ind3eth_c,indole-3-ethanol,0,C00955,C10H11NO,ChEBI:17890,4206
+ind3eth_e,indole-3-ethanol,0,C00955,C10H11NO,ChEBI:17890,4206
+L2aadp_c,L-2-aminoadipate(1-),-1,C00956,C6H10NO4,ChEBI:37023,4207
+13BDglcn_c,(1->3)-beta-D-glucan,0,C00965,C6H10O5,ChEBI:37671,4216
+13BDglcn_e,(1->3)-beta-D-glucan,0,C00965,C6H10O5,ChEBI:37671,4216
+13BDglcn_1g_c,(1->3)-beta-D-glucan 1 g,0,C00965,,ChEBI:37671,4216
+2dhp_c,2-dehydropantoate,-1,C00966,C6H9O4,ChEBI:11561,4217
+2dhp_m,2-dehydropantoate,-1,C00966,C6H9O4,ChEBI:11561,4217
+Nacsertn_c,N-acetylserotonin,0,C00978,C12H14N2O2,ChEBI:17697,4227
+acser_c,O-acetyl-L-serine zwitterion,0,C00979,C5H9NO4,ChEBI:17981,4228
+13dampp_c,trimethylenediaminium(2+),2,C00986,C3H12N2,ChEBI:15725,4233
+ficytb5_c,ferricytochrome b5,0,C00996,,ChEBI:18097,4242
+focytb5_c,ferrocytochrome b5,0,C00999,,,4245
+pserL_c,O-phosphonato-L-serine,-2,C01005,C3H6NO6P,ChEBI:15811,4251
+pserL_e,O-phosphonato-L-serine,-2,C01005,C3H6NO6P,ChEBI:15811,4251
+allphn_c,urea-1-carboxylate,-1,C01010,C2H3N2O3,ChEBI:15832,4255
+allphn_e,urea-1-carboxylate,-1,C01010,C2H3N2O3,ChEBI:15832,4255
+3hpp_m,3-hydroxypropionate,-1,C01013,C3H5O3,ChEBI:16510,4258
+hmbil_c,hydroxymethylbilane,-8,C01024,C40H38N4O17,ChEBI:16645,4269
+dmgly_c,"N,N-dimethylglycine zwitterion",0,C01026,C4H9NO2,ChEBI:17724,4271
+dmgly_e,"N,N-dimethylglycine zwitterion",0,C01026,C4H9NO2,ChEBI:17724,4271
+Sfglutth_c,S-formylglutathionate(1-),-1,C01031,C11H16N3O7S,ChEBI:16225,4274
+4gudbutn_c,4-guanidinobutanoic acid zwitterion,0,C01035,C5H11N3O2,ChEBI:15728,4278
+4mlacac_c,4-maleylacetoacetate,-2,C01036,C8H6O6,ChEBI:17105,4279
+dann_c,"7,8-diaminononanoate cation",1,C01037,C9H21N2O2,CHEBI:58500,4280
+dann_e,"7,8-diaminononanoate cation",1,C01037,C9H21N2O2,CHEBI:58500,4280
+fgluL_c,N-formyl-L-glutamate,-2,C01045,C6H7NO5,ChEBI:48309,4287
+fgluL_m,N-formyl-L-glutamate,-2,C01045,C6H7NO5,ChEBI:48309,4287
+uppg3_c,uroporphyrinogen III(8-),-8,C01051,C40H36N4O16,ChEBI:15437,4293
+Ssq23epx_r,"(S)-2,3-epoxysqualene",0,C01054,C30H50O,ChEBI:15441,4295
+4fumacac_c,4-fumarylacetoacetate(2-),-2,C01061,C8H6O6,ChEBI:18034,4300
+pmcoa_c,pimeloyl-CoA(5-),-5,C01063,C28H41N7O19P3S,ChEBI:15504,4302
+rbt5p_c,D-ribitol 5-phosphate,-2,C01068,C5H11O8P,ChEBI:16246,4307
+achms_c,O-acetyl-L-homoserine zwitterion,0,C01077,C6H11NO4,ChEBI:16288,4315
+pppg9_c,protoporphyrinogen(2-),-2,C01079,C34H38N4O4,ChEBI:15435,4317
+pppg9_m,protoporphyrinogen(2-),-2,C01079,C34H38N4O4,ChEBI:15435,4317
+thmmp_c,thiamine(+) monophosphate(2-),-1,C01081,C12H16N4O4PS,CHEBI:37575,4319
+tre_c,"alpha,alpha-trehalose",0,C01083,C12H22O11,ChEBI:16551,4320
+tre_e,"alpha,alpha-trehalose",0,C01083,C12H22O11,ChEBI:16551,4320
+trehalose_1g_c,Trehalose 1 g,0,C01083,,ChEBI:16551,4320
+2hglutR_c,(R)-2-hydroxyglutarate,-2,C01087,C5H6O5,ChEBI:15801,4322
+2hglutR_m,(R)-2-hydroxyglutarate,-2,C01087,C5H6O5,ChEBI:15801,4322
+bhb_c,(R)-3-hydroxybutyrate,-1,C01089,C4H7O3,ChEBI:10983,4324
+8aonn_c,8-amino-7-oxononanoic acid zwitterion,0,C01092,C9H17NO3,ChEBI:12266,4327
+8aonn_e,8-amino-7-oxononanoic acid zwitterion,0,C01092,C9H17NO3,ChEBI:12266,4327
+f1p_c,D-fructofuranose 1-phosphate(2-),-2,C01094,C6H11O9P,ChEBI:18105,4329
+tag6pD_c,D-tagatofuranose 6-bisphosphate ,-2,C01097,C6H11O9P,ChEBI:4251,4332
+fc1p_c,L-fuculose 1-phosphate(2-),-2,C01099,C6H11O8P,ChEBI:16647,4333
+hisp_c,L-histidinol phosphate(1-),-1,C01100,C6H11N3O4P,ChEBI:16996,4334
+phom_c,O-phosphonato-L-homoserine(2-),-2,C01102,C4H8NO6P,ChEBI:15961,4336
+orot5p_c,orotidine 5'-phosphate(3-),-3,C01103,C10H10N2O11P,ChEBI:15842,4337
+5pmev_c,(R)-5-phosphonatomevalonate(3-),-3,C01107,C6H10O7P,ChEBI:17436,4339
+123thbz_c,pyrogallol,0,C01108,C6H6O3,ChEBI:16164,4340
+123thbz_e,pyrogallol,0,C01108,C6H6O3,ChEBI:16164,4340
+ara14lacL_c,"L-arabinono-1,4-lactone",0,C01114,C5H8O5,ChEBI:17100,4346
+suchms_c,O-succinyl-L-homoserinate(1-),-1,C01118,C8H12NO6,ChEBI:16160,4349
+sphn1p_c,sphinganine 1-phosphate,-1,C01120,C18H39NO5P,ChEBI:16893,4351
+pan4p_c,D-pantetheine 4'-phosphate(2-),-2,C01134,C11H21N2O7PS,ChEBI:16858,4365
+pan4p_m,D-pantetheine 4'-phosphate(2-),-2,C01134,C11H21N2O7PS,ChEBI:16858,4365
+ametam_c,S-adenosylmethioninaminium,2,C01137,C14H24N6O3S,ChEBI:15625,4368
+5dpmev_c,(R)-5-diphosphonatomevalonate(4-),-4,C01143,C6H10O10P2,ChEBI:15899,4374
+4tmeabut_c,4-trimethylammoniobutanal,1,C01149,C7H16NO,ChEBI:18020,4378
+hpro_m,hydroxyproline,0,C01157,C5H9NO3,ChEBI:18095,4385
+23dpg_c,"2,3-bisphosphonato-D-glycerate(5-)",-5,C01159,C3H3O10P2,ChEBI:17720,4387
+34dhpha_c,"(3,4-dihydroxyphenyl)acetate",-1,C01161,C8H7O4,ChEBI:17612,4388
+34dhpha_e,"(3,4-dihydroxyphenyl)acetate",-1,C01161,C8H7O4,ChEBI:17612,4388
+CCbuttc_c,"3-carboxy-cis,cis-muconate(3-)",-3,C01163,C7H3O6,ChEBI:15749,4390
+7dhchol_c,7-dehydrocholesterol,0,C01164,C27H44O,ChEBI:17759,4391
+glu5sa_c,L-glutamic 5-semialdehyde zwitterion,0,C01165,C5H9NO3,ChEBI:17232,4392
+glu5sa_m,L-glutamic 5-semialdehyde zwitterion,0,C01165,C5H9NO3,ChEBI:17232,4392
+psd5p_c,pseudouridine 5'-phosphate(2-),-2,C01168,C9H11N2O9P,ChEBI:18116,4395
+g6p_B_c,beta-D-glucose 6-phosphate(2-),-2,C01172,C6H11O9P,ChEBI:17719,4399
+mi1pD_c,1D-myo-inositol 1-phosphate,-2,C01177,C6H11O9P,ChEBI:18297,4404
+34hpp_c,3-(4-hydroxyphenyl)pyruvate,-1,C01179,C9H7O4,ChEBI:15999,4406
+4met2obut_c,4-methylthio-2-oxobutanoate,-1,C01180,C5H7O3S,ChEBI:16723,4407
+4tmeabutn_c,4-(trimethylammonio)butanoate,1,C01181,C7H16NO2,ChEBI:1941,4408
+4tmeabutn_m,4-(trimethylammonio)butanoate,1,C01181,C7H16NO2,ChEBI:1941,4408
+nicrnt_c,nicotinate D-ribonucleotide(2-),-2,C01185,C11H12NO9P,ChEBI:15763,4411
+lathol_c,lathosterol,0,C01189,C27H46O,ChEBI:17168,4415
+ptd1ino_c,1-phosphatidyl-1D-myo-inositol(1-),-1,C01194,C11H16O13PR2,CHEBI:57880,4419
+ptd1ino_monounsat_1g_c,1-phosphatidyl-1D-myo-inositol 1 gram (monounsaturated),0,C01194,,CHEBI:57880,4419
+ptd1ino_polyunsat_1g_c,1-phosphatidyl-1D-myo-inositol 1 gram (polyunsaturated),0,C01194,,CHEBI:57880,4419
+ptd1ino_sat_1g_c,1-phosphatidyl-1D-myo-inositol 1 gram (saturated),0,C01194,,CHEBI:57880,4419
+34dhcinm_c,trans-caffeate,-1,C01197,C9H7O4,ChEBI:16433,4422
+minohp_c,myo-inositol hexakisphosphate(12-),-12,C01204,C6H6O24P6,ChEBI:17401,4428
+malACP_c,malonyl-[acp],0,C01209,C24H33O19N7P3S,ChEBI:17330,4431
+malACP_m,malonyl-[acp],0,C01209,C24H33O19N7P3S,ChEBI:17330,4431
+Rmmtcoa_m,(R)-methylmalonyl-CoA,-5,C01213,C25H35N7O19P3S,ChEBI:15465,4435
+mi14p_c,"1D-myo-inositol 1,4-bisphosphate(4-)",-4,C01220,C6H10O12P2,ChEBI:17816,4442
+g3pi_c,1-(sn-glycero-3-O-phosphonato)-1D-myo-inositol,0,C01225,C9H19O11P,ChEBI:18321,4447
+g3pi_e,1-(sn-glycero-3-O-phosphonato)-1D-myo-inositol,0,C01225,C9H19O11P,ChEBI:18321,4447
+hexdp_c,all-trans-hexaprenyl diphosphate,-3,C01230,C30H49O7P2,ChEBI:17528,4452
+hexdp_m,all-trans-hexaprenyl diphosphate,-3,C01230,C30H49O7P2,ChEBI:17528,4452
+g3pe_c,sn-glycero-3-phosphoethanolamine zwitterion,0,C01233,C5H14NO6P,ChEBI:16929,4454
+agalino_c,alpha-D-galactosyl-(1->3)-1D-myo-inositol,0,C01235,C12H22O11,ChEBI:17505,4456
+agalino_e,alpha-D-galactosyl-(1->3)-1D-myo-inositol,0,C01235,C12H22O11,ChEBI:17505,4456
+6pgl_c,"6-O-phosphonato-D-glucono-1,5-lactone(2-)",-2,C01236,C6H9O9P,ChEBI:16938,4457
+ptdmeeta_c,phosphatidyl-N-methylethanolamine,0,C01241,C8H14NO8PR2,ChEBI:15958,4462
+alpam_m,S-aminomethyldihydrolipoamide,0,C01242,C9H20N2OS2,ChEBI:16882,4463
+mi134tp_c,"1D-myo-inositol 1,3,4-trisphosphate",-6,C01243,C6H9O15P3,ChEBI:18228,4464
+mi145tp_c,"1D-myo-inositol 1,4,5-trisphosphate(6-)",-6,C01245,C6H9O15P3,ChEBI:16595,4466
+dolpglc_c,dolichyl beta-D-glucosyl phosphate,-1,C01246,C26H46O9P1,ChEBI:15812,4467
+acg5sa_m,N-acetyl-L-glutamate 5-semialdehyde,0,C01250,C7H11NO4,ChEBI:16319,4470
+hcit_c,(2R)-homocitrate(3-),-3,C01251,C7H7O7,ChEBI:17852,4471
+hcit_m,(2R)-homocitrate(3-),-3,C01251,C7H7O7,ChEBI:17852,4471
+4aphdob_c,"4-(2-aminophenyl)-2,4-dioxobutanoate",-1,C01252,C10H8NO4,ChEBI:17442,4472
+3htmelys_c,"3-hydroxy-N(6),N(6),N(6)-trimethyl-L-lysine zwitterion",1,C01259,C9H21N2O3,ChEBI:15786,4478
+ap4a_c,"P(1),P(4)-bis(5'-adenosyl) tetraphosphate(4-)",-4,C01260,C20H24N10O19P4,ChEBI:17422,4479
+imacp_c,3-(imidazol-4-yl)-2-oxopropyl phosphate(2-),-2,C01267,C6H7N2O5P,ChEBI:16426,4486
+3psme_c,5-O-(1-carboxylatovinyl)-3-phosphonatoshikimate,-4,C01269,C10H9O10P,ChEBI:16257,4488
+mi1345p_c,"1D-myo-inositol 1,3,4,5-tetrakisphosphate(8-)",-8,C01272,C6H8O18P4,ChEBI:16783,4491
+ptd4ino_c,1-phosphatidyl-1D-myo-inositol 4-phosphate(3-),-3,C01277,C11H15O16P2R2,ChEBI:17526,4496
+4cml_c,"2-(carboxylatomethyl)-5-oxo-2,5-dihydro-2-furoate(2-)",-2,C01278,C7H4O6,ChEBI:16993,4497
+4ahmmp_c,4-amino-5-hydroxymethyl-2-methylpyrimidine,0,C01279,C6H9N3O,ChEBI:16892,4498
+mi13456p_c,"1D-myo-Inositol 1,3,4,5,6-pentakisphosphate",-10,C01284,C6H7O21P5,ChEBI:16322,4503
+2ahhmp_c,"2-amino-6-(hydroxymethyl)-7,8-dihydropteridin-4-one",0,C01300,C7H9N5O2,ChEBI:17083,4518
+2cpr5p_c,1-(2-carboxylatophenylamino)-1-deoxy-D-ribulose 5-phosphate(3-),-3,C01302,C12H13NO9P,ChEBI:29112,4520
+25dhpp_c,"2,5-diamino-4-hydroxy-6-(5-phosphonatoribosylamino)pyrimidine",-2,C01304,C9H14N5O8P,ChEBI:29114,135398601
+nh4_c,ammonium,1,C01342,NH4,ChEBI:28938,4547
+nh4_e,ammonium,1,C01342,NH4,ChEBI:28938,4547
+nh4_m,ammonium,1,C01342,NH4,ChEBI:28938,4547
+nh4_x,ammonium,1,C01342,NH4,ChEBI:28938,4547
+dudp_c,dUDP(3-),-3,C01346,C9H11N2O11P2,ChEBI:28850,4551
+fadh2_m,FADH2(2-),-2,C01352,C27H33N9O15P2,ChEBI:17877,4556
+ethyleneglycol_c,ethylene glycol,0,C01380,C2H6O2,ChEBI:30742,4575
+ethyleneglycol_e,ethylene glycol,0,C01380,C2H6O2,ChEBI:30742,4575
+btal_c,butanal,0,C01412,C4H8O,ChEBI:15743,4600
+cgly_c,L-cysteinylglycine zwitterion,0,C01419,C5H10N2O3S,ChEBI:4047,4606
+345thbza_c,gallate,-1,C01424,C7H5O5,ChEBI:16918,4609
+questin_c,questin,0,C01448,C16H12O5,ChEBI:16200,4625
+salcn_c,salicin,0,C01451,C13H18O7,ChEBI:17814,4628
+salcn_e,salicin,0,C01451,C13H18O7,ChEBI:17814,4628
+tol_c,toluene,0,C01455,C7H8,ChEBI:17578,4632
+tol_e,toluene,0,C01455,C7H8,ChEBI:17578,4632
+fer_c,ferulate(1-),-1,C01494,C10H9O4,ChEBI:17620,4664
+guaiacol_c,guaiacol,0,C01502,C7H8O2,ChEBI:28591,4671
+guaiacol_e,guaiacol,0,C01502,C7H8O2,ChEBI:28591,4671
+idtL_c,L-iditol,0,C01507,C6H14O6,ChEBI:18202,4675
+idtL_e,L-iditol,0,C01507,C6H14O6,ChEBI:18202,4675
+ocda_c,stearate,-1,C01530,C18H34O2,ChEBI:25629,4692
+ocda_e,stearate,-1,C01530,C18H34O2,ChEBI:25629,4692
+ocda_m,stearate,-1,C01530,C18H34O2,ChEBI:25629,4692
+ocda_x,stearate,-1,C01530,C18H34O2,ChEBI:25629,4692
+ocal_c,octanal,0,C01545,C8H16O,ChEBI:17935,4704
+salltn_c,allantoin,0,C01551,C4H6N4O3,ChEBI:15676,4709
+salltn_e,allantoin,0,C01551,C4H6N4O3,ChEBI:15676,4709
+dca_c,decanoate,-1,C01571,C10H19O2,ChEBI:27689,4728
+dca_e,decanoate,-1,C01571,C10H19O2,ChEBI:27689,4728
+dca_m,decanoate,-1,C01571,C10H19O2,ChEBI:27689,4728
+dca_x,decanoate,-1,C01571,C10H19O2,ChEBI:27689,4728
+hxa_c,hexanoate,-1,C01585,C6H11O2,ChEBI:17120,4740
+hxa_e,hexanoate,-1,C01585,C6H11O2,ChEBI:17120,4740
+hxa_m,hexanoate,-1,C01585,C6H11O2,ChEBI:17120,4740
+hxa_x,hexanoate,-1,C01585,C6H11O2,ChEBI:17120,4740
+melatn_c,melatonin,0,C01598,C13H16N2O2,ChEBI:16796,4752
+melatn_e,melatonin,0,C01598,C13H16N2O2,ChEBI:16796,4752
+ndecanol_c,decan-1-ol,0,C01633,C10H22O,ChEBI:28903,4783
+trnaala_c,TRNA(Ala),0,C01635,,ChEBI:29170,4784
+trnaarg_c,TRNA(Arg),0,C01636,,ChEBI:29171,4785
+trnaasn_c,TRNA(Asn),0,C01637,,ChEBI:29172,4786
+trnaasp_c,TRNA(Asp),0,C01638,,ChEBI:29186,4787
+trnacys_c,TRNA(Cys),0,C01639,,ChEBI:29167,4788
+trnagln_c,TRNA(Gln),0,C01640,,ChEBI:29168,4789
+trnaglu_c,tRNA(Glu),0,C01641,,ChEBI:29175,4790
+trnagly_c,TRNA(Gly),0,C01642,,ChEBI:29176,4791
+trnahis_c,TRNA(His),0,C01643,,ChEBI:29178,4792
+trnaile_c,TRNA(Ile),0,C01644,,ChEBI:29174,4793
+trnaleu_c,TRNA(Leu),0,C01645,,ChEBI:29169,4794
+trnalys_c,TRNA(Lys),0,C01646,,ChEBI:29185,4795
+trnamet_c,TRNA(Met),0,C01647,,ChEBI:29173,4796
+trnaphe_c,TRNA(Phe),0,C01648,,ChEBI:29184,4797
+trnapro_c,TRNA(Pro),0,C01649,,ChEBI:29177,4798
+trnaser_c,TRNA(Ser),0,C01650,,ChEBI:29179,4799
+trnathr_c,TRNA(Thr),0,C01651,,ChEBI:29180,4800
+trnatrp_c,TRNA(Trp),0,C01652,,ChEBI:29181,4801
+trnaval_c,TRNA(Val),0,C01653,,ChEBI:29183,4802
+ergst_c,ergosterol,0,C01694,C28H44O,ChEBI:16933,4835
+ergst_e,ergosterol,0,C01694,C28H44O,ChEBI:16933,4835
+ergst_l,ergosterol,0,C01694,C28H44O,ChEBI:16933,4835
+ergst_r,ergosterol,0,C01694,C28H44O,ChEBI:16933,4835
+ergst_1g_r,ergosterol 1 g,0,C01694,,ChEBI:16933,4835
+galt_c,galactitol,0,C01697,C6H14O6,ChEBI:16813,4837
+galt_e,galactitol,0,C01697,C6H14O6,ChEBI:16813,4837
+kynate_c,kynurenate,-1,C01717,C10H6NO3,CHEBI:58454 ,4854
+kynate_e,kynurenate,-1,C01717,C10H6NO3,CHEBI:58454 ,4854
+Lfucn_c,L-fuconate,-1,C01720,C6H11O6,ChEBI:21291,4857
+fclL_c,L-fuculose,0,C01721,C6H12O5,ChEBI:17617,4858
+fclL_e,L-fuculose,0,C01721,C6H12O5,ChEBI:17617,4858
+sbtL_c,L-sorbitol,0,C01722,C6H14O6,ChEBI:28789,4859
+sbtL_e,L-sorbitol,0,C01722,C6H14O6,ChEBI:28789,4859
+lanost_c,lanosterol,0,C01724,C30H50O,ChEBI:16521,4861
+lanost_e,lanosterol,0,C01724,C30H50O,ChEBI:16521,4861
+lanost_l,lanosterol,0,C01724,C30H50O,ChEBI:16521,4861
+lanost_r,lanosterol,0,C01724,C30H50O,ChEBI:16521,4861
+43hphpa_c,3-(4-hydroxyphenyl)propanoic acid,0,C01744,C9H10O3,ChEBI:16331,4878
+resorcinol_c,resorcinol,0,C01751,C6H6O2,ChEBI:27810,4884
+resorcinol_e,resorcinol,0,C01751,C6H6O2,ChEBI:27810,4884
+xtsn_c,xanthosine,0,C01762,C10H12N4O6,ChEBI:18107,4895
+xtsn_e,xanthosine,0,C01762,C10H12N4O6,ChEBI:18107,4895
+actnS_c,(S)-acetoin,0,C01769,C4H8O2,ChEBI:15687,4902
+actnS_e,(S)-acetoin,0,C01769,C4H8O2,ChEBI:15687,4902
+erthrs_c,D-erythrose,0,C01796,C4H8O4,ChEBI:27904,4923
+erthrs_e,D-erythrose,0,C01796,C4H8O4,ChEBI:27904,4923
+desmtol_c,desmosterol,0,C01802,C27H44O,ChEBI:17737,4928
+nheptadecane_c,heptadecane,0,C01816,C17H36,ChEBI:16148,4940
+nheptadecane_e,heptadecane,0,C01816,C17H36,ChEBI:16148,4940
+ddccoa_c,dodecanoyl-CoA,-4,C01832,C33H54N7O17P3S,ChEBI:15521,4951
+ddccoa_m,dodecanoyl-CoA,-4,C01832,C33H54N7O17P3S,ChEBI:15521,4951
+ddccoa_x,dodecanoyl-CoA,-4,C01832,C33H54N7O17P3S,ChEBI:15521,4951
+malttr_c,maltotriose,0,C01835,C18H32O16,ChEBI:27931,4954
+malttr_e,maltotriose,0,C01835,C18H32O16,ChEBI:27931,4954
+ocdal_c,octadecanal,0,C01838,C18H35O,ChEBI:17034,4957
+2ppoh_c,propan-2-ol,0,C01845,C3H8O,ChEBI:17824,4963
+2ppoh_e,propan-2-ol,0,C01845,C3H8O,ChEBI:17824,4963
+5oxpro_c,5-oxo-L-prolinate,-1,C01879,C5H6NO3,ChEBI:18183,4992
+5oxpro_e,5-oxo-L-prolinate,-1,C01879,C5H6NO3,ChEBI:18183,4992
+caprolactone_c,caprolactone,0,C01880,C6H10O2,ChEBI:17915,4993
+1aglyc_c,1-acylglycerol,0,C01885,C4H7O4R,ChEBI:17408,4998
+aact_c,ammonioacetone,0,C01888,C3H7NO,ChEBI:17906,5001
+abtD_c,D-arabinitol,0,C01904,C5H12O5,ChEBI:18333,5013
+abtD_e,D-arabinitol,0,C01904,C5H12O5,ChEBI:18333,5013
+dtbt_c,dethiobiotin(1-),-1,C01909,C10H17N2O3,ChEBI:16691,5017
+dtbt_m,dethiobiotin(1-),-1,C01909,C10H17N2O3,ChEBI:16691,5017
+lystrna_c,Lys-tRNA(Lys),0,C01931,,ChEBI:16047,5037
+rhmn_c,L-rhamnonate,-1,C01934,C6H11O6,ChEBI:17357,5039
+rhmn_e,L-rhamnonate,-1,C01934,C6H11O6,ChEBI:17357,5039
+nncoa_c,nonanoyl-CoA,-4,C01942,C30H48N7O17P3S,ChEBI:27770,5046
+nncoa_m,nonanoyl-CoA,-4,C01942,C30H48N7O17P3S,ChEBI:27770,5046
+nncoa_x,nonanoyl-CoA,-4,C01942,C30H48N7O17P3S,ChEBI:27770,5046
+occoa_c,octanoyl-CoA(4-),-4,C01944,C29H46N7O17P3S,ChEBI:15533,5048
+occoa_m,octanoyl-CoA(4-),-4,C01944,C29H46N7O17P3S,ChEBI:15533,5048
+occoa_x,octanoyl-CoA(4-),-4,C01944,C29H46N7O17P3S,ChEBI:15533,5048
+ptdal_c,pentadecanal,0,C01948,C15H30O,ChEBI:17302,5051
+mandelateR_c,(R)-mandelate,-1,C01983,C8H7O3,ChEBI:17656,5080
+mandelateR_e,(R)-mandelate,-1,C01983,C8H7O3,ChEBI:17656,5080
+mandelateS_c,(S)-mandelate,-1,C01984,C8H7O3,ChEBI:17756,5081
+mandelateS_e,(S)-mandelate,-1,C01984,C8H7O3,ChEBI:17756,5081
+erythD_c,D-erythrulose,0,C02022,C4H8O4,ChEBI:16023,5117
+erythD_e,D-erythrulose,0,C02022,C4H8O4,ChEBI:16023,5117
+arachcoa_c,icosanoyl-CoA(4-),-4,C02041,C41H70N7O17P3S,ChEBI:15527,5132
+arachcoa_r,icosanoyl-CoA(4-),-4,C02041,C41H70N7O17P3S,ChEBI:15527,5132
+arachcoa_x,icosanoyl-CoA(4-),-4,C02041,C41H70N7O17P3S,ChEBI:15527,5132
+eryth_c,L-erythrulose,0,C02045,C4H8O4,ChEBI:23958,5134
+eryth_e,L-erythrulose,0,C02045,C4H8O4,ChEBI:23958,5134
+leutrna_c,Leu-tRNA(Leu),0,C02047,,ChEBI:16624,5136
+lnlccoa_c,linoleoyl-CoA(4-),-4,C02050,C39H62N7O17P3S,ChEBI:15530,5139
+psd_c,pseudouridine,0,C02067,C9H12N2O6,ChEBI:17802,5155
+psd_e,pseudouridine,0,C02067,C9H12N2O6,ChEBI:17802,5155
+caro_c,beta-Carotene,0,C02094,C40H56,ChEBI:17579,5178
+2aglyc_c,2-monoglyceride,0,C02112,C4H7O4R,ChEBI:17389,5194
+pheglx_c,phenylglyoxylate,-1,C02137,C8H5O3,ChEBI:18280,5216
+pheglx_e,phenylglyoxylate,-1,C02137,C8H5O3,ChEBI:18280,5216
+argtrna_c,Arg-tRNA(Arg),0,C02163,,ChEBI:18366,5239
+malpyr_c,3-maleylpyruvate(2-),-2,C02167,C7H4O6,ChEBI:16727,5242
+mmta_m,methylmalonate,-2,C02170,C4H4O4,ChEBI:17453,5245
+prot_lys_c,protein-L-lysine,0,C02188,,,5259
+ppp9_m,protoporphyrin(2-),-2,C02191,C34H32N4O4,ChEBI:15430,5261
+34dmbzld_c,veratraldehyde,0,C02201,C9H10O3,ChEBI:17098,5269
+deha_c,dehydroalanine,0,C02218,C3H5NO2,,
+2amu_c,2-aminomuconate,-2,C02220,C6H5NO4,ChEBI:16886,5285
+2malac_c,maleylacetate,-2,C02222,C6H4O5,ChEBI:1184,5287
+2mbald_c,2-Methylbutanal,0,C02223,C5H10O,ChEBI:16182,5288
+2mbald_e,2-methylbutanal,0,C02223,C5H10O,ChEBI:16182,5288
+2mcit_c,"(2S,3S)-2-methylcitrate(3-)",-3,C02225,C7H7O7,ChEBI:10860,5290
+2mcit_m,"(2S,3S)-2-methylcitrate(3-)",-3,C02225,C7H7O7,ChEBI:10860,5290
+oxadpcoa_m,3-oxoadipyl-CoA(5-),-5,C02232,C27H37N7O20P3S,ChEBI:15490,5296
+xylnactD_c,"D-xylono-1,5-lactone",0,C02266,C5H8O5,ChEBI:15867,5327
+ndodecanol_c,dodecan-1-ol,0,C02277,C12H26O,ChEBI:28878,5335
+ddcal_c,dodecanal,0,C02278,C12H24O,ChEBI:27836,5336
+glntrna_c,Gln-tRNA(Gln),0,C02282,,ChEBI:29166,5339
+cystL_c,L-cystathionine dizwitterion,0,C02291,C7H14N2O4S,ChEBI:17482,5347
+cystL_e,L-cystathionine dizwitterion,0,C02291,C7H14N2O4S,ChEBI:17482,5347
+2hymeph_c,salicyl alcohol,0,C02323,C7H8O2,ChEBI:16464,5375
+2hymeph_e,salicyl alcohol,0,C02323,C7H8O2,ChEBI:16464,5375
+acon_T_c,trans-aconitate(3-),-3,C02341,C6H3O6,ChEBI:15708,5390
+cinnamylalcohol_c,(E)-cinnamyl alcohol,0,C02394,C9H10O,ChEBI:17177,5428
+cinnamylalcohol_e,(E)-cinnamyl alcohol,0,C02394,C9H10O,ChEBI:17177,5428
+glytrna_c,Gly-tRNA(Gly),0,C02412,,ChEBI:29156,5445
+Lglyald_c,L-glyceraldehyde,0,C02426,C3H6O3,ChEBI:27975,5454
+Lglyald_x,L-glyceraldehyde,0,C02426,C3H6O3,ChEBI:27975,5454
+mettrna_c,Met-tRNA(Met),0,C02430,,ChEBI:16635,5457
+dscl_c,dihydrosirohydrochlorin,-8,C02463,C42H40N4O16,ChEBI:50602,5480
+xanthurenate_c,xanthurenate,-1,C02470,C10H6NO4,ChEBI:71201,5485
+ccmuac_c,"cis,cis-muconate(2-)",-2,C02480,C6H4O4,ChEBI:16508,5495
+mannan_c,(1->4)-beta-D-mannan,0,C02492,C6H10O5,ChEBI:27857,5504
+3c3hmp_c,3-carboxy-3-hydroxy-4-methylpentanoate,-1,C02504,C7H11O5,ChEBI:1178,5516
+3c3hmp_e,3-carboxy-3-hydroxy-4-methylpentanoate,-1,C02504,C7H11O5,ChEBI:1178,5516
+3c3hmp_m,3-Carboxy-3-hydroxy-4-methylpentanoate,-1,C02504,C7H11O5,ChEBI:1178,5516
+pad_c,2-phenylacetamide,0,C02505,C8H9NO,ChEBI:16562,5517
+pad_e,2-phenylacetamide,0,C02505,C8H9NO,ChEBI:16562,5517
+fumpyr_c,3-fumarylpyruvate(2-),-2,C02514,C7H4O6,ChEBI:1506,5524
+cholestester_l,cholesterol ester,0,C02530,C28H45O2R,ChEBI:17002,5537
+cholestester_c,cholesterol ester,0,C02530,C28H45O2R,ChEBI:17002,5537
+cholestester_e,cholesterol ester,0,C02530,C28H45O2R,ChEBI:17002,5537
+sertrna_c,Ser-tRNA(Ser),0,C02553,,ChEBI:29162,5554
+valtrna_c,Val-tRNA(Val),0,C02554,,ChEBI:29164,5555
+N1sprm_c,N(1)-acetylsperminium(3+),3,C02567,C12H31N4O,ChEBI:17312,5564
+acrn_c,O-acetyl-L-carnitine,0,C02571,C9H17NO4,ChEBI:15960,5567
+acrn_m,O-acetyl-L-carnitine,0,C02571,C9H17NO4,ChEBI:15960,5567
+acrn_x,O-acetyl-L-carnitine,0,C02571,C9H17NO4,ChEBI:15960,5567
+tdcoa_c,myristoyl-CoA(4-),-4,C02593,C35H58N7O17P3S,ChEBI:15532,5585
+tdcoa_m,myristoyl-CoA(4-),-4,C02593,C35H58N7O17P3S,ChEBI:15532,5585
+tdcoa_x,myristoyl-CoA(4-),-4,C02593,C35H58N7O17P3S,ChEBI:15532,5585
+2ippm_c,2-isopropylmaleate(2-),-2,C02631,C7H8O4,ChEBI:17275,5611
+ibt_c,isobutyrate,-1,C02632,C4H7O2,ChEBI:16135,5612
+ibt_e,isobutyrate,-1,C02632,C4H7O2,ChEBI:16135,5612
+3dhsk_c,3-dehydroshikimate,-1,C02637,C7H7O5,ChEBI:16630,5617
+4hcinnmol_c,4-coumaryl alcohol,0,C02646,C9H10O2,ChEBI:28386,5623
+pime_c,pimelate(2-),-2,C02656,C7H10O4,ChEBI:30531,5629
+conialdh_c,coniferyl aldehyde,0,C02666,C10H10O3,ChEBI:16547,5637
+ddca_c,dodecanoate,-1,C02679,C12H23O2,ChEBI:18262,5649
+ddca_e,dodecanoate,-1,C02679,C12H23O2,ChEBI:18262,5649
+ddca_m,dodecanoate,-1,C02679,C12H23O2,ChEBI:18262,5649
+ddca_x,dodecanoate,-1,C02679,C12H23O2,ChEBI:18262,5649
+iad_c,Indole-3-acetamide,0,C02693,C10H10N2O,ChEBI:16031,5661
+iad_e,indole-3-acetamide,0,C02693,C10H10N2O,ChEBI:16031,5661
+Lfmkynr_c,N-formyl-L-kynurenine zwitterion,0,C02700,C11H12N2O4,ChEBI:30249,5664
+protrna_c,Pro-tRNA(Pro),0,C02702,,ChEBI:29154,5665
+aprut_c,N-acetylputrescinium(1+),1,C02714,C6H15N2O,ChEBI:17768,5677
+N6aclysL_c,N(6)-acetyl-L-lysine,0,C02727,C8H16N2O3,ChEBI:17752,5689
+ps_c,3-sn-phosphatidyl-L-serine(1-),-1,C02737,C8H11NO10PR2,ChEBI:11750,5698
+ps_m,3-sn-phosphatidyl-L-serine(1-),-1,C02737,C8H11NO10PR2,ChEBI:11750,5698
+prbatp_c,1-(5-phospho-beta-D-ribosyl)-ATP(6-),-6,C02739,C15H19N5O20P4,ChEBI:73200,5699
+prbamp_c,1-(5-phosphonato-beta-D-ribosyl)-5'-AMP(4-),-4,C02741,C15H19N5O14P2,ChEBI:18374,5701
+124bztriol_c,"benzene-1,2,4-triol",0,C02814,C6H6O3,ChEBI:16971,5764
+124bztriol_e,"benzene-1,2,4-triol",0,C02814,C6H6O3,ChEBI:16971,5764
+4imzac_c,imidazol-4-ylacetate,-1,C02835,C5H5N2O2,ChEBI:57969,5778
+4imzac_e,imidazol-4-ylacetate,-1,C02835,C5H5N2O2,ChEBI:57969,5778
+tyrtrna_c,Tyr-tRNA(Tyr),0,C02839,,ChEBI:29161,5781
+3dsphgn_c,3-dehydrosphinganinium(1+),1,C02934,C18H38NO2,ChEBI:17862,5855
+ind3acnl_c,indole-3-acetonitrile,0,C02938,C10H8N2,ChEBI:17566,5857
+ivcoa_m,isovaleryl-CoA(4-),-4,C02939,C26H40N7O17P3S,ChEBI:15487,5858
+coumshik_c,5-O-(4-coumaroyl)shikimate,-1,C02947,C16H15O7,ChEBI:57768,25245116
+asptrna_c,Asp-tRNA(Asp),0,C02984,,ChEBI:29158,5893
+glutrna_c,Glu-tRNA(Glu),0,C02987,,ChEBI:29157,5896
+histrna_c,His-tRNA(His),0,C02988,,ChEBI:29155,5897
+rhamlac_c,"L-rhamnono-1,4-lactone",0,C02991,C6H10O5,ChEBI:17937,5900
+rhamlac_e,"L-rhamnono-1,4-lactone",0,C02991,C6H10O5,ChEBI:17937,5900
+thrtrna_c,Thr-tRNA(Thr),0,C02992,,ChEBI:29163,5901
+pcrn_c,O-propanoylcarnitine,0,C03017,C10H19NO4,ChEBI:28867,5923
+pcrn_m,O-propanoylcarnitine,0,C03017,C10H19NO4,ChEBI:28867,5923
+pcrn_x,O-propanoylcarnitine,0,C03017,C10H19NO4,ChEBI:28867,5923
+thmtp_c,thiamine(+) triphosphate(4-),-3,C03028,C12H16N4O10P3S,ChEBI:9534,5933
+bdglusd_c,beta-D-glucuronoside,0,C03033,C6H9O7R,ChEBI:15341,5938
+btd_RR_c,"(R,R)-butane-2,3-diol",0,C03044,C4H10O2,ChEBI:16982,5947
+btd_RR_e,"(R,R)-butane-2,3-diol",0,C03044,C4H10O2,ChEBI:16982,5947
+2ohp3a_c,2-oxohept-3-enedioate,-2,C03063,C7H6O5,ChEBI:1254,5963
+4gudbd_c,4-guanidiniumylbutanamide(1+),1,C03078,C5H13N4O,ChEBI:18062,5976
+4pasp_c,4-phosphonato-L-aspartic acid(2-),-2,C03082,C4H6NO7P,ChEBI:15836,5980
+5acetamidopentanoate_c,5-acetamidopentanoate,-1,C03087,C7H12NO3,ChEBI:2024,5985
+pram_c,5-phospho-beta-D-ribosylaminium(1-),-1,C03090,C5H11NO7P,ChEBI:37737,5988
+cystrna_c,Cys-tRNA(Cys),0,C03125,,ChEBI:29152,6018
+iletrna_c,Ile-tRNA(Ile),0,C03127,,ChEBI:29160,6020
+rnam_c,N-ribosylnicotinamide,1,C03150,C11H15N2O5,ChEBI:15927,6038
+rnam_e,N-ribosylnicotinamide,1,C03150,C11H15N2O5,ChEBI:15927,6038
+skm5p_c,shikimate 5-phosphate(3-),-3,C03175,C7H8O8P,ChEBI:17052,6057
+bhbS_c,(S)-3-hydroxybutyrate,-1,C03197,C4H7O3,ChEBI:11047,6074
+hLkynr_c,3-hydroxy-L-kynurenine,0,C03227,C10H12N2O4,ChEBI:17380,6099
+3mgcoa_m,trans-3-methylglutaconyl-CoA(5-),-5,C03231,C27H37N7O19P3S,ChEBI:15488,6102
+3php_c,3-phosphonatooxypyruvate(3-),-3,C03232,C3H2O7P,ChEBI:18110,6103
+cpppg3_c,coproporphyrinogen III(4-),-4,C03263,C36H40N4O8,ChEBI:15439,6127
+oxptn_c,5-oxopentanoate,-1,C03273,C5H7O3,ChEBI:16120,6134
+imzpyr_c,3-(imidazol-5-yl)pyruvate(1-),-1,C03277,C6H5N2O3,ChEBI:17406,6136
+3aib_c,(S)-3-aminoisobutyric acid zwitterion,0,C03284,C4H9NO2,ChEBI:18188,6143
+glu5p_c,L-gamma-glutamyl phosphate(2-),-2,C03287,C5H8NO7P,ChEBI:17798,6144
+2maacoa_m,2-methylacetoacetyl-CoA,-4,C03344,C26H38N7O18P3S,ChEBI:15476,6187
+1agly3p_c,1-acylglycerone 3-phosphate,-2,C03372,C4H5O7PR,ChEBI:15835,6207
+air_c,5-amino-1-(5-phosphonato-D-ribosyl)imidazol-3-ium,-1,C03373,C8H13N3O7P,ChEBI:138560,6208
+gal14lac_c,"D-galactono-1,4-lactone",0,C03383,C6H10O6,ChEBI:15895,6218
+asntrna_c,Asn-tRNA(Asn),0,C03402,,ChEBI:29265,6232
+argsuc_c,(N(omega)-L-arginino)succinate(1-),-1,C03406,C10H17N4O6,ChEBI:15682,6235
+lgtS_c,(R)-S-lactoylglutathionate,-1,C03451,C13H20N3O8S,ChEBI:15694,6272
+goxcrot_c,gamma-oxalocrotonate,-2,C03453,C6H4O5,ChEBI:16967,6273
+goxcrot_e,gamma-oxalocrotonate,-2,C03453,C6H4O5,ChEBI:16967,6273
+2mp2coa_m,methacrylyl-CoA(4-),-4,C03460,C25H36N7O17P3S,ChEBI:27754,6280
+5fthf_c,(6S)-5-formyltetrahydrofolate,-2,C03479,C20H21N7O7,ChEBI:15640,6294
+5fthf_e,(6S)-5-formyltetrahydrofolate,-2,C03479,C20H21N7O7,ChEBI:15640,6294
+5fthf_m,(6S)-5-formyltetrahydrofolate,-2,C03479,C20H21N7O7,ChEBI:15640,6294
+4ppan_c,(R)-4'-phosphonatopantothenate(3-),-3,C03492,C9H15NO8P,ChEBI:15905,6304
+3ig3p_c,"(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate(2-)",-2,C03506,C11H12NO6P,ChEBI:18299,6317
+2aobut_c,L-2-amino-3-oxobutanoic acid zwitterion,0,C03508,C4H7NO3,ChEBI:16944,6318
+phetrna_c,Phe-tRNA(Phe),0,C03511,,ChEBI:29153,6321
+trptrna_c,Trp-tRNA(Trp),0,C03512,,ChEBI:29159,6322
+5odhf2a_c,"5-oxo-4,5-dihydro-2-furylacetate",0,C03586,C6H6O4,ChEBI:18267,6377
+eryth4p_c,D-erythrulose 4-phosphate(2-),-2,C03604,C4H7O7P,ChEBI:4116,6394
+apoACP_c,apo-[acp],0,C03688,,ChEBI:16139,6463
+quln_c,quinolinate(2-),-2,C03722,C7H3NO4,ChEBI:16675,6487
+gluala_c,L-gamma-glutamyl-D-alaninate(1-),-1,C03738,C8H13N2O5,ChEBI:16834,6501
+3h3mglut_m,3-hydroxy-3-methylglutarate,0,C03761,C6H10O5,ChEBI:16831,6518
+4hoxpacd_c,(4-hydroxyphenyl)acetaldehyde,0,C03765,C8H8O2,ChEBI:15621,6521
+4hoxpacd_e,(4-hydroxyphenyl)acetaldehyde,0,C03765,C8H8O2,ChEBI:15621,6521
+tagdpD_c,"D-tagatofuranose 1,6-bisphosphate",-4,C03785,C6H10O12P2,ChEBI:4250,6535
+tmlys_c,"N6,N6,N6-trimethyl-L-lysine zwitterion",1,C03793,C9H21N2O2,ChEBI:17311,6542
+dcamp_c,"N(6)-(1,2-dicarboxylatoethyl)-AMP(4-)",-4,C03794,C14H14N5O11P,ChEBI:15919,6543
+2amusa_c,2-aminomuconate semialdehyde,-1,C03824,C6H6NO3,ChEBI:15745,6567
+2deh3dxyla_c,2-dehydro-3-deoxy-D-xylonate,0,C03826,C5H8O5,ChEBI:1060,6569
+2Dh3dLfucn_c,2-dehydro-3-deoxy-L-fuconate,-1,C03827,C6H9O5,ChEBI:16950,6570
+gar_c,N(1)-(5-phospho-D-ribosyl)glycinamide(1-),-1,C03838,C7H14N2O8P,ChEBI:18349,6578
+zymol_c,zymostenol,0,C03845,C27H46O,ChEBI:16608,6582
+dolmanp_c,dolichyl D-mannosyl phosphate,-1,C03862,C26H46O9P1,ChEBI:15809,6598
+pgp_m,1-(3-sn-phosphatidyl)-sn-glycerol 3-phosphate,-3,C03892,C8H11O13P2R2,ChEBI:37393,6624
+1pyr5c_c,(S)-1-pyrroline-5-carboxylate,-1,C03912,C5H6NO2,ChEBI:17388,6642
+1pyr5c_m,(S)-1-pyrroline-5-carboxylate,-1,C03912,C5H6NO2,ChEBI:17388,6642
+acACP_c,acetyl-[acp],0,C03939,C23H33N7O17P3S,ChEBI:17093,6663
+acACP_m,acetyl-[acp],0,C03939,C23H33N7O17P3S,ChEBI:17093,6663
+34hplac_c,(R)-3-(4-hydroxyphenyl)lactate,-1,C03964,C9H9O4,ChEBI:10980,6685
+34hplac_e,(R)-3-(4-hydroxyphenyl)lactate,-1,C03964,C9H9O4,ChEBI:10980,6685
+2ag3p_c,a 2-acyl-sn-glycerol 3-phosphate,-2,C03974,C4H6O7PR,ChEBI:17936,6693
+lkdr_c,2-dehydro-3-deoxy-L-rhamnonate,-1,C03979,C6H9O5,ChEBI:18078,6696
+b124tc_m,"but-1-ene-1,2,4-tricarboxylate",-3,C04002,C7H5O6,CHEBI:58174,6715
+mi3pD_c,1D-myo-inositol 3-phosphate,-2,C04006,C6H11O9P,ChEBI:18169,6716
+5cohe_c,5-carboxy-2-oxohept-3-enedioate,-3,C04052,C8H5O7,ChEBI:15924,6753
+L2aadp6sa_c,L-2-aminoadipate 6-semialdehyde,0,C04076,C6H11NO3,ChEBI:17917,6771
+mucl_c,mucolactone(1-),-1,C04105,C6H5O4,ChEBI:18080,6796
+acg5p_m,N-acetyl-L-glutamyl 5-phosphate,-3,C04133,C7H9NO8P,ChEBI:16878,6819
+hpglu_c,tetrahydropteroyltri-L-glutamate(4-),-4,C04144,C29H33N9O12,ChEBI:17420,6829
+hpglu_e,tetrahydropteroyltri-L-glutamate(4-),-4,C04144,C29H33N9O12,ChEBI:17420,6829
+nondp_c,all-trans-nonaprenyl diphosphate,-3,C04145,C45H73O7P2,ChEBI:18144,6830
+octdp_c,all-trans-octaprenyl diphosphate(3-),-3,C04146,C40H65O7P2,ChEBI:16275,6831
+5cmhm_c,5-carboxymethyl-2-hydroxymuconate,-3,C04186,C8H5O7,ChEBI:2040,6862
+5mdr1p_c,S-methyl-5-thio-alpha-D-ribose 1-phosphate(2-),-2,C04188,C6H11O7PS,ChEBI:27859,6864
+hepdp_c,all-trans-heptaprenyl diphosphate,-3,C04216,C35H57O7P2,ChEBI:17613,6889
+pendp_c,all-trans-pentaprenyl diphosphate(3-),-3,C04217,C25H41O7P2,ChEBI:16818,6890
+pendp_m,all-trans-pentaprenyl diphosphate(3-),-3,C04217,C25H41O7P2,ChEBI:16818,6890
+2mcacn_c,2-methyl-cis-aconitate,-3,C04225,C7H5O6,ChEBI:16717,6896
+2mcacn_m,2-methyl-cis-aconitate,-3,C04225,C7H5O6,ChEBI:16717,6896
+1agpc_c,1-O-acyl-sn-glycero-3-phosphocholine(1+),1,C04230,C9H20NO7PR,ChEBI:17504,6900
+2agpc_c,2-acyl-sn-glycero-3-phosphocholine(1+),1,C04233,C9H20NO7PR,ChEBI:16728,6902
+3c4mop_c,3-carboxy-4-methyl-2-oxopentanoate,-2,C04236,C7H8O5,ChEBI:1467,6905
+acgam1p_c,N-acetyl-alpha-D-glucosamine 1-phosphate(2-),-2,C04256,C8H14NO9P,ChEBI:7125,6921
+acmanap_c,N-acetyl-D-mannosamine 6-phosphate(2-),-2,C04257,C8H14NO9P,ChEBI:28273,6922
+23dhmb_m,"(R)-2,3-dihydroxy-3-methylbutanoate",-1,C04272,C5H9O4,ChEBI:15684,6935
+1pyr3h5c_m,L-1-pyrroline-3-hydroxy-5-carboxylate,-1,C04281,C5H6NO3,ChEBI:27391,6943
+4mhetz_c,5-(2-hydroxyethyl)-4-methylthiazole,0,C04294,C6H9NOS,ChEBI:17957,6954
+pran_c,N-(5-phosphonato-beta-D-ribosyl)anthranilate,-3,C04302,C12H13NO9P,ChEBI:18277,6961
+ptd2meeta_c,"phosphatidyl-N,N-dimethylethanolamine",0,C04308,C9H16NO8PR2,ChEBI:17152,6966
+4mpetz_c,4-methyl-5-(2-phosphonatooxyethyl)thiazole(2-),-2,C04327,C6H8NO4PS,ChEBI:17857,6980
+dmlz_c,"6,7-dimethyl-8-(1-D-ribityl)lumazine(1-)",-1,C04332,C13H17N4O6,ChEBI:17601,6983
+4ppcys_c,N-[(R)-4-phosphonatopantothenoyl]-L-cysteinate(3-),-3,C04352,C12H20N2O9PS,ChEBI:15769,7001
+fgam_c,N(2)-formyl-N(1)-(5-phospho-D-ribosyl)glycinamide(2-),-2,C04376,C8H13N2O9P,ChEBI:18272,7017
+cmusa_c,aminocarboxymuconate semialdehyde,-2,C04409,C7H5NO5,ChEBI:995,7044
+3c2hmp_c,3-carboxy-2-hydroxy-4-methylpentanoate,-2,C04411,C7H10O5,ChEBI:35121,7045
+amob_c,S-adenosyl-4-methylthio-2-oxobutanoate,-1,C04425,C15H20N5O6S,ChEBI:8944,7057
+amob_e,S-adenosyl-4-methylthio-2-oxobutanoate,-1,C04425,C15H20N5O6S,ChEBI:8944,7057
+cisdienlact_c,cis-dienelactone,0,C04431,C6H4O4,ChEBI:18371,7062
+cisdienlact_e,cis-dienelactone,0,C04431,C6H4O4,ChEBI:18371,7062
+1gr3petha_c,1-acyl-sn-glycero-3-phosphoethanolamine,0,C04438,C6H13NO7PR,CHEBI:29017,7069
+5aprbu_c,5-amino-6-(5-phosphoribitylamino)uracil(2-),-2,C04454,C9H15N4O9P,ChEBI:18247,7081
+mhpglu_c,5-methyltetrahydropteroyltri-L-glutamate(4-),-4,C04489,C30H35N9O12,ChEBI:17614,7108
+nacglc2p_c,N-acetyl-D-glucosaminyldiphosphodolichol,0,C04500,C33H59NO12P2,ChEBI:18278,24892748
+fecost_c,fecosterol,0,C04525,C28H46O,ChEBI:17038,7136
+fecost_e,fecosterol,0,C04525,C28H46O,ChEBI:17038,7136
+fecost_l,fecosterol,0,C04525,C28H46O,ChEBI:17038,7136
+fecost_r,fecosterol,0,C04525,C28H46O,ChEBI:17038,7136
+chito2pdpl_c,"N,N'-diacetylchitobiosyldiphosphodolichol",0,C04537,C41H72N2O17P2,ChEBI:12427,7144
+ptd3ino_c,1-phosphatidyl-1D-myo-inositol 3-phosphate(3-),-3,C04549,C11H15O16P2R2,ChEBI:17283,7155
+4ampm_c,4-amino-2-methyl-5-phosphonatooxymethylpyrimidine(2-),-2,C04556,C6H8N3O4P,ChEBI:18032,7161
+udcpdp_c,"di-trans,poly-cis-undecaprenyl diphosphate(3-)",-3,C04574,C55H89O7P2,ChEBI:18197,7175
+5mdru1p_c,S-methyl-5-thio-D-ribulose 1-phosphate(2-),-2,C04582,C6H11O7PS,ChEBI:28096,7183
+micit_c,"(2R,3S)-2-methylisocitrate(3-)",-3,C04593,C7H7O7,ChEBI:15607,7191
+micit_m,"(2R,3S)-2-methylisocitrate(3-)",-3,C04593,C7H7O7,ChEBI:15607,7191
+ptd145bp_c,"1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate(5-)",-5,C04637,C11H14O19P3R2,CHEBI:58456,7226
+fpram_c,2-formamido-N(1)-(5-phospho-D-ribosyl)acetamidine,0,C04640,C8H16N3O8P,ChEBI:18413,7229
+5cmhmsa_c,2-hydroxy-5-carboxymethylmuconate-Semialdehyde,-2,C04642,C8H6O6,ChEBI:17142,7231
+eig3p_c,D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate(2-),-2,C04666,C6H9N2O6P,ChEBI:17805,7249
+aicar_c,5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide(2-),-2,C04677,C9H13N4O8P,ChEBI:18406,7258
+2dda7p_c,2-dehydro-3-deoxy-D-arabino-heptonate 7-phosphate,-3,C04691,C7H10O10P,ChEBI:18150,7271
+4r5au_c,5-amino-6-(D-ribitylamino)uracil,0,C04732,C9H16N4O6,ChEBI:15934,7303
+fprica_c,5-formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide(2-),-2,C04734,C10H13N4O9P,ChEBI:18381,7305
+5aizc_c,5-amino-1-(5-phosphonato-D-ribosyl)imidazolium-4-carboxylate(2-),-2,C04751,C9H12N3O9P,ChEBI:28413,7321
+2mahmp_c,4-amino-2-methyl-5-diphosphonatooxymethylpyrimidine(3-),-3,C04752,C6H8N3O7P2,ChEBI:16629,7322
+2ahhmd_c,"(7,8-dihydropterin-6-yl)methyl diphosphate(3-)",-3,C04807,C7H8N5O8P2,ChEBI:15998,7369
+25aics_c,(S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate,-4,C04823,C13H15N4O12P,CHEBI:58443,160666
+dhnpt_c,"7,8-dihydroneopterin",0,C04874,C9H13N5O4,ChEBI:17001,7426
+ahdt_c,"7,8-dihydroneopterin 3'-triphosphate(4-)",-4,C04895,C9H12N5O13P3,ChEBI:18372,7446
+prfp_c,1-(5-phospho-beta-D-ribosyl)-5-[(5-phospho-beta-D-ribosylamino)methylideneamino]imidazole-4-carboxamide(4-),-4,C04896,C15H21N5O15P2,ChEBI:18302,7447
+prlp_c,5-[(5-phospho-1-deoxy-D-ribulos-1-ylimino)methylamino]-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide(4-),-4,C04916,C15H21N5O15P2,ChEBI:27735,7464
+4mzym_r,4alpha-methylzymosterol,0,C05103,C28H46O,ChEBI:1949,7531
+7dhdmos_c,7-dehydrodesmosterol,0,C05107,C27H42O,ChEBI:27910,7533
+44mzym_c,14-demethyllanosterol,0,C05108,C29H48O,ChEBI:18364,7534
+44mzym_e,14-demethyllanosterol,0,C05108,C29H48O,ChEBI:18364,7534
+44mzym_r,14-demethyllanosterol,0,C05108,C29H48O,ChEBI:18364,7534
+imzacald_c,imidazole acetaldehyde,0,C05130,C5H6N2O,ChEBI:27398,7550
+dad5_c,5'-deoxyadenosine,0,C05198,C10H13N5O3,ChEBI:17319,7603
+dad5_m,5'-deoxyadenosine,0,C05198,C10H13N5O3,ChEBI:17319,7603
+3dh5hpb_c,"3-hexaprenyl-4,5-dihydroxybenzoate",-1,C05200,C37H53O4,ChEBI:18081,7605
+3dh5hpb_m,"3-hexaprenyl-4,5-dihydroxybenzoate",-1,C05200,C37H53O4,ChEBI:18081,7605
+ddcACP_c,dodecanoyl-[acp],0,C05223,C33H58N7O17P3S,,7620
+ddcACP_m,dodecanoyl-[acp],0,C05223,C33H58N7O17P3S,,7620
+3ohxdcoa_m,3-oxo-palmitoyl-CoA,-4,C05259,C37H60N7O18P3S,CHEBI:57349,7646
+3ohxdcoa_x,3-oxo-palmitoyl-CoA,-4,C05259,C37H60N7O18P3S,CHEBI:57349,7646
+3htdcoa_m,(S)-3-hydroxytetradecanoyl-CoA,-4,C05260,C35H52N7O18P3S,ChEBI:27466,7647
+3htdcoa_x,(S)-3-hydroxytetradecanoyl-CoA,-4,C05260,C35H52N7O18P3S,ChEBI:27466,7647
+3otdcoa_m,3-oxo-tetradecanoyl-CoA,-4,C05261,C35H54N7O18P3S,ChEBI:28726,7648
+3otdcoa_x,3-oxo-tetradecanoyl-CoA,-4,C05261,C35H54N7O18P3S,ChEBI:28726,7648
+3ooccoa_m,3-oxo-octanoyl-CoA,-4,C05267,C29H44N7O18P3S,CHEBI:62619,7654
+3ooccoa_x,3-oxo-octanoyl-CoA,-4,C05267,C29H44N7O18P3S,CHEBI:62619,7654
+hxcoa_c,hexanoyl-CoA(4-),-4,C05270,C27H42N7O17P3S,ChEBI:27540,7657
+hxcoa_m,hexanoyl-CoA(4-),-4,C05270,C27H42N7O17P3S,ChEBI:27540,7657
+hxcoa_x,hexanoyl-CoA(4-),-4,C05270,C27H42N7O17P3S,ChEBI:27540,7657
+dccoa_c,decanoyl-CoA,-4,C05274,C31H50N7O17P3S,ChEBI:28493,7661
+dccoa_m,decanoyl-CoA,-4,C05274,C31H50N7O17P3S,ChEBI:28493,7661
+dccoa_x,decanoyl-CoA,-4,C05274,C31H50N7O17P3S,ChEBI:28493,7661
+3hph5mb_m,3-hexaprenyl-4-hydroxy-5-methoxybenzoate,0,C05313,C38H56O4,ChEBI:16835,7695
+peamn_c,2-phenylethanaminium,1,C05332,C8H12N,ChEBI:18397,7711
+peamn_e,2-phenylethanaminium,1,C05332,C8H12N,ChEBI:18397,7711
+e_c,electron,-1,C05359 , ,CheBi:10545,7736
+s7p_c,sedoheptulose 7-phosphate(2-),-2,C05382,C7H13O10P,ChEBI:15721,7756
+melibiitol_c,melibiitol,0,C05399,C12H24O11,ChEBI:27527,7766
+melibiitol_e,melibiitol,0,C05399,C12H24O11,ChEBI:27527,7766
+epimel_c,epimelibiose,0,C05400,C12H22O11,ChEBI:4808,7767
+epimel_e,epimelibiose,0,C05400,C12H22O11,ChEBI:4808,7767
+bgalgly_c,3-beta-D-galactosyl-sn-glycerol,0,C05401,C9H18O8,ChEBI:15754,7768
+bgalgly_e,3-beta-D-galactosyl-sn-glycerol,0,C05401,C9H18O8,ChEBI:15754,7768
+phytof_c,all-trans-phytofluene,0,C05414,C40H62,ChEBI:28129,7780
+phytoe_c,15-cis-phytoene,0,C05421,C40H64,ChEBI:27787,7785
+zcarote_c,all-trans-zeta-carotene,0,C05430,C40H60,ChEBI:27362,7794
+neuspn_c,neurosporene,0,C05431,C40H58,ChEBI:16833,7795
+lycop_c,lycopene,0,C05432,C40H56,ChEBI:15948,7796
+lycop_e,lycopene,0,C05432,C40H56,ChEBI:15948,7796
+gcarote_c,gamma-carotene,0,C05435,C40H56,ChEBI:27740,7799
+zymst_c,zymosterol,0,C05437,C27H44O,ChEBI:18252,7800
+zymst_e,zymosterol,0,C05437,C27H44O,ChEBI:18252,7800
+zymst_l,zymosterol,0,C05437,C27H44O,ChEBI:18252,7800
+zymst_r,zymosterol,0,C05437,C27H44O,ChEBI:18252,7800
+zymst_1g_r,zymosterol,0,C05437,,ChEBI:18252,7800
+5ac724d3b_c,"5alpha-cholesta-7,24-dien-3beta-ol",0,C05439,C27H44O,ChEBI:16290,7801
+ergtetrol_c,"ergosta-5,7,22,24(28)-tetraen-3beta-ol",0,C05440,C28H42O,ChEBI:18249,7802
+ergtetrol_e,"ergosta-5,7,22,24(28)-tetraen-3beta-ol",0,C05440,C28H42O,ChEBI:18249,7802
+ergtetrol_r,"ergosta-5,7,22,24(28)-tetraen-3beta-ol",0,C05440,C28H42O,ChEBI:18249,7802
+din_c,2'-deoxyinosine,0,C05512,C10H12N4O4,ChEBI:28997,7859
+din_e,2'-deoxyinosine,0,C05512,C10H12N4O4,ChEBI:28997,7859
+athrL_c,L-allothreonine,0,C05519,C4H9NO3,ChEBI:28718,7864
+3snpyr_c,3-sulfinopyruvate,-2,C05527,C3H2O5S,ChEBI:1665,7870
+prot_tmlys_c,"protein N6,N6,N6-trimethyl-L-lysine",0,C05546,,ChEBI:8551,7882
+6acad2ohext_c,6-acetamido-2-oxohexanoate,-1,C05548,C8H12NO4,ChEBI:28376,7884
+2hhp24a_c,"2-hydroxyhepta-2,4-dienedioate",-2,C05600,C7H6O5,ChEBI:1162,7923
+phlacR_c,(R)-3-phenyllactate,-1,C05607,C9H9O3,ChEBI:32978,7930
+4hcinnmld_c,4-coumaric aldehyde,0,C05608,C9H8O2,ChEBI:28353,7931
+34dh5mbza_c,"3,4-dihydroxy-5-methoxy benzoic acid",0,C05616,C8H8O5,ChEBI:28647,7935
+4vinylphenol_c,4-vinylphenol,0,C05627,C8H8O,ChEBI:1883,7942
+42A3HP24DB_c,"4-(2-amino-3-hydroxyphenyl)-2,4-dioxobutanoate",-1,C05645,C10H8NO5,,7956
+hicit_m,(-)-homoisocitrate(3-),-3,C05662,C7H7O7,ChEBI:15404,7972
+aproa_c,3-aminopropanal,0,C05665,C3H7NO,ChEBI:18090,7975
+3hpcoa_m,3-hydroxypropanoyl-CoA(4-),-4,C05668,C24H36N7O18P3S,ChEBI:27762,7976
+aprop_c,alpha-aminopropionitrile,0,C05714,C3H6N2,ChEBI:27959,8021
+aprop_e,alpha-aminopropionitrile,0,C05714,C3H6N2,ChEBI:27959,8021
+acybut_c,gamma-amino-gamma-cyanobutanoate,0,C05715,C5H8N2O2,ChEBI:28474,8022
+acybut_e,gamma-Amino-gamma-cyanobutanoate,0,C05715,C5H8N2O2,ChEBI:28474,8022
+actACP_c,acetoacetyl-[acp],0,C05744,C25H35N7O18P3S,ChEBI:2393,8039
+actACP_m,acetoacetyl-[acp],0,C05744,C25H35N7O18P3S,ChEBI:2393,8039
+btACP_c,butyryl-[acp],0,C05745,C25H42N7O17P3S,ChEBI:3247,8040
+btACP_m,butyryl-[acp],0,C05745,C25H42N7O17P3S,ChEBI:3247,8040
+3ohxACP_c,3-oxo-hexanoyl-[acp],0,C05746,C27H44N7O18P3S,ChEBI:1642,8041
+3ohxACP_m,3-oxo-hexanoyl-[acp],0,C05746,C27H44N7O18P3S,ChEBI:1642,8041
+hx2eACP_c,(2E)-hexenoyl-[acp],0,C05748,C27H46N7O17P3S,CHEBI:10727,8043
+hx2eACP_m,(2E)-hexenoyl-[acp],0,C05748,C27H46N7O17P3S,CHEBI:10727,8043
+hxACP_c,hexanoyl-[acp],0,C05749,C27H46N7O17P3S,ChEBI:5704,8044
+hxACP_m,hexanoyl-[acp],0,C05749,C27H46N7O17P3S,ChEBI:5704,8044
+3oocACP_c,3-oxo-octanoyl-[acp],0,C05750,C29H48N7O18P3S,ChEBI:1646,8045
+3oocACP_m,3-oxo-octanoyl-[acp],0,C05750,C29H48N7O18P3S,ChEBI:1646,8045
+oc2eACP_c,(2E)-octenoyl-[acp],0,C05751,C29H50N7O17P3S,,8046
+oc2eACP_m,(2E)-octenoyl-[acp],0,C05751,C29H50N7O17P3S,,8046
+ocACP_c,octanoyl-[acp],0,C05752,C29H50N7O17P3S,ChEBI:7725,8047
+ocACP_m,octanoyl-[acp],0,C05752,C29H50N7O17P3S,ChEBI:7725,8047
+3odcACP_c,3-oxo-decanoyl-[acp],0,C05753,C31H52N7O18P3S,ChEBI:1634,8048
+3odcACP_m,3-oxo-decanoyl-[acp],0,C05753,C31H52N7O18P3S,ChEBI:1634,8048
+dc2eACP_c,(2E)-decenoyl-[acp],0,C05754,C31H54N7O17P3S,ChEBI:10724,8049
+dc2eACP_m,(2E)-decenoyl-[acp],0,C05754,C31H54N7O17P3S,ChEBI:10724,8049
+dcACP_c,decanoyl-[acp],0,C05755,C31H54N7O17P3S,ChEBI:4349,8050
+dcACP_m,decanoyl-[acp],0,C05755,C31H54N7O17P3S,ChEBI:4349,8050
+3oddcACP_c,3-oxo-dodecanoyl-[acp],0,C05756,C33H51N7O18P3S,ChEBI:1637,8051
+3oddcACP_m,3-oxo-dodecanoyl-[acp],0,C05756,C33H51N7O18P3S,ChEBI:1637,8051
+ddc2eACP_c,(2E)-dodecenoyl-[acp],0,C05758,C33H58N7O17P3S,CHEBI:10725,8053
+ddc2eACP_m,(2E)-dodecenoyl-[acp],0,C05758,C33H58N7O17P3S,CHEBI:10725,8053
+3otdACP_c,3-oxo-tetradecanoyl-[acp],0,C05759,C35H56N7O18P3S,ChEBI:1655,8054
+3otdACP_m,3-oxo-tetradecanoyl-[acp],0,C05759,C35H56N7O18P3S,ChEBI:1655,8054
+td2eACP_c,(2E)-tetradecenoyl-[acp],0,C05760,C35H58N7O17SP3,CHEBI:10735,8055
+td2eACP_m,(2E)-tetradecenoyl-[acp],0,C05760,C35H58N7O17SP3,CHEBI:10735,8055
+tdACP_c,tetradecanoyl-[acp],0,C05761,C35H58N7O17SP3,ChEBI:50651,8056
+tdACP_m,tetradecanoyl-[acp],0,C05761,C35H58N7O17SP3,ChEBI:50651,8056
+3ohxdACP_c,3-oxo-hexadecanoyl-[acp],0,C05762,C37H60N7O18P3S,ChEBI:1639,8057
+3ohxdACP_m,3-oxo-hexadecanoyl-[acp],0,C05762,C37H60N7O18P3S,ChEBI:1639,8057
+hxd2eACP_c,(2E)-hexadecenoyl-[acp],0,C05763,C37H62N7O17P3S,ChEBI:10729,8058
+hxd2eACP_m,(2E)-hexadecenoyl-[acp],0,C05763,C37H62N7O17P3S,ChEBI:10729,8058
+hxdACP_c,palmitoyl-[acp],0,C05764,C37H62N7O17P3S,ChEBI:5697,8059
+hxdACP_m,palmitoyl-[acp],0,C05764,C37H62N7O17P3S,ChEBI:5697,8059
+scl_c,sirohydrochlorin(8-),-8,C05778,C42H38N4O16,ChEBI:18023,8073
+2hp6mp_m,2-hexaprenyl-6-methoxyphenol,0,C05802,C37H56O2,ChEBI:1109,8097
+2hp6mbq_m,"2-Hexaprenyl-6-methoxy-1,4-benzoquinone",0,C05803,C37H54O3,ChEBI:27752,8098
+2hpmmbq_m,"2-hexaprenyl-6-methoxy-3-methyl-1,4-benzoquinone",0,C05804,C38H56O3,ChEBI:28711,8099
+2hpmhmbq_m,"2-hexaprenyl-5-hydroxy-6-methoxy-3-methyl-1,4-benzoquinone",0,C05805,C38H56O4,ChEBI:28753,8100
+mkyn_c,8-Methoxykynurenate,0,C05830,C11H9NO4,ChEBI:2323,8124
+mkyn_e,8-Methoxykynurenate,0,C05830,C11H9NO4,ChEBI:2323,8124
+nicrns_c,D-ribosylnicotinate,0,C05841,C11H13NO6,ChEBI:27748,8134
+dodcdp_c,all-trans-dodecaprenyl diphosphate(3-),-3,C05847,C60H97O7P2,ChEBI:37531,8140
+2hyoxplac_c,(2-hydroxyphenyl)acetate,-1,C05852,C8H7O3,ChEBI:28478,8145
+2hyoxplac_e,(2-hydroxyphenyl)acetate,-1,C05852,C8H7O3,ChEBI:28478,8145
+2phetoh_c,2-phenylethanol,0,C05853,C8H10O,ChEBI:49000,8146
+2phetoh_e,2-phenylethanol,0,C05853,C8H10O,ChEBI:49000,8146
+mpdol_c,"a beta-1,4-D-mannosylchitobiosyldiphosphodolichol",0,C05860,C47H82N2O22P2,ChEBI:18396,8153
+dhpmp_c,"7,8-dihydroneopterin 3'-phosphate(2-)",-2,C05925,C9H12N5O7P,ChEBI:48954,8213
+4h2oglt_m,D-4-hydroxy-2-oxoglutarate(2-),-2,C05946,C5H4O6,ChEBI:4083,8230
+e4hglu_m,erythro-4-hydroxy-L-glutamate(1-),-1,C05947,C5H8NO5,ChEBI:21285,8231
+2gr3petha_c,2-acyl-sn-glycero-3-phosphoethanolamine,0,C05973,C6H13NO7PR,ChEBI:28936,8253
+ppoh_c,propan-1-ol,0,C05979,C3H8O,ChEBI:28831,8258
+clpn_m,cardiolipin(2-),-2,C05980,C13H16O17P2R4,CHEBI:62237,8259
+pail345p_c,"1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate",-6,C05981,C11H14O22P4R2,ChEBI:16618,8260
+hibcoa_m,(S)-3-hydroxyisobutyryl-CoA(4-),-4,C06000,C25H38N7O18P3S,ChEBI:28259,8274
+3hmp_c,(S)-3-hydroxyisobutyrate,-1,C06001,C4H7O3,ChEBI:37373,8275
+3hmp_e,(S)-3-hydroxyisobutyrate,-1,C06001,C4H7O3,ChEBI:37373,8275
+3hmp_m,(S)-3-hydroxyisobutyrate,-1,C06001,C4H7O3,ChEBI:37373,8275
+mmtsa_c,(S)-methylmalonate semialdehyde,-1,C06002,C4H5O3,ChEBI:27821,8276
+mmtsa_e,(S)-methylmalonate semialdehyde,-1,C06002,C4H5O3,ChEBI:27821,8276
+mmtsa_m,(S)-methylmalonate semialdehyde,-1,C06002,C4H5O3,ChEBI:27821,8276
+2ahbut_m,(S)-2-acetyl-2-hydroxybutanoate,-1,C06006,C6H9O4,ChEBI:27681,8279
+23dhmp_m,"(2R,3R)-2,3-dihydroxy-3-methylpentanoate",-1,C06007,C6H11O4,ChEBI:27512,8280
+alacS_c,(S)-2-acetolactate,0,C06010,C5H8O4,ChEBI:18409,8282
+alacS_m,(S)-2-acetolactate,0,C06010,C5H8O4,ChEBI:18409,8282
+tyrosol_c,2-(4-hydroxyphenyl)ethanol,0,C06044,C8H10O2,ChEBI:1879,8315
+tyrosol_e,2-(4-hydroxyphenyl)ethanol,0,C06044,C8H10O2,ChEBI:1879,8315
+ecopdp_c,ent-copalyl diphosphate,-3,C06089,C20H33O7P2,ChEBI:23375,8355
+ekaurene_c,ent-kaurene,0,C06090,C20H32,ChEBI:15415,8356
+ekaurene_e,ent-kaurene,0,C06090,C20H32,ChEBI:15415,8356
+zeax_c,zeaxanthin,0,C06098,C40H56O2,ChEBI:27547,8363
+zeax_e,zeaxanthin,0,C06098,C40H56O2,ChEBI:27547,8363
+6ohxoate_c,6-oxohexanoate(1-),-1,C06102,C6H9O3,ChEBI:18322,8366
+6hydroxyhexanoate_c,6-hydroxyhexanoate(1-),-1,C06103,C6H11O3,ChEBI:17869,8367
+adipate_c,adipate(2-),-2,C06104,C6H8O4,ChEBI:30832,8368
+adipate_m,adipate(2-),-2,C06104,C6H8O4,ChEBI:30832,8368
+hexadecenal_c,hexadecenal,0,C06123,C16H30O,ChEBI:17585,8380
+sphs1p_c,sphingosine 1-phosphate(1-),-1,C06124,C18H37NO5P,ChEBI:37550,8381
+btoh_c,butan-1-ol,0,C06142,C4H10O,ChEBI:28885,8398
+btoh_e,butan-1-ol,0,C06142,C4H10O,ChEBI:28885,8398
+arbt_c,arbutin,0,C06186,C12H16O7,ChEBI:18305,8437
+arbt_e,arbutin,0,C06186,C12H16O7,ChEBI:18305,8437
+24oxhp2a_c,"2,4-dihydroxyhept-2-enedioate",-2,C06201,C7H8O6,ChEBI:58936,8451
+salicylaldehyde_c,salicylaldehyde,0,C06202,C7H6O2,ChEBI:16008,8452
+ad_c,acetamide,0,C06244,C2H5NO,ChEBI:27856,8483
+ad_e,acetamide,0,C06244,C2H5NO,ChEBI:27856,8483
+vanol_c,vanillyl alcohol,0,C06317,C8H10O3,ChEBI:18353,8553
+vanol_e,vanillyl alcohol,0,C06317,C8H10O3,ChEBI:18353,8553
+cellb_e,beta-cellobiose,0,C06422,C12H22O11,ChEBI:36217,8657
+oca_c,octanoate,-1,C06423,C8H15O2,ChEBI:28837,8658
+oca_e,octanoate,-1,C06423,C8H15O2,ChEBI:28837,8658
+oca_m,octanoate,-1,C06423,C8H15O2,ChEBI:28837,8658
+oca_x,octanoate,-1,C06423,C8H15O2,ChEBI:28837,8658
+3Zoca_c,(3Z)-octenoate,0,C06423,C8H16O2,CHEBI:28837,379
+3Zoca_m,(3Z)-octenoate,0,C06423,C8H16O2,CHEBI:28837,379
+3Zoca_x,(3Z)-octenoate,0,C06423,C8H16O2,CHEBI:28837,379
+tda_c,tetradecanoate,-1,C06424,C14H27O2,ChEBI:30807,8659
+tda_e,tetradecanoate,-1,C06424,C14H27O2,ChEBI:30807,8659
+tda_m,tetradecanoate,-1,C06424,C14H27O2,ChEBI:30807,8659
+tda_x,tetradecanoate,-1,C06424,C14H27O2,ChEBI:30807,8659
+arach_c,arachidate,-1,C06425,C20H39O2,ChEBI:28822,8660
+arach_e,arachidate,-1,C06425,C20H39O2,ChEBI:28822,8660
+arach_x,arachidate,-1,C06425,C20H39O2,ChEBI:28822,8660
+xylu1p_c,L-xylulose 1-phosphate,-2,C06441,C5H9O8P,ChEBI:28566,8675
+2dhguln_c,2-dehydro-D-gluconate,-1,C06473,C6H9O7,ChEBI:27469,8705
+2dhguln_e,2-dehydro-D-gluconate,-1,C06473,C6H9O7,ChEBI:27469,8705
+vanlt_c,vanillate,-1,C06672,C8H7O4,ChEBI:16632,8897
+vanlt_e,vanillate,-1,C06672,C8H7O4,ChEBI:16632,8897
+vanlt_m,vanillate,-1,C06672,C8H7O4,ChEBI:16632,8897
+aacald_c,ammonioacetaldehyde,1,C06735,C2H6NO,ChEBI:58213,18706033
+aacald_e,ammonioacetaldehyde,1,C06735,C2H6NO,ChEBI:58213,18706033
+apeamn_c,N-acetylphenylethylamine,0,C06746,C10H13NO,ChEBI:18177,8967
+styrene_c,vinylbenzene,0,C07083,C8H8,ChEBI:27452,9294
+styrene_e,vinylbenzene,0,C07083,C8H8,ChEBI:27452,9294
+pac_c,phenylacetate,-1,C07086,C8H7O2,ChEBI:30745,9297
+pac_e,phenylacetate,-1,C07086,C8H7O2,ChEBI:30745,9297
+4h3mophe_beta_hppcoa_c,3-hydroxy-3-(4-hydroxy-3-methoxyphenyl)propanoyl-CoA(4-),-4,C07303,C31H42N7O20P3S,ChEBI:17068,9511
+iamoh_c,isoamylol,0,C07328,C5H12O,ChEBI:15837,9536
+iamoh_e,isoamylol,0,C07328,C5H12O,ChEBI:15837,9536
+3mbald_c,3-methylbutanal,0,C07329,C5H10O,ChEBI:16638,9537
+3mbald_e,3-methylbutanal,0,C07329,C5H10O,ChEBI:16638,9537
+3m2butenal_c,3-methyl-2-butenal,0,C07330,C5H8O,ChEBI:15825,9538
+3m2butenal_e,3-methyl-2-butenal,0,C07330,C5H8O,ChEBI:15825,9538
+14cyclohexdione_c,"cyclohexane-1,4-dione",0,C08063,C6H8O2,ChEBI:28286,10263
+14cyclohexdione_e,"cyclohexane-1,4-dione",0,C08063,C6H8O2,ChEBI:28286,10263
+gbiose_c,gentiobiose,0,C08240,C12H22O11,ChEBI:28066,10439
+gbiose_e,gentiobiose,0,C08240,C12H22O11,ChEBI:28066,10439
+3mb_c,3-methylbutanoate,-1,C08262,C5H9O2,ChEBI:28484,10461
+3mb_e,3-methylbutanoate,-1,C08262,C5H9O2,ChEBI:28484,10461
+mtpp_c,3-(methylthio)propionate,-1,C08276,C4H7O2S,ChEBI:1438,10474
+mtpp_e,3-(methylthio)propionate,-1,C08276,C4H7O2S,ChEBI:1438,10474
+behen_c,behenate,-1,C08281,C22H43O2,ChEBI:23858,10479
+behen_e,behenate,-1,C08281,C22H43O2,ChEBI:23858,10479
+behen_x,behenate,-1,C08281,C22H43O2,ChEBI:23858,10479
+ndodecane_c,dodecane,0,C08374,C12H26,ChEBI:28817,10570
+ndodecane_e,Dodecane,0,C08374,C12H26,ChEBI:28817,10570
+npentadecane_c,pentadecane,0,C08388,C15H32,ChEBI:28897,10584
+npentadecane_e,pentadecane,0,C08388,C15H32,ChEBI:28897,10584
+astaxanthin_c,"3S,3'S-astaxanthin",0,C08580,C40H52O4,ChEBI:40968,10773
+astaxanthin_e,"3S,3'S-astaxanthin",0,C08580,C40H52O4,ChEBI:40968,10773
+canthaxanthin_c,canthaxanthin,0,C08583,C40H52O2,ChEBI:3362,10776
+bcryptox_c,beta-cryptoxanthin,0,C08591,C40H56O,ChEBI:10362,10784
+echin_c,echinenone,0,C08592,C40H54O,ChEBI:4746,10785
+neuspxn_c,neurosporaxanthin,0,C08607,C35H46O2,ChEBI:7540,10800
+neuspxn_e,neurosporaxanthin,0,C08607,C35H46O2,ChEBI:7540,10800
+torulene_c,torulene,0,C08613,C40H54,ChEBI:9638,10806
+torulene_e,torulene,0,C08613,C40H54,ChEBI:9638,10806
+thfglu_c,tetrahydropteroyl di-L-glutamate,-3,C09332,C24H27N8O9,ChEBI:27650,11523
+thfglu_e,tetrahydropteroyl di-L-glutamate,-3,C09332,C24H27N8O9,ChEBI:27650,11523
+pica_c,picolinic acid,0,C10164,C6H5NO2,ChEBI:28747,12350
+pica_e,picolinic acid,0,C10164,C6H5NO2,ChEBI:28747,12350
+emodin_c,emodin,0,C10343,C15H10O5,ChEBI:42223,12529
+eugenol_c,eugenol,0,C10453,C10H12O2,ChEBI:4917,12636
+eugenol_e,eugenol,0,C10453,C10H12O2,ChEBI:4917,12636
+ieugenol_c,isoeugenol,0,C10469,C10H12O2,ChEBI:18224,12652
+ieugenol_e,isoeugenol,0,C10469,C10H12O2,ChEBI:18224,12652
+4hacetophenone_c,4'-hydroxyacetophenone,0,C10700,C8H8O2,ChEBI:28032,12883
+4hacetophenone_e,4'-hydroxyacetophenone,0,C10700,C8H8O2,ChEBI:28032,12883
+syringate_c,syringic acid,0,C10833,C9H10O5,ChEBI:68329,13016
+hmf_c,5-hydroxymethylfurfural,0,C11101,C6H6O3,ChEBI:412516,13283
+hmf_e,5-hydroxymethylfurfural,0,C11101,C6H6O3,ChEBI:412516,13283
+ppmi23456p_c,"1-diphospho-1D-myo-inositol 2,3,4,5,6-pentakisphosphate(13-)",-13,C11174,C6H6O27P7,ChEBI:62919,13356
+4adcho_c,4-amino-4-deoxychorismate(1-),-1,C11355,C10H10NO5,ChEBI:18198,13530
+44mctr_r,"4,4-dimethyl-5alpha-cholesta-8,14,24-trien-3beta-ol",0,C11455,C29H46O,ChEBI:17813,13626
+aconm_c,(2E)-3-(methoxycarbonyl)pent-2-enedioate,-1,C11514,C7H7O6,ChEBI:15663,13684
+aconm_e,(2E)-3-(methoxycarbonyl)pent-2-enedioate,-1,C11514,C7H7O6,ChEBI:15663,13684
+ppmi12346p_c,5-diphospho-1D-myo-inositol pentakisphosphate,-13,C11526,C6H6O27P7,ChEBI:30164,13694
+mi1456p_c,"1D-myo-Inositol 1,4,5,6-tetrakisphosphate",-8,C11555,C6H8O18P4,ChEBI:16067,13722
+ptd135bp_c,"1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate(5-)",-5,C11556,C11H14O19P3R2,CHEBI:57923,13723
+5hiu_c,5-hydroxyisouric acid,0,C11821,C5H4N4O4,ChEBI:18072,13985
+psphings_c,phytosphingosine(1+),1,C12144,C18H40NO3,ChEBI:46961,14291
+psphings_e,phytosphingosine(1+),1,C12144,C18H40NO3,ChEBI:46961,14291
+5houdic_c,(S)-2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline,0,C12248,C5H6N4O5,ChEBI:31132,14393
+iamac_c,isoamyl acetate,0,C12296,C7H14O2,ChEBI:31725,14440
+iamac_e,isoamyl acetate,0,C12296,C7H14O2,ChEBI:31725,14440
+pheac_c,phenethyl acetate,0,C12303,C10H12O2,ChEBI:31988,582694
+pheac_e,phenethyl acetate,0,C12303,C10H12O2,ChEBI:31988,582694
+dcal_c,decanal,0,C12307,C10H20O,ChEBI:31457,582698
+transdienlact_c,trans-dienelactone,0,C12838,C6H4O4,ChEBI:38107,583227
+transdienlact_e,trans-dienelactone,0,C12838,C6H4O4,ChEBI:38107,583227
+3ophb_5_c,3-hexaprenyl-4-aminobenzoate,-1,C13425,C37H53O3,ChEBI:31116,586167
+3ophb_5_m,3-hexaprenyl-4-aminobenzoate,-1,C13425,C37H53O3,ChEBI:31116,586167
+3hp4abz_m,3-hexaprenyl-4-aminobenzoate,-1,C13425,C37H54O3,ChEBI:31116,586167
+4hphac_c,4-hydroxyphenylacetate,0,C13636,C8H8O3,ChEBI:31128,586252
+4etpheoh_c,4-ethylphenol,0,C13637,C8H10O,ChEBI:49584,586253
+4etpheoh_e,4-ethylphenol,0,C13637,C8H10O,ChEBI:49584,586253
+4hpheetoh_c,4-(1-hydroxyethyl)phenol,0,C13638,C8H10O2,ChEBI:31042,586254
+4hpheetoh_e,4-(1-hydroxyethyl)phenol,0,C13638,C8H10O2,ChEBI:31042,586254
+paxilline_c,paxilline,0,C13782,C27H33NO4,ChEBI:34907,854027
+ntridecane_c,tridecane,0,C13834,C13H28,ChEBI:35998,854079
+ntridecane_e,tridecane,0,C13834,C13H28,ChEBI:35998,854079
+adpcoa_m,adipoyl-CoA(5-),-5,C14143,C27H39N7O19P3S,ChEBI:34528,7846955
+2E5cptcoa_m,5-carboxy-(2E)-pentenoyl-CoA,-4,C14144,C27H38N7O19P3S,ChEBI:34453,7846956
+hmgth_c,S-(hydroxymethyl)glutathione(1-),-1,C14180,C11H18N3O7S,ChEBI:48926,7846992
+hmgth_x,S-(hydroxymethyl)glutathione(1-),-1,C14180,C11H18N3O7S,ChEBI:48926,7846992
+furfural_c,furfural,0,C14279,C5H4O2,ChEBI:34768,17395279
+furfural_e,furfural,0,C14279,C5H4O2,ChEBI:34768,17395279
+ntridecanol_c,1-tridecanol,0,C14509,C13H28O,ChEBI:34123,17395509
+tea_c,triethylammonium ion,0,C14691,C6H15N,ChEBI:35026,17395690
+tea_e,triethylammonium ion,0,C14691,C6H15N,ChEBI:35026,17395690
+ibutoh_c,isobutanol,0,C14710,C4H10O,ChEBI:46645,17395709
+ibutoh_e,isobutanol,0,C14710,C4H10O,ChEBI:46645,17395709
+fe2_c,iron(2+),2,C14818,Fe,ChEBI:29033,17395816
+fe2_e,iron(2+),2,C14818,Fe,ChEBI:29033,17395816
+fe2_m,iron(2+),2,C14818,Fe,ChEBI:29033,17395816
+8hpode_c,8(R)-HPODE,0,C14831,C18H32O4,ChEBI:34485,17395829
+desmethylsulochrin_c,demethylsulochrin(2-),-2,C15504,C16H12O7,ChEBI:48948,17396496
+4aHthbiopt_c,4a-hydroxytetrahydrobiopterin,0,C15522,C9H15N5O4,ChEBI:15374,17396514
+db4p_c,(2S)-2-hydroxy-3-oxobutyl phosphate(2-),-2,C15556,C4H7O6P,ChEBI:50606,45480552
+dhmtp_c,"1,2-dihydroxy-5-(methylthio)pent-1-en-3-one",0,C15606,C6H10O3S,ChEBI:49252,17396598
+dkmpp_c,"5-(methylsulfanyl)-2,3-dioxopentyl phosphate(2-)",-2,C15650,C6H9O6PS,ChEBI:50604,17396640
+hemeA_m,heme A,0,C15670,C49H56FeN4O6,ChEBI:36163,47204997
+hemeO_c,heme O,0,C15672,C49H58FeN4O5,ChEBI:24480,47204998
+hemeO_e,heme O,0,C15672,C49H58FeN4O5,ChEBI:24480,47204998
+hemeO_m,heme O,0,C15672,C49H58FeN4O5,ChEBI:24480,47204998
+epist_c,9xi-episterol,0,C15777,C28H46O,ChEBI:50586,47205103
+epist_e,9xi-episterol,0,C15777,C28H46O,ChEBI:50586,47205103
+epist_l,9xi-episterol,0,C15777,C28H46O,ChEBI:50586,47205103
+epist_r,9xi-episterol,0,C15777,C28H46O,ChEBI:50586,47205103
+ergtrol_c,"5,7,24(28)-ergostatrienol",0,C15778,C28H44O,ChEBI:80095,47205104
+4mzym_int1_r,4beta-methylzymosterol-4alpha-carboxylate,-1,C15808,C29H45O3,ChEBI:50591,47205133
+4mzym_int2_r,3-dehydro-4alpha-methylzymosterol,0,C15816,C28H44O,ChEBI:50593,47205141
+hydroxytorulene_c,1'-hydroxytorulene,-1,C15860,C40H56O,ChEBI:80134,47205180
+34didehydrolycopene_c,"all-trans-3,4-didehydrolycopene",0,C15867,C40H54,ChEBI:62474,47205187
+galctnL_c,"L-galactono-1,4-lactone",0,C15930,C6H12O7,ChEBI:37425,47205248
+3hydroxyechinone_c,3-hydroxyechinenone,0,C15966,C40H54O2,ChEBI:80215,47205279
+adonirubin_c,adonirubin,0,C15967,C40H52O3,ChEBI:80216,47205280
+2mbcoa_m,2-methylbutanoyl-CoA(4-),-4,C15980,C26H38N7O17P3S,ChEBI:90222,47205293
+lnlncgcoa_c,alpha-Linolenoyl-CoA,-4,C16162,C39H60N7O17P3S,ChEBI:51985,47205472
+3oocdcoa_m,3-oxo-stearoyl-CoA,-4,C16216,C39H64N7O18P3S,ChEBI:50571,47205524
+3oocdcoa_x,3-oxo-stearoyl-CoA,-4,C16216,C39H64N7O18P3S,ChEBI:50571,47205524
+2Eocdcoa_m,(2E)-octadecenoyl-CoA,-4,C16218,C39H64N7O17P3S,ChEBI:50570,47205526
+2Eocdcoa_x,(2E)-octadecenoyl-CoA,-4,C16218,C39H64N7O17P3S,ChEBI:50570,47205526
+ocdACP_c,stearoyl-[acp],0,C04088,C39H66N7O17P3S,ChEBI:80386,47205527
+ocdACP_m,stearoyl-[acp],0,C04088,C39H66N7O17P3S,ChEBI:80386,47205527
+3oocdACP_c,3-oxo-stearoyl-[acp],0,C16219,C39H66N7O18P3S,ChEBI:80386,47205527
+3oocdACP_m,3-oxo-stearoyl-[acp],0,C16219,C39H66N7O18P3S,ChEBI:80386,47205527
+ocd2eACP_c,(2E)-octadecenoyl-[acp],0,C16221,C39H66N7O17P3S,ChEBI:80388,47205529
+ocd2eACP_m,(2E)-octadecenoyl-[acp],0,C16221,C39H66N7O17P3S,ChEBI:80388,47205529
+behencoa_c,behenoyl-CoA(4-),-4,C16528,C43H74N7O17P3S,ChEBI:65088,51090857
+behencoa_r,behenoyl-CoA(4-),-4,C16528,C43H74N7O17P3S,ChEBI:65088,51090857
+behencoa_x,behenoyl-CoA(4-),-4,C16528,C43H74N7O17P3S,ChEBI:65088,51090857
+tccoa_c,tetracosanoyl-CoA,-4,C16529,C45H78N7O17P3S,ChEBI:52974,51090858
+tccoa_r,tetracosanoyl-CoA,-4,C16529,C45H78N7O17P3S,ChEBI:52974,51090858
+tccoa_x,tetracosanoyl-CoA,-4,C16529,C45H78N7O17P3S,ChEBI:52974,51090858
+d5r1p_c,D-5-deoxyribose 1-phosphate,0,C16637,C5H11O7P,CHEBI:48462,24906327
+34dhbzld_c,"3,4-dihydroxy benzaldehyde",0,C16700,C7H6O3,ChEBI:50205,96023224
+threitolD_c,D-threitol,0,C16884,C4H10O4,ChEBI:48300,96023387
+threitolD_e,D-threitol,0,C16884,C4H10O4,ChEBI:48300,96023387
+decdp_c,all-trans-decaprenyl diphosphate,-3,C17432,C50H81O7P2,ChEBI:60721,96023782
+ppdp_c,"di,trans poly-cis-polyprenyl diphosphate",-3,C17435,,CHEBI:81086,24892764
+4hdbzol_c,4-hydroxybenzyl alcohol,0,C17467,C7H8O2,ChEBI:67410,96023815
+q6_m,ubiquinone-6,0,C17568,C39H58O4,ChEBI:52971,96023913
+3mvphol_c,3-methoxy 4-vinylphenol,0,C17883,C9H10O2,ChEBI:42438,103061383
+4vinylguaiacol_c,4-vinylguaiacol,0,C17883,C9H10O2,ChEBI:42438,103061383
+4vinylguaiacol_e,4-vinylguaiacol,0,C17883,C9H10O2,ChEBI:42438,103061383
+Lfuc15lac_c,"L-fucono-1,5-lactone",0,C18028,C6H10O5,ChEBI:81457,96024248
+mlclpn_m,2-monolysocardiolipin,0,C18129,C12H19O16P2R3,ChEBI:60430,96024346
+12daghser_c,diacylglycerylhomoserine,0,C18168,C9H13NO7R2,ChEBI:81557,96024384
+dagnnn3mhser_c,"diacylglyceryl-N,N,N-trimethylhomoserine",0,C18169,C12H19NO7R2,ChEBI:81558,96024385
+dagnnn3mhser_e,"diacylglyceryl-N,N,N-trimethylhomoserine",0,C18169,C12H19NO7R2,ChEBI:81558,96024385
+25dthpp_c,"2,5-diamino-6-(1-D-ribitylamino)pyrimidin-4(3H)-one 5'-phosphate(2-)",-2,C18910,C9H16N5O8P,ChEBI:52402,124489582
+3hasp_c,(3R)-3-hydroxy-D-aspartate(1-),-1,C19813,C4H6NO5,,135626280
+3hasp_e,(3R)-3-hydroxy-D-aspartate(1-),-1,C19813,C4H6NO5,,135626280
+pimeACP_c,pimeloyl-[acp],0,C19845,C28H41N7O19P3S,,135626312
+adprib12cyclicp_c,"ADP-D-ribose 1',2'-cyclic phosphate(3-)",-3,C19851,C15H19N5O16P3,,135626318
+4apobetacarotenal_c,4'-apo-beta-carotenal,0,C19892,C35H46O,,135626358
+58DiHODE_c,"5S,8R-DiHODE",0,C20186,C18H32O4,,163311929
+58DiHODE_e,"5S,8R-DiHODE",0,C20186,C18H32O4,,163311929
+2carboxy4mthiazole5ethylphosphate_c,2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate,-3,C20247,C7H7NO6PS,,163311990
+furfurylalcohol_c,furfuryl alcohol,0,C20441,C5H6O2,ChEBI:207496,163312178
+furfurylalcohol_e,furfuryl alcohol,0,C20441,C5H6O2,ChEBI:207496,163312178
+25bishydroxymethylfuran_c,"2,5-furandimethanol",0,C20443,C6H8O3,ChEBI:59984,163312180
+25bishydroxymethylfuran_e,"2,5-furandimethanol",0,C20443,C6H8O3,ChEBI:59984,163312180
+3ggindole_c,3-geranylgeranylindole,0,C20525,C28H39N,ChEBI:144391,172232272
+1011e3ggi_c,"10,11-epoxy-3-geranylgeranylindole",0,C20526,C28H39NO,,172232273
+emindole_c,emindole SB,0,C20527,C28H39NO,,172232274
+1415epemi_c,"14,15-epoxyemindole SB",0,C20529,C28H39NO2,,172232275
+13dpxi_c,13-desoxypaxilline,0,C20531,C27H33NO3,,172232277
+12dm1112dhp_c,"12-demethyl-11,12-dehydropaspaline",0,C20534,C27H35NO2,,172232280
+bpcm6_c,beta-PC-M6,0,C20535,C27H35NO3,,172232281
+paspnne_c,paspalinine,0,C20554,C27H31NO4,ChEBI:138862,172232293
+aflatrem_c,aflatrem,0,C20555,C32H39NO4,,172232294
+aflatrem_e,aflatrem,0,C20555,C32H39NO4,,172232294
+2122dppax_c,"21,22-Diprenylpaxilline ",0,C20561,C37H49NO4,,172232298
+2122dppax_e,"21,22-Diprenylpaxilline ",0,C20561,C37H49NO4,,172232298
+m23bdo_c,"meso-butane-2,3-diol",0,C20657,C4H10O2,,172232379
+m23bdo_e,"meso-butane-2,3-diol",0,C20657,C4H10O2,,172232379
+2dh3dgal_c,2-keto-3-deoxy-L-galactonate,-1,C20680,C6H9O6,,172232400
+24Dk3dLfucn_c,"2,4-Diketo-3-deoxy-L-fuconate",-2,C20781,C6H6O5,,254741248
+adp5ethyl4methylthiazole_c,ADP-5-ethyl-4-methylthiazole-2-carboxylate(3-),-3,C20784,C17H19N6O12P2S,CHEBI:134399,254741251
+hdcoa_c,palmitoleoyl-CoA(4-),-4,C21072,C37H60N7O17P3S,,295369334
+zym_int1_r,"4alpha-carboxy-5alpha-cholesta-8,24-dien-3beta-ol",0,C22112,C28H44O3,,
+zym_int2_r,zymosterone,0,C22136,C27H42O,,
+fumiquinazoline_F_c,fumiquinazoline F,0,C22145,C21H18N4O2,,
+fumiquinazoline_F_indoline23diol_c,"fumiquinazoline F-indoline-2',3'-diol",0,C22146,C21H20N4O4,,
+fumiquinazoline_A_c,fumiquinazoline A,0,C22147,C24H23N5O4,,
+fumiquinazoline_C_c,fumiquinazoline C,0,C22148,C24H21N5O4,,
+fumiquinazoline_D_c,fumiquinazoline D,0,C22149,C24H21N5O4,,
+fumiquinazoline_D_e,fumiquinazoline  D,0,C22149,C24H21N5O4,,
+noctadecanol_c,octadecan-1-ol,0,D01924,C18H38O,ChEBI:32154,7848986
+ntetradecanol_c,tetradecan-1-ol,0,D05097,C14H30O,,47206822
+icosadp_c,icosaprenyl diphosphate,-3,,C100H161O7P2,ChEBI:53033,
+henicosadp_c,henicosaprenyl diphosphate,-3,,C105H169O7P2,ChEBI:53032,
+e34h3mph3opa_c,(E)-3-(4-hydroxy-3-methoxyphenyl)-3-oxo-propanoic acid,0,,C10H10O5,,329777512
+Nfortyr_c,N-formyl-L-tyrosine,0,,C10H11NO4,ChEBI:50603,
+345tmbza_c,"3,4,5-trimethoxy benzoic acid",0,,C10H12O5,ChEBI:454991,
+e34h3mph3hpa_c,(E)-3-(4-hydroxy-3-methoxyphenyl)-3-hydroxy-propanoic acid,0,,C10H12O5,,24871597
+35dimethyloctadienone_c,"3,5-dimethyloctadienone",0,,C10H18O2,,
+ndecane_c,decane,0,,C10H22,ChEBI:41808,
+ndecane_e,decane,0,,C10H22,ChEBI:41808,
+5hfer_c,5-hydroxy ferulate,-1,,C10H9O5,ChEBI:144056,
+docosadp_c,docosaprenyl diphosphate,-3,,C110H177O7P2,ChEBI:53031,
+docosadp_e,docosaprenyl diphosphate,-3,,C110H177O7P2,ChEBI:53031,
+34dmcld_c,"3,4-dimethoxy cinnamic aldehyde",0,,C11H12O3,,
+34dmcol_c,"3,4-dimethoxy cinnamyl alcohol",0,,C11H12O3,,
+34dmca_c,"3,4-dimethoxy cinnamic acid",0,,C11H12O4,ChEBI:86549,
+34dmca_e,"3,4-dimethoxy cinnamic acid",0,,C11H12O4,ChEBI:86549,
+meugenol_c,methyl eugenol,0,,C11H14O2,ChEBI:4918,
+34dmppol_c,3.4-dimethoxy phenylproionic alcohol,0,,C11H14O5,,
+unda_c,undecanoate,-1,,C11H21O2,ChEBI:32369,8180
+unda_m,undecanoate,-1,,C11H21O2,ChEBI:32369,8180
+unda_x,undecanoate,-1,,C11H21O2,ChEBI:32369,8180
+undal_c,undecanal,0,,C11H22O,ChEBI:46202,
+nundecane_c,undecane,0,,C11H24,ChEBI:46342,
+nundecane_e,undecane,0,,C11H24,ChEBI:46342,
+nundecanol_c,undecanol,0,,C11H24O,ChEBI:87499,
+confrlac_c,coniferyl acetate,0,,C12H14O4,ChEBI:47905,
+cellobiose_c,cellobiose,0,,C12H22O11,,294
+cellobiose_e,cellobiose,0,,C12H22O11,,294
+manmi1pD_c,D-mannose inositol phosphate 1,-2,,C12H23O14P,ChEBI:139147,
+manmi1pD_e,D-mannose inositol phosphate 1,-2,,C12H23O14P,ChEBI:139147,
+trda_c,tridecanoate,-1,,C13H25O2,ChEBI:125832,
+trda_m,tridecanoate,-1,,C13H25O2,ChEBI:125832,
+trda_x,tridecanoate,-1,,C13H25O2,ChEBI:125832,
+trdal_c,tridecanal,0,,C13H26O,ChEBI:89816,
+9Ztda_c,(9Z)-myristoleate,-1,,C14H25O2,,5461014
+9Ztda_e,(9Z)-myristoleate,-1,,C14H25O2,,5461014
+9Ztda_m,(9Z)-myristoleate,-1,,C14H25O2,,5461014
+9Ztda_x,(9Z)-myristoleate,-1,,C14H25O2,,5461014
+tdal_c,tetradecanal,0,,C14H28O,ChEBI:84067,
+ntetradecane_c,tetradecane,0,,C14H30,ChEBI:41253,
+ntetradecane_e,tetradecane,0,,C14H30,ChEBI:41253,
+emodin_anthrone_c,emodin anthrone,0,,C15H12O4,,122635
+atrochrysone_c,atrochrysone,0,,C15H14O5,,14412216
+adprib1p_c,ADP ribose 1''-phosphate,-4,,C15H20N5O17P3,ChEBI:48584,42626433
+ptda_c,pentadecanoate,-1,,C15H29O2,ChEBI:78795,
+ptda_m,pentadecanoate,-1,,C15H29O2,ChEBI:78795,
+ptda_x,pentadecanoate,-1,,C15H29O2,ChEBI:78795,
+npentadecanol_c,pentadecan-1-ol,0,,C15H32O,ChEBI:77468,
+caffshik_c,5-o-caffeoylshikimate,-1,,C16H15O8,ChEBI:91005,
+9Zhxda_c,(9Z)-hexadecenoate,-1,,C16H29O2 ,,445638
+9Zhxda_e,(9Z)-hexadecenoate,-1,,C16H29O2 ,,445638
+9Zhxda_m,(9Z)-hexadecenoate,-1,,C16H29O2 ,,445638
+9Zhxda_x,(9Z)-hexadecenoate,-1,,C16H29O2 ,,445638
+nhexadecane_c,hexadecane,0,,C16H34,ChEBI:45296,
+nhexadecane_e,hexadecane,0,,C16H34,ChEBI:45296,
+10Ehpda_c,(10E)-heptadecenoate,-1,,C17H31O2,ChEBI:133736,
+10Ehpda_e,(10E)-heptadecenoate,-1,,C17H31O2,ChEBI:133736,
+10Ehpda_m,(10E)-heptadecenoate,-1,,C17H31O2,ChEBI:133736,
+10Ehpda_x,(10E)-heptadecenoate,-1,,C17H31O2,ChEBI:133736,
+10Zhpda_c,(10Z)-heptadecenoate,-1,,C17H31O2,ChEBI:78990,
+10Zhpda_e,(10Z)-heptadecenoate,-1,,C17H31O2,ChEBI:78990,
+10Zhpda_m,(10Z)-heptadecenoate,-1,,C17H31O2,ChEBI:78990,
+10Zhpda_x,(10Z)-heptadecenoate,-1,,C17H31O2,ChEBI:78990,
+hpda_c,heptadecanoate,-1,,C17H33O2,ChEBI:32366,
+hpda_e,heptadecanoate,-1,,C17H33O2,ChEBI:32366,
+hpda_m,heptadecanoate,-1,,C17H33O2,ChEBI:32366,
+hpda_x,heptadecanoate,-1,,C17H33O2,ChEBI:32366,
+hpdal_c,heptadecanal,0,,C17H34O,ChEBI:138631,
+nheptadecanol_c,heptadecan-1-ol,0,,C17H36O,ChEBI:77470,
+trypacidin_c,trypacidin,0,,C18H16O7,,3035292
+trypacidin_e,trypacidin,0,,C18H16O7,,3035292
+monomethylsulochrin_c,monomethylsulochrin,0,,C18H18O7,,23872041
+9Z12Z15Zlnlncg_c,"(9Z,12Z,15Z)-alpha-linolenate",0,,C18H30O2 ,,5280934
+9Z12Z15Zlnlncg_e,"(9Z,12Z,15Z)-alpha-linolenate",0,,C18H30O2 ,,5280934
+9Z12Z15Zlnlncg_m,"(9Z,12Z,15Z)-alpha-linolenate",0,,C18H30O2 ,,5280934
+9Z12Z15Zlnlncg_x,"(9Z,12Z,15Z)-alpha-linolenate",0,,C18H30O2 ,,5280934
+9Z12Zlnlc_c,"(9Z,12Z)-linoleate",-1,,C18H31O2 ,,5280934
+9Z12Zlnlc_e,"(9Z,12Z)-linoleate",-1,,C18H31O2 ,,5280934
+9Z12Zlnlc_m,"(9Z,12Z)-linoleate",-1,,C18H31O2 ,,5280934
+9Z12Zlnlc_x,"(9Z,12Z)-linoleate",-1,,C18H31O2 ,,5280934
+9Z12Zlnlc_peroxide_c,"(9Z,12Z)-linoleate hydroperoxide",0,,C18H32O3,,11369954
+9Zocda_c,(9Z)-oleate,-1,,C18H34O2,,5460221
+9Zocda_e,(9Z)-oleate,-1,,C18H34O2,,5460221
+9Zocda_m,(9Z)-oleate,-1,,C18H34O2,,5460221
+9Zocda_x,(9Z)-oleate,-1,,C18H34O2,,5460221
+man2mi1pD_c,D-mannose inositol phosphate 2,0,,C18H34O22P2,ChEBI:60449,
+man2mi1pD_e,D-mannose inositol phosphate 2,0,,C18H34O22P2,ChEBI:60449,
+noctadecane_c,octadecane,0,,C18H38,ChEBI:32926,
+noctadecane_e,octadecane,0,,C18H38,ChEBI:32926,
+asperfuranone_intermediate1_c,"2,4-dihydroxy-6-(5,7-dimethyl-2-oxo-trans-3-trans-5-nonadienyl)-3-methylbenzaldehyde",0,,C19H24O4,,16745396
+asperfuranone_c,asperfuranone,0,,C19H24O5,ChEBI:64397,
+asperfuranone_e,asperfuranone,0,,C19H24O5,ChEBI:64397,
+Nbfortyr_c,"N,N'-diformyldityrosine",0,,C20H20N2O8,ChEBI:50611,
+Nbfortyr_e,"N,N'-diformyldityrosine",0,,C20H20N2O8,ChEBI:50611,
+fumiquinazoline_F_indoline3ol_c,fumiquinazoline F-indoline-3'-ol,0,,C21H18N4O3,,
+tca_c,lignocerate,-1,,C24H47O2,ChEBI:31014,
+tca_e,lignocerate,-1,,C24H47O2,ChEBI:31014,
+tca_x,lignocerate,-1,,C24H47O2,ChEBI:31014,
+3hbtACP_c,(R)-3-hydroxy-butanoyl-[acp],0,,C25H36N7O18P3S,,
+3hbtACP_m,(R)-3-hydroxy-butanoyl-[acp],0,,C25H36N7O18P3S,,
+malmeACP_c,malonate-methylester-[acp],0,,C25H37N7O17P3S,,
+bt2eACP_c,(2E)-butenoyl-[acp],0,,C25H42N7O17P3S,,
+bt2eACP_m,(2E)-butenoyl-[acp],0,,C25H42N7O17P3S,,
+3hbtcoa_m,(R)-3-hydroxy-butanoyl-CoA,-4,,C25H42N7O18P3S,,
+3hbtcoa_x,(R)-3-hydroxy-butanoyl-CoA,-4,,C25H42N7O18P3S,,
+dedol_c,dehydrodolichol,0,,C25H44O7,,
+2Eptcoa_m,(2E)-pentenoyl-CoA,-4,,C26H38N7O17P3S,CHEBI:86160,86290090
+2Eptcoa_x,(2E)-pentenoyl-CoA,-4,,C26H38N7O17P3S,CHEBI:86160,86290090
+2E2mbcoa_m,(2E)-2-methylbutenoyl-CoA,-4,,C26H38N7O17P3S ,,5462213
+2E3mbcoa_m,(2E)-3-methylbutenoyl-CoA,-4,,C26H38N7O17P3S ,,5462213
+3optcoa_m,3-oxo-pentanoyl-CoA,-4,,C26H38N7O18P3S,,
+3optcoa_x,3-oxo-pentanoyl-CoA,-4,,C26H38N7O18P3S,,
+3h2mbcoa_m,(2E)-2-methylbutenoyl-CoA,-4,,C26H38N7O18P3S,,
+3hptcoa_m,(R)-3-hydroxy-pentanoyl-CoA,-4,,C26H40N7O18P3S,CHEBI:138587,
+3hptcoa_x,(R)-3-hydroxy-pentanoyl-CoA,-4,,C26H40N7O18P3S,CHEBI:138587,
+hxca_c,cerotate,-1,,C26H51O2,ChEBI:31013,
+hxca_e,cerotate,-1,,C26H51O2,ChEBI:31013,
+hxca_x,cerotate,-1,,C26H51O2,ChEBI:31013,
+pasplne_c,paspalicine,0,,C27H31NO3,,14733160
+3h5cptcoa_m,(R)-3-hydroxy-5-carboxy-pentanoyl-CoA,-4,,C27H39N7O20P3S,,
+2Ehxcoa_m,(2E)-hexenoyl-CoA,-4,,C27H40N7O17P3S,CHEBI:62077,52921640
+2Ehxcoa_x,(2E)-hexenoyl-CoA,-4,,C27H40N7O17P3S,CHEBI:62077,52921640
+3Zhxcoa_m,(3Z)-hexenoyl-CoA,-4,,C27H40N7O17P3S,CHEBI:85889,
+3Zhxcoa_x,(3Z)-hexenoyl-CoA,-4,,C27H40N7O17P3S,CHEBI:85889,
+3ohxcoa_m,3-oxo-hexanoyl-CoA,-4,,C27H40N7O18P3S,CHEBI:62418,
+3ohxcoa_x,3-oxo-hexanoyl-CoA,-4,,C27H40N7O18P3S,CHEBI:62418,
+3hhxcoa_m,(R)-3-hydroxy-hexanoyl-CoA,-4,,C27H42N7O18P3S,CHEBI:74280,
+3hhxcoa_x,(R)-3-hydroxy-hexanoyl-CoA,-4,,C27H42N7O18P3S,CHEBI:74280,
+3hhxACP_c,(R)-3-hydroxy-hexanoyl-[acp],0,,C27H46N7O18P3S,,
+3hhxACP_m,(R)-3-hydroxy-hexanoyl-[acp],0,,C27H46N7O18P3S,,
+paspalineb_c,paspaline B,0,,C28H37NO3,,10342949
+paspaline_c,paspaline,0,,C28H39NO2,,115028
+2Ehptcoa_m,(2E)-heptenoyl-CoA,-4,,C28H40N7O17P3S,,
+2Ehptcoa_x,(2E)-heptenoyl-CoA,-4,,C28H40N7O17P3S,,
+3ohptcoa_m,3-oxo-heptanoyl-CoA,-4,,C28H42N7O18P3S,,
+3ohptcoa_x,3-oxo-heptanoyl-CoA,-4,,C28H42N7O18P3S,,
+zymester_c,zymosterol ester,0,,C28H43O2R,ChEBI:52322,
+zymester_e,zymosterol ester,0,,C28H43O2R,ChEBI:52322,
+zymester_l,zymosterol ester,0,,C28H43O2R,ChEBI:52322,
+zymester_r,zymosterol ester,0,,C28H43O2R,ChEBI:52322,
+2EpimemeACP_c,(2E)-pimelate-methylester-[acp],0,,C28H44N7O17P3S,,
+hptcoa_c,heptanoyl-CoA,-4,,C28H44N7O17P3S,ChEBI:37283,11966235
+hptcoa_m,heptanoyl-CoA,-4,,C28H44N7O17P3S,ChEBI:37283,11966235
+hptcoa_x,heptanoyl-CoA,-4,,C28H44N7O17P3S,ChEBI:37283,11966235
+3hhptcoa_m,(R)-3-hydroxy-heptanoyl-CoA,-4,,C28H44N7O18P3S,,
+3hhptcoa_x,(R)-3-hydroxy-heptanoyl-CoA,-4,,C28H44N7O18P3S,,
+4fzym_r,"4alpha-formyl-5alpha-cholesta-8,24-dien-3beta-ol",0,,C28H44O2,ChEBI:52615,
+3hpimemeACP_c,3-hydroxypimelate-methylester-[acp],0,,C28H46N7O18P3S,,
+4hmzym_r,"4alpha-hydroxymethyl-5alpha-cholesta-8,24-dien-3beta-ol",0,,C28H46O2,ChEBI:52388,
+2E4Zoccoa_m,"(2E,4Z)-octadienoyl-CoA",-4,,C29H42N7O17P3S,,
+2E4Zoccoa_x,"(2E,4Z)-octadienoyl-CoA",-4,,C29H42N7O17P3S,,
+2E5Zoccoa_m,"(2E,5Z)-octadienoyl-CoA",-4,,C29H42N7O17P3S,,
+2E5Zoccoa_x,"(2E,5Z)-octadienoyl-CoA",-4,,C29H42N7O17P3S,,
+3E5Zoccoa_m,"(3E,5Z)-octadienoyl-CoA",-4,,C29H42N7O17P3S,,
+3E5Zoccoa_x,"(3E,5Z)-octadienoyl-CoA",-4,,C29H42N7O17P3S,,
+3o5Zoccoa_m,3-oxo-(5Z)-octenoyl-CoA,-4,,C29H42N7O18P3S,,
+3o5Zoccoa_x,3-oxo-(5Z)-octenoyl-CoA,-4,,C29H42N7O18P3S,,
+pimemeACP_c,pimelate-methylester-[acp],0,,C29H43N7O19P3S,,
+ergester_c,ergosterol ester,0,,C29H43O2R,ChEBI:52320,
+ergester_e,ergosterol ester,0,,C29H43O2R,ChEBI:52320,
+ergester_l,ergosteryl ester,0,,C29H43O2R,ChEBI:52320,
+ergester_r,ergosteryl ester,0,,C29H43O2R,ChEBI:52320,
+2Eoccoa_m,(2E)-octenoyl-CoA,-4,,C29H44N7O17P3S,CHEBI:62242,46173358
+2Eoccoa_x,(2E)-octenoyl-CoA,-4,,C29H44N7O17P3S,CHEBI:62242,46173358
+3Zoccoa_m,(3Z)-octenoyl-CoA,-4,,C29H44N7O17P3S,CHEBI:85939,
+3Eoccoa_m,(3E)-octenoyl-CoA,-4,,C29H44N7O17P3S,CHEBI:85939,
+3Eoccoa_x,(3E)-octenoyl-CoA,-4,,C29H44N7O17P3S,CHEBI:85939,
+3Zoccoa_x,(3Z)-octenoyl-CoA,-4,,C29H44N7O17P3S,CHEBI:85939,
+3h5Zoccoa_m,(R)-3-hydroxy-(5Z)-octenoyl-CoA,-4,,C29H46N7O18P3S,,
+3h5Zoccoa_x,(R)-3-hydroxy-(5Z)-octenoyl-CoA,-4,,C29H46N7O18P3S,,
+epiester_c,episterol ester,0,,C29H45O2R,ChEBI:52393,
+epiester_e,episterol ester,0,,C29H45O2R,ChEBI:52393,
+epiester_l,episterol ester,0,,C29H45O2R,ChEBI:52393,
+epiester_r,episterol ester,0,,C29H45O2R,ChEBI:52393,
+fecoester_c,fecosterol ester,0,,C29H45O2R,ChEBI:52321,
+fecoester_e,fecosterol ester,0,,C29H45O2R,ChEBI:52321,
+fecoester_l,fecosterol ester,0,,C29H45O2R,ChEBI:52321,
+fecoester_r,fecosterol ester,0,,C29H45O2R,ChEBI:52321,
+5Zoccoa_m,(5Z)-octenoyl-CoA,-4,,C29H44N7O17P3S,,
+5Zoccoa_x,(5Z)-octenoyl-CoA,-4,,C29H44N7O17P3S,,
+3hoccoa_m,(R)-3-hydroxy-octanoyl-CoA,-4,,C29H48N7O18P3S,CHEBI:74279,
+3hoccoa_x,(R)-3-hydroxy-octanoyl-CoA,-4,,C29H48N7O18P3S,CHEBI:74279,
+4f4mzym_r,"4alpha-formyl-4beta-methyl-5alpha-cholesta-8,24-dien-3beta-ol",0,,C29H46O2,ChEBI:87287,
+4h4mzym_r,"4alpha-hydroxymethyl-4beta-methyl-5alpha-cholesta-8,24-dien-3beta-ol",0,,C29H48O2,ChEBI:87289,
+3hocACP_c,(R)-3-hydroxy-octanoyl-[acp],0,,C29H50N7O18P3S,,
+3hocACP_m,(R)-3-hydroxy-octanoyl-[acp],0,,C29H50N7O18P3S,,
+cinnmcoa_c,cinnamoyl-CoA,-4,,C30H38N7O17P3S,CHEBI:57324,44229143
+2Enncoa_m,(2E)-nonenoyl-CoA,-4,,C30H46N7O17P3S,CHEBI:76292,72193739
+2Enncoa_x,(2E)-nonenoyl-CoA,-4,,C30H46N7O17P3S,CHEBI:76292,72193739
+3onncoa_m,3-oxo-nonanoyl-CoA,-4,,C30H46N7O18P3S,,
+3onncoa_x,3-oxo-nonanoyl-CoA,-4,,C30H46N7O18P3S,,
+3hnncoa_m,(R)-3-hydroxy-nonanoyl-CoA,-4,,C30H48N7O18P3S,,
+3hnncoa_x,(R)-3-hydroxy-nonanoyl-CoA,-4,,C30H48N7O18P3S,,
+2E4Z7Zdccoa_m,"(2E,4Z,7Z)-decatrienoyl-CoA",-4,,C31H46N7O17P3S,,
+2E4Z7Zdccoa_x,"(2E,4Z,7Z)-decatrienoyl-CoA",-4,,C31H46N7O17P3S,,
+2E5Zdccoa_m,"(2E,5Z)-decadienoyl-CoA",-4,,C31H46N7O17P3S,,
+2E5Zdccoa_x,"(2E,5Z)-decadienoyl-CoA",-4,,C31H46N7O17P3S,,
+3o5Zdccoa_m,3-oxo-(5Z)-decenoyl-CoA,-4,,C31H46N7O18P3S,,
+3o5Zdccoa_x,3-oxo-(5Z)-decenoyl-CoA,-4,,C31H46N7O18P3S,,
+2E7Zdccoa_m,"(2E,7Z)-decadienoyl-CoA",-4,,C31H48N7O17P3S,,
+2E7Zdccoa_x,"(2E,7Z)-decadienoyl-CoA",-4,,C31H48N7O17P3S,,
+2Edccoa_m,(2E)-decenoyl-CoA,-4,,C31H48N7O17P3S,,5280768
+2Edccoa_x,(2E)-decenoyl-CoA,-4,,C31H48N7O17P3S,,5280768
+3E7Zdccoa_m,"(3E,7Z)-decadienoyl-CoA",-4,,C31H48N7O17P3S,,
+3Z7Zdccoa_m,"(3Z,7Z)-decadienoyl-CoA",-4,,C31H48N7O17P3S,,
+3E7Zdccoa_x,"(3E,7Z)-decadienoyl-CoA",-4,,C31H48N7O17P3S,,
+3Z7Zdccoa_x,"(3Z,7Z)-decadienoyl-CoA",-4,,C31H48N7O17P3S,,
+3Edccoa_m,(3E)-decenoyl-CoA,-4,,C31H48N7O17P3S,,
+3Zdccoa_m,(3Z)-decenoyl-CoA,-4,,C31H48N7O17P3S,,
+3Edccoa_x,(3E)-decenoyl-CoA,-4,,C31H48N7O17P3S,,
+3Zdccoa_x,(3Z)-decenoyl-CoA,-4,,C31H48N7O17P3S,,
+4Zdccoa_m,(4Z)-decenoyl-CoA,-4,,C31H48N7O17P3S,CHEBI:29140,
+4Zdccoa_x,(4Z)-decenoyl-CoA,-4,,C31H48N7O17P3S,CHEBI:29140,
+3h5Zdccoa_m,(R)-3-hydroxy-(5Z)-decenoyl-CoA,-4,,C31H50N7O18P3S,,
+3h5Zdccoa_x,(R)-3-hydroxy-(5Z)-decenoyl-CoA,-4,,C31H50N7O18P3S,,
+3o7Zdccoa_m,3-oxo-(7Z)-decenoyl-CoA,-4,,C31H48N7O18P3S,,
+3o7Zdccoa_x,3-oxo-(7Z)-decenoyl-CoA,-4,,C31H48N7O18P3S,,
+3odccoa_m,3-oxo-decanoyl-CoA,-4,,C31H48N7O18P3S,CHEBI:62548,
+3odccoa_x,3-oxo-decanoyl-CoA,-4,,C31H48N7O18P3S,CHEBI:62548,
+lanoester_c,lanosterol ester,0,,C31H49O2R,ChEBI:52394,
+lanoester_e,lanosterol ester,0,,C31H49O2R,ChEBI:52394,
+lanoester_l,lanosteryl ester,0,,C31H49O2R,ChEBI:52394,
+lanoester_r,lanosteryl ester,0,,C31H49O2R,ChEBI:52394,
+2E4Zdccoa_m,"(2E,4Z)-decadienoyl-CoA",-4,,C31H50N7O17P3S,ChEBI:29119,
+2E4Zdccoa_x,"(2E,4Z)-decadienoyl-CoA",-4,,C31H50N7O17P3S,ChEBI:29119,
+4Z7Zdccoa_m,"(4Z,7Z)-decadienoyl-CoA",-4,,C31H50N7O17P3S,,
+4Z7Zdccoa_x,"(4Z,7Z)-decadienoyl-CoA",-4,,C31H50N7O17P3S,,
+5Zdccoa_m,(5Z)-decenoyl-CoA,-4,,C31H50N7O17P3S,,
+5Zdccoa_x,(5Z)-decenoyl-CoA,-4,,C31H50N7O17P3S,,
+3h7Zdccoa_m,(R)-3-hydroxy-(7Z)-decenoyl-CoA,-4,,C31H50N7O18P3S,,
+3h7Zdccoa_x,(R)-3-hydroxy-(7Z)-decenoyl-CoA,-4,,C31H50N7O18P3S,,
+3hdccoa_m,(R)-3-hydroxy-decanoyl-CoA,-4,,C31H50N7O18P3S,CHEBI:74272,
+3hdccoa_x,(R)-3-hydroxy-decanoyl-CoA,-4,,C31H50N7O18P3S,CHEBI:74272,
+3hdcACP_c,(R)-3-hydroxy-decanoyl-[acp],0,,C31H54N7O18P3S,,
+3hdcACP_m,(R)-3-hydroxy-decanoyl-[acp],0,,C31H54N7O18P3S,,
+2E4Eundcoa_m,"(2E,4E)-undecadienoyl-CoA",-4,,C32H48N7O17P3S,,90658303
+2E4Eundcoa_x,"(2E,4E)-undecadienoyl-CoA",-4,,C32H48N7O17P3S,,90658303
+2E4Zundcoa_m,"(2E,4Z)-undecadienoyl-CoA",-4,,C32H48N7O17P3S,,
+2E4Zundcoa_x,"(2E,4Z)-undecadienoyl-CoA",-4,,C32H48N7O17P3S,,
+2Eundcoa_m,(2E)-undecenoyl-CoA,-4,,C32H50N7O17P3S,CHEBI:77548,86289266
+2Eundcoa_x,(2E)-undecenoyl-CoA,-4,,C32H50N7O17P3S,CHEBI:77548,86289266
+3Eundcoa_m,(3E)-undecenoyl-CoA,-4,,C32H50N7O17P3S,,
+3Eundcoa_x,(3E)-undecenoyl-CoA,-4,,C32H50N7O17P3S,,
+3Zundcoa_m,(3Z)-undecenoyl-CoA,-4,,C32H50N7O17P3S,,
+3Zundcoa_x,(3Z)-undecenoyl-CoA,-4,,C32H50N7O17P3S,,
+4Eundcoa_m,(4E)-undecenoyl-CoA,-4,,C32H50N7O17P3S,CHEBI:77548,
+4Eundcoa_x,(4E)-undecenoyl-CoA,-4,,C32H50N7O17P3S,CHEBI:77548,
+4Zundcoa_m,(4Z)-undecenoyl-CoA,-4,,C32H50N7O17P3S,,
+4Zundcoa_x,(4Z)-undecenoyl-CoA,-4,,C32H50N7O17P3S,,
+undcoa_c,undecanoyl-CoA,-4,,C32H50N7O17P3S,,53481608
+undcoa_m,undecanoyl-CoA,-4,,C32H50N7O17P3S,,53481608
+undcoa_x,undecanoyl-CoA,-4,,C32H50N7O17P3S,,53481608
+3o4Eundcoa_m,3-oxo-(4E)-undecenoyl-CoA,-4,,C32H50N7O18P3S,,
+3o4Eundcoa_x,3-oxo-(4E)-undecenoyl-CoA,-4,,C32H50N7O18P3S,,
+3oundcoa_m,3-oxo-undecanoyl-CoA,-4,,C32H50N7O18P3S,,
+3oundcoa_x,3-oxo-undecanoyl-CoA,-4,,C32H50N7O18P3S,,
+3h4Eundcoa_m,(R)-3-hydroxy-(4E)-undecenoyl-CoA,-4,,C32H52N7O18P3S,,
+3h4Eundcoa_x,(R)-3-hydroxy-(4E)-undecenoyl-CoA ,-4,,C32H52N7O18P3S,,
+3hundcoa_m,(R)-3-hydroxy-undecanoyl-CoA,-4,,C32H52N7O18P3S,,
+3hundcoa_x,(R)-3-hydroxy-undecanoyl-CoA,-4,,C32H52N7O18P3S,,
+2E4Zddccoa_m,"(2E,4Z)-dodecadienoyl-CoA",-4,,C33H46N7O17P3S,,
+2E4Zddccoa_x,"(2E,4Z)-dodecadienoyl-CoA",-4,,C33H46N7O17P3S,,
+2E5Zddccoa_m,"(2E,5Z)-dodecadienoyl-CoA",-4,,C33H46N7O17P3S,,
+2E5Zddccoa_x,"(2E,5Z)-dodecadienoyl-CoA",-4,,C33H46N7O17P3S,,
+3E5Zddccoa_m,"(3E,5Z)-dodecadienoyl-CoA",-4,,C33H46N7O17P3S,,
+3E5Zddccoa_x,"(3E,5Z)-dodecadienoyl-CoA",-4,,C33H46N7O17P3S,,
+2E6Z9Zddccoa_m,"(2E,6Z,9Z)-dodecatrienoyl-CoA",-4,,C33H50N7O17P3S,,
+2E6Z9Zddccoa_x,"(2E,6Z,9Z)-dodecatrienoyl-CoA",-4,,C33H50N7O17P3S,,
+2E6Zddccoa_m,"(2E,6Z)-dodecadienoyl-CoA",-4,,C33H50N7O17P3S,,
+2E6Zddccoa_x,"(2E,6Z)-dodecadienoyl-CoA",-4,,C33H50N7O17P3S,,
+2E7Zddccoa_m,"(2E,7Z)-dodecadienoyl-CoA",-4,,C33H50N7O17P3S,,
+2E7Zddccoa_x,"(2E,7Z)-dodecadienoyl-CoA",-4,,C33H50N7O17P3S,,
+2Eddccoa_m,(2E)-dodecenoyl-CoA,-4,,C33H50N7O17P3S,,5280578
+2Eddccoa_x,(2E)-dodecenoyl-CoA,-4,,C33H50N7O17P3S,,5280578
+3Eddccoa_m,(3E)-dodecenoyl-CoA,-4,,C33H50N7O17P3S,,6121985
+3Eddccoa_x,(3E)-dodecenoyl-CoA,-4,,C33H50N7O17P3S,,6121985
+3Z6Z9Zddccoa_m,"(3Z,6Z,9Z)-dodecatrienoyl-CoA",-4,,C33H50N7O17P3S,,
+3Z6Z9Zddccoa_x,"(3Z,6Z,9Z)-dodecatrienoyl-CoA",-4,,C33H50N7O17P3S,,
+3Z6Zddccoa_m,"(3Z,6Z)-dodecadienoyl-CoA",-4,,C33H50N7O17P3S,,
+3Z6Zddccoa_x,"(3Z,6Z)-dodecadienoyl-CoA",-4,,C33H50N7O17P3S,,
+3Zddccoa_m,(3Z)-dodecenoyl-CoA,-4,,C33H50N7O17P3S,,16061154
+3Zddccoa_x,(3Z)-dodecenoyl-CoA,-4,,C33H50N7O17P3S,,16061154
+5Zddccoa_m,(5Z)-dodecenoyl-CoA,-4,,C33H50N7O17P3S,,
+5Zddccoa_x,(5Z)-dodecenoyl-CoA,-4,,C33H50N7O17P3S,,
+6Zddccoa_m,(6Z)-dodecenoyl-CoA,-4,,C33H50N7O17P3S,,
+6Zddccoa_x,(6Z)-dodecenoyl-CoA,-4,,C33H50N7O17P3S,,
+7Zddccoa_m,(7Z)-dodecenoyl-CoA,-4,,C33H50N7O17P3S,,
+7Zddccoa_x,(7Z)-dodecenoyl-CoA,-4,,C33H50N7O17P3S,,
+3hddcACP_c,(R)-3-hydroxy-dodecanoyl-[acp],0,,C33H50N7O18P3S,,
+3hddcACP_m,(R)-3-hydroxy-dodecanoyl-[acp],0,,C33H50N7O18P3S,,
+3o5Zddccoa_m,3-oxo-(5Z)-dodecenoyl-CoA,-4,,C33H50N7O18P3S,,
+3o5Zddccoa_x,3-oxo-(5Z)-dodecenoyl-CoA,-4,,C33H50N7O18P3S,,
+3o6Zddccoa_m,3-oxo-(6Z)-dodecenoyl-CoA,-4,,C33H50N7O18P3S,,
+3o6Zddccoa_x,3-oxo-(6Z)-dodecenoyl-CoA,-4,,C33H50N7O18P3S,,
+3o7Zddccoa_m,3-oxo-(7Z)-dodecenoyl-CoA,-4,,C33H50N7O18P3S,,
+3o7Zddccoa_x,3-oxo-(7Z)-dodecenoyl-CoA,-4,,C33H50N7O18P3S,,
+6Z9Zddccoa_m,"(6Z,9Z)-dodecadienoyl-CoA",-4,,C33H50N7O17P3S,,
+6Z9Zddccoa_x,"(6Z,9Z)-dodecadienoyl-CoA",-4,,C33H50N7O17P3S,,
+3h5Zddccoa_m,(R)-3-hydroxy-(5Z)-dodecenoyl-CoA,-4,,C33H52N7O18P3S,,
+3h5Zddccoa_x,(R)-3-hydroxy-(5Z)-dodecenoyl-CoA,-4,,C33H52N7O18P3S,,
+3h6Z9Zddccoa_m,"(R)-3-hydroxy-(6Z,9Z)-dodecadienoyl-CoA",-4,,C33H52N7O18P3S,,
+3h6Z9Zddccoa_x,"(R)-3-hydroxy-(6Z,9Z)-dodecadienoyl-CoA",-4,,C33H52N7O18P3S,,
+3h6Zddccoa_m,(R)-3-hydroxy-(6Z)-dodecenoyl-CoA,-4,,C33H52N7O18P3S,,
+3h6Zddccoa_x,(R)-3-hydroxy-(6Z)-dodecenoyl-CoA,-4,,C33H52N7O18P3S,,
+3h7Zddccoa_m,(R)-3-hydroxy-(7Z)-dodecenoyl-CoA,-4,,C33H52N7O18P3S,,
+3h7Zddccoa_x,(R)-3-hydroxy-(7Z)-dodecenoyl-CoA,-4,,C33H52N7O18P3S,,
+3o6Z9Zddccoa_m,"3-oxo-(6Z,9Z)-dodecadienoyl-CoA",-4,,C33H52N7O18P3S,,
+3o6Z9Zddccoa_x,"3-oxo-(6Z,9Z)-dodecadienoyl-CoA",-4,,C33H52N7O18P3S,,
+3oddccoa_m,3-oxo-lauroyl-CoA,-4,,C33H52N7O18P3S,CHEBI:62615,
+3oddccoa_x,3-oxo-lauroyl-CoA,-4,,C33H52N7O18P3S,CHEBI:62615,
+3hddccoa_m,(R)-3-hydroxy-lauroyl-CoA,-4,,C33H54N7O18P3S,CHEBI:74276,
+3hddccoa_x,(R)-3-hydroxy-lauroyl-CoA,-4,,C33H54N7O18P3S,CHEBI:74276,
+2E6Etrdcoa_m,"(2E,6E)-tridecadienoyl-CoA",-4,,C34H52N7O17P3S,,
+2E6Etrdcoa_x,"(2E,6E)-tridecadienoyl-CoA",-4,,C34H52N7O17P3S,,
+2E6Ztrdcoa_m,"(2E,6Z)-tridecadienoyl-CoA",-4,,C34H52N7O17P3S,,
+2E6Ztrdcoa_x,"(2E,6Z)-tridecadienoyl-CoA",-4,,C34H52N7O17P3S,,
+2Etrdcoa_m,(2E)-tridecenoyl-CoA,-4,,C34H52N7O17P3S,,
+2Etrdcoa_x,(2E)-tridecenoyl-CoA,-4,,C34H52N7O17P3S,,
+3o6Etrdcoa_m,3-oxo-(6E)-tridecenoyl-CoA,-4,,C34H52N7O18P3S,,
+3o6Etrdcoa_x,3-oxo-(6E)-tridecenoyl-CoA,-4,,C34H52N7O18P3S,,
+3h6Etrdcoa_m,(R)-3-hydroxy-(6E)-tridecenoyl-CoA,-4,,C34H54N7O18P3S,,
+3h6Etrdcoa_x,(R)-3-hydroxy-(6E)-tridecenoyl-CoA,-4,,C34H54N7O18P3S,,
+3o6Ztrdcoa_m,3-oxo-(6Z)-tridecenoyl-CoA,-4,,C34H52N7O18P3S,,
+3o6Ztrdcoa_x,3-oxo-(6Z)-tridecenoyl-CoA,-4,,C34H52N7O18P3S,,
+6Etrdcoa_m,(6E)-tridecenoyl-CoA,-4,,C34H56N7O17P3S,,
+6Etrdcoa_x,(6E)-tridecenoyl-CoA,-4,,C34H56N7O17P3S,,
+6Ztrdcoa_m,(6Z)-tridecenoyl-CoA,-4,,C34H56N7O17P3S,,
+6Ztrdcoa_x,(6Z)-tridecenoyl-CoA,-4,,C34H56N7O17P3S,,
+trdcoa_c,tridecanoyl-CoA,-4,,C34H56N7O17P3S,,53481606
+trdcoa_m,tridecanoyl-CoA,-4,,C34H56N7O17P3S,,53481606
+trdcoa_x,tridecanoyl-CoA,-4,,C34H56N7O17P3S,,53481606
+3h6Ztrdcoa_m,(R)-3-hydroxy-(6Z)-tridecenoyl-CoA,-4,,C34H56N7O18P3S,,
+3h6Ztrdcoa_x,(R)-3-hydroxy-(6Z)-tridecenoyl-CoA,-4,,C34H56N7O18P3S,,
+3otrdcoa_m,3-oxo-tridecanoyl-CoA,-4,,C34H56N7O18P3S,,
+3otrdcoa_x,3-oxo-tridecanoyl-CoA,-4,,C34H56N7O18P3S,,
+3htrdcoa_m,(R)-3-hydroxy-tridecanoyl-CoA,-4,,C34H58N7O18P3S,,
+3htrdcoa_x,(R)-3-hydroxy-tridecanoyl-CoA,-4,,C34H58N7O18P3S,,
+apo4lycopenoate_c,apo-4'-lycopenoate,-1,,C35H45O2,,50986065
+apo4lycopenal_c,apo-4'-lycopenal,0,,C35H46O,,
+2E4Z8Z11Ztdcoa_m,"(2E,4Z,8Z,11Z)-tetradecatetraenoyl-CoA",-4,,C35H50N7O17P3S,,
+2E4Z8Z11Ztdcoa_x,"(2E,4Z,8Z,11Z)-tetradecatetraenoyl-CoA",-4,,C35H50N7O17P3S,,
+2E4Z8Ztdcoa_m,"(2E,4Z,8Z)-tetradecatrienoyl-CoA",-4,,C35H50N7O17P3S,,
+2E4Z8Ztdcoa_x,"(2E,4Z,8Z)-tetradecatrienoyl-CoA",-4,,C35H50N7O17P3S,,
+2E5Z8Ztdcoa_m,"(2E,5Z,8Z)-tetradecatrienoyl-CoA",-4,,C35H50N7O17P3S,,
+2E5Z8Ztdcoa_x,"(2E,5Z,8Z)-tetradecatrienoyl-CoA",-4,,C35H50N7O17P3S,,
+3E5Z8Z11Ztdcoa_m,"(3E,5Z,8Z,11Z)-tetradecatetraenoyl-CoA",-4,,C35H50N7O17P3S,,
+3E5Z8Z11Ztdcoa_x,"(3E,5Z,8Z,11Z)-tetradecatetraenoyl-CoA",-4,,C35H50N7O17P3S,,
+3E5Z8Ztdcoa_m,"(3E,5Z,8Z)-tetradecatrienoyl-CoA",-4,,C35H50N7O17P3S,,
+3E5Z8Ztdcoa_x,"(3E,5Z,8Z)-tetradecatrienoyl-CoA",-4,,C35H50N7O17P3S,,
+3o5Z8Ztdcoa_m,"3-oxo-(5Z,8Z)-tetradecadienoyl-CoA",-4,,C35H50N7O18P3S,,
+3o5Z8Ztdcoa_x,"3-oxo-(5Z,8Z)-tetradecadienoyl-CoA",-4,,C35H50N7O18P3S,,
+2E5Z8Z11Ztdcoa_m,"(2E,5Z,8Z,11Z)-tetradecatetraenoyl-CoA",-4,,C35H51N7O17P3S,,
+2E5Z8Z11Ztdcoa_x,"(2E,5Z,8Z,11Z)-tetradecatetraenoyl-CoA",-4,,C35H51N7O17P3S,,
+2E5Ztdcoa_m,"(2E,5Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+2E5Ztdcoa_x,"(2E,5Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+2E7Ztdcoa_m,"(2E,7Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+2E7Ztdcoa_x,"(2E,7Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+2E8Z11Ztdcoa_m,"(2E,8Z,11Z)-tetradecatrienoyl-CoA",-4,,C35H52N7O17P3S,,
+2E8Z11Ztdcoa_x,"(2E,8Z,11Z)-tetradecatrienoyl-CoA",-4,,C35H52N7O17P3S,,
+2E8Ztdcoa_m,"(2E,8Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+2E8Ztdcoa_x,"(2E,8Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+2E9Ztdcoa_m,"(2E,9Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+2E9Ztdcoa_x,"(2E,9Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+3E5Ztdcoa_m,"(3E,5Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+3E5Ztdcoa_x,"(3E,5Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+3E8Ztdcoa_x,"(3E,8Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+3E8Z11Ztdcoa_m,"(3E,8Z,11Z)-tetradecatrienoyl-CoA",-4,,C35H52N7O17P3S,,
+3Z8Z11Ztdcoa_m,"(3Z,8Z,11Z)-tetradecatrienoyl-CoA",-4,,C35H52N7O17P3S,,
+3E8Z11Ztdcoa_x,"(3E,8Z,11Z)-tetradecatrienoyl-CoA",-4,,C35H52N7O17P3S,,
+3Z8Z11Ztdcoa_x,"(3Z,8Z,11Z)-tetradecatrienoyl-CoA",-4,,C35H52N7O17P3S,,
+3E8Ztdcoa_m,"(3E,8Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+3Z8Ztdcoa_m,"(3Z,8Z)-tetradecadienoyl-CoA",-4,,C35H52N7O17P3S,,
+3h5Z8Ztdcoa_m,"(R)-3-hydroxy-(5Z,8Z)-tetradecadienoyl-CoA",-4,,C35H52N7O18P3S,,
+3h5Z8Ztdcoa_x,"(R)-3-hydroxy-(5Z,8Z)-tetradecadienoyl-CoA",-4,,C35H52N7O18P3S,,
+3o5Z8Z11Ztdcoa_m,"3-oxo-(5Z,8Z,11Z)-tetradecatrienoyl-CoA",-4,,C35H52N7O18P3S,,
+3o5Z8Z11Ztdcoa_x,"3-oxo-(5Z,8Z,11Z)-tetradecatrienoyl-CoA",-4,,C35H52N7O18P3S,,
+3o5Ztdcoa_m,3-oxo-(5Z)-tetradecenoyl-CoA,-4,,C35H52N7O18P3S,,
+3o5Ztdcoa_x,3-oxo-(5Z)-tetradecenoyl-CoA,-4,,C35H52N7O18P3S,,
+3o7Ztdcoa_m,3-oxo-(7Z)-tetradecenoyl-CoA,-4,,C35H52N7O18P3S,,
+3o7Ztdcoa_x,3-oxo-(7Z)-tetradecenoyl-CoA,-4,,C35H52N7O18P3S,,
+3o8Ztdcoa_m,3-oxo-(8Z)-tetradecenoyl-CoA,-4,,C35H52N7O18P3S,,
+3o8Ztdcoa_x,3-oxo-(8Z)-tetradecenoyl-CoA,-4,,C35H52N7O18P3S,,
+3o9Ztdcoa_m,3-oxo-(9Z)-tetradecenoyl-CoA,-4,,C35H52N7O18P3S,,
+3o9Ztdcoa_x,3-oxo-(9Z)-tetradecenoyl-CoA,-4,,C35H52N7O18P3S,,
+3h5Z8Z11Ztdcoa_m,"(R)-3-hydroxy-(5Z,8Z,11Z)-tetradecatrienoyl-CoA",-4,,C35H53N7O18P3S,,
+3h5Z8Z11Ztdcoa_x,"(R)-3-hydroxy-(5Z,8Z,11Z)-tetradecatrienoyl-CoA",-4,,C35H53N7O18P3S,,
+2E4Ztdcoa_m,"(2E,4Z)-tetradecadienoyl-CoA",-4,,C35H54N7O17P3S,,
+2E4Ztdcoa_x,"(2E,4Z)-tetradecadienoyl-CoA",-4,,C35H54N7O17P3S,,
+5Z8Ztdcoa_m,"(5Z,8Z)-tetradecadienoyl-CoA",-4,,C35H54N7O17P3S,,
+5Z8Ztdcoa_x,"(5Z,8Z)-tetradecadienoyl-CoA",-4,,C35H54N7O17P3S,,
+3h5Ztdcoa_m,(R)-3-hydroxy-(5Z)-tetradecenoyl-CoA,-4,,C35H54N7O18P3S,,
+3h5Ztdcoa_x,(R)-3-hydroxy-(5Z)-tetradecenoyl-CoA,-4,,C35H54N7O18P3S,,
+3h7Ztdcoa_m,(R)-3-hydroxy-(7Z)-tetradecenoyl-CoA,-4,,C35H54N7O18P3S,,
+3h7Ztdcoa_x,(R)-3-hydroxy-(7Z)-tetradecenoyl-CoA,-4,,C35H54N7O18P3S,,
+3h8Z11Ztdcoa_m,"(R)-3-hydroxy-(8Z,11Z)-tetradecadienoyl-CoA ",-4,,C35H54N7O18P3S,,
+3h8Z11Ztdcoa_x,"(R)-3-hydroxy-(8Z,11Z)-tetradecadienoyl-CoA",-4,,C35H54N7O18P3S,,
+3h8Ztdcoa_m,(R)-3-hydroxy-(8Z)-tetradecenoyl-CoA,-4,,C35H54N7O18P3S,,
+3h8Ztdcoa_x,(R)-3-hydroxy-(8Z)-tetradecenoyl-CoA,-4,,C35H54N7O18P3S,,
+3h9Ztdcoa_m,(R)-3-hydroxy-(9Z)-tetradecenoyl-CoA,-4,,C35H54N7O18P3S,,
+3h9Ztdcoa_x,(R)-3-hydroxy-(9Z)-tetradecenoyl-CoA,-4,,C35H54N7O18P3S,,
+3o8Z11Ztdcoa_m,"3-oxo-(8Z,11Z)-tetradecadienoyl-CoA",-4,,C35H54N7O18P3S,,
+3o8Z11Ztdcoa_x,"3-oxo-(8Z,11Z)-tetradecadienoyl-CoA",-4,,C35H54N7O18P3S,,
+5Z8Z11Ztdcoa_m,"(5Z,8Z,11Z)-tetradecatrienoyl-CoA",-4,,C35H55N7O17P3S,,
+5Z8Z11Ztdcoa_x,"(5Z,8Z,11Z)-tetradecatrienoyl-CoA",-4,,C35H55N7O17P3S,,
+2Etdcoa_m,(2E)-tetradecenoyl-CoA,-4,,C35H56N7O17P3S,CHEBI:61405,46173185
+2Etdcoa_x,(2E)-tetradecenoyl-CoA,-4,,C35H56N7O17P3S,CHEBI:61405,46173185
+3Etdcoa_m,(3E)-tetradecenoyl-CoA,-4,,C35H56N7O17P3S,CHEBI:87710,90658576
+3Etdcoa_x,(3E)-tetradecenoyl-CoA,-4,,C35H56N7O17P3S,CHEBI:87710,90658576
+5Ztdcoa_m,(5Z)-tetradecenoyl-CoA,-4,,C35H56N7O17P3S,CHEBI:84650,90659071
+5Ztdcoa_x,(5Z)-tetradecenoyl-CoA,-4,,C35H56N7O17P3S,CHEBI:84650,90659071
+7Ztdcoa_m,(7Z)-tetradecenoyl-CoA,-4,,C35H56N7O17P3S,,122706043
+7Ztdcoa_x,(7Z)-tetradecenoyl-CoA,-4,,C35H56N7O17P3S,,122706043
+9Ztdcoa_c,(9Z)-tetradecenoyl-CoA,-4,,C35H56N7O17P3S,CHEBI:65060,70678739
+9Ztdcoa_m,(9Z)-tetradecenoyl-CoA,-4,,C35H56N7O17P3S,CHEBI:65060,70678739
+9Ztdcoa_x,(9Z)-tetradecenoyl-CoA,-4,,C35H56N7O17P3S,CHEBI:65060,70678739
+3htdACP_c,(R)-3-hydroxy-tetradecanoyl-[acp],0,,C35H56N7O18P3S,,
+3htdACP_m,(R)-3-hydroxy-tetradecanoyl-[acp],0,,C35H56N7O18P3S,,
+2E8Eptdcoa_m,"(2E,8E)-pentadecadienoyl-CoA",-4,,C36H54N7O17P3S,,
+2E8Eptdcoa_x,"(2E,8E)-pentadecadienoyl-CoA",-4,,C36H54N7O17P3S,,
+3o8Eptdcoa_m,3-oxo-(8E)-pentadecenoyl-CoA,-4,,C36H54N7O18P3S,,
+3o8Eptdcoa_x,3-oxo-(8E)-pentadecenoyl-CoA,-4,,C36H54N7O18P3S,,
+2E8Zptdcoa_m,"(2E,8Z)-pentadecadienoyl-CoA",-4,,C36H56N7O17P3S,,
+2E8Zptdcoa_x,"(2E,8Z)-pentadecadienoyl-CoA",-4,,C36H56N7O17P3S,,
+3h8Eptdcoa_m,(R)-3-hydroxy-(8E)-pentadecenoyl-CoA,-4,,C36H56N7O18P3S,,
+3h8Eptdcoa_x,(R)-3-hydroxy-(8E)-pentadecenoyl-CoA,-4,,C36H56N7O18P3S,,
+3o8Zptdcoa_m,3-oxo-(8Z)-pentadecenoyl-CoA,-4,,C36H56N7O18P3S,,
+3o8Zptdcoa_x,3-oxo-(8Z)-pentadecenoyl-CoA,-4,,C36H56N7O18P3S,,
+2Eptdcoa_m,(2E)-pentadecenoyl-CoA,-4,,C36H58N7O17P3S,CHEBI:77545,
+2Eptdcoa_x,(2E)-pentadecenoyl-CoA,-4,,C36H58N7O17P3S,CHEBI:77545,
+8Eptdcoa_m,(8E)-pentadecenoyl-CoA,-4,,C36H58N7O17P3S,,
+8Eptdcoa_x,(8E)-pentadecenoyl-CoA,-4,,C36H58N7O17P3S,,
+8Zptdcoa_m,(8Z)-pentadecenoyl-CoA,-4,,C36H58N7O17P3S,,
+8Zptdcoa_x,(8Z)-pentadecenoyl-CoA,-4,,C36H58N7O17P3S,,
+3h8Zptdcoa_m,(R)-3-hydroxy-(8Z)-pentadecenoyl-CoA,-4,,C36H58N7O18P3S,,
+3h8Zptdcoa_x,(R)-3-hydroxy-(8Z)-pentadecenoyl-CoA,-4,,C36H58N7O18P3S,,
+3optdcoa_m,3-oxo-pentadecanoyl-CoA,-4,,C36H58N7O18P3S,,
+3optdcoa_x,3-oxo-pentadecanoyl-CoA,-4,,C36H58N7O18P3S,,
+ptdcoa_c,pentadecanoyl-CoA,-4,,C36H60N7O17P3S,ChEBI:74574,
+ptdcoa_m,pentadecanoyl-CoA,-4,,C36H60N7O17P3S,ChEBI:74574,
+ptdcoa_x,pentadecanoyl-CoA,-4,,C36H60N7O17P3S,ChEBI:74574,
+3hptdcoa_m,(R)-3-hydroxy-pentadecanoyl-CoA,-4,,C36H60N7O18P3S,,
+3hptdcoa_x,(R)-3-hydroxy-pentadecanoyl-CoA,-4,,C36H60N7O18P3S,,
+2E7Z10Zhxdcoa_m,"(2E,7Z,10Z)-hexadecatrienoyl-CoA",-4,,C37H52N7O17P3S,,
+2E7Z10Zhxdcoa_x,"(2E,7Z,10Z)-hexadecatrienoyl-CoA",-4,,C37H52N7O17P3S,,
+3h7Z10Zhxdcoa_m,"(R)-3-hydroxy-(7Z,10Z)-hexadecadienoyl-CoA",-4,,C37H54N7O18P3S,,
+3h7Z10Zhxdcoa_x,"(R)-3-hydroxy-(7Z,10Z)-hexadecadienoyl-CoA",-4,,C37H54N7O18P3S,,
+3hp4a5hbz_m,3-hexaprenyl-4-amino-5-hydroxybenzoate,-1,,C37H54NO3,CHEBI:142619,90659033
+2E7Zhxdcoa_m,"(2E,7Z)-hexadecadienoyl-CoA",-4,,C37H56N7O17P3S,,
+2E7Zhxdcoa_x,"(2E,7Z)-hexadecadienoyl-CoA",-4,,C37H56N7O17P3S,,
+2E9Zhxdcoa_m,"(2E,9Z)-hexadecadienoyl-CoA",-4,,C37H56N7O17P3S,,
+2E9Zhxdcoa_x,"(2E,9Z)-hexadecadienoyl-CoA",-4,,C37H56N7O17P3S,,
+7Z10Zhxdcoa_m,"(7Z,10Z)-hexadecadienoyl-CoA",-4,,C37H56N7O17P3S,,
+7Z10Zhxdcoa_x,"(7Z,10Z)-hexadecadienoyl-CoA",-4,,C37H56N7O17P3S,,
+3o7Z10Zhxdcoa_m,"3-oxo-(7Z,10Z)-hexadecadienoyl-CoA",-4,,C37H56N7O18P3S,,
+3o7Z10Zhxdcoa_x,"3-oxo-(7Z,10Z)-hexadecadienoyl-CoA",-4,,C37H56N7O18P3S,,
+3o7Zhxdcoa_m,3-oxo-(7Z)-hexadecenoyl-CoA,-4,,C37H56N7O18P3S,,
+3o7Zhxdcoa_x,3-oxo-(7Z)-hexadecenoyl-CoA,-4,,C37H56N7O18P3S,,
+3o9Zhxdcoa_m,3-oxo-(9Z)-palmitoleoyl-CoA,-4,,C37H56N7O18P3S,,
+3o9Zhxdcoa_x,3-oxo-(9Z)-palmitoleoyl-CoA,-4,,C37H56N7O18P3S,,
+2E7Z10Z13Zhxdcoa_m,"(2E,7Z,10Z,13Z)-hexadecatetraenoyl-CoA",-4,,C37H57N7O17P3S,,
+2E7Z10Z13Zhxdcoa_x,"(2E,7Z,10Z,13Z)-hexadecatetraenoyl-CoA",-4,,C37H57N7O17P3S,,
+3o7Z10Z13Zhxdcoa_m,"3-oxo-(7Z,10Z,13Z)-hexadecatrienoyl-CoA",-4,,C37H57N7O18P3S,,
+3o7Z10Z13Zhxdcoa_x,"3-oxo-(7Z,10Z,13Z)-hexadecatrienoyl-CoA",-4,,C37H57N7O18P3S,,
+2hp6moabz_m,2-hexaprenyl-6-methoxyaminobenzene,0,,C37H57NO,,90658269
+2hp6moaphenol_m,2-hexaprenyl-6-methoxyaminophenol,0,,C37H57NO2,,90658102
+3h7Zhxdcoa_m,(R)-3-hydroxy-(7Z)-hexadecenoyl-CoA,-4,,C37H58N7O18P3S,,
+3h7Zhxdcoa_x,(R)-3-hydroxy-(7Z)-hexadecenoyl-CoA,-4,,C37H58N7O18P3S,,
+3h9Zhxdcoa_m,(R)-3-hydroxy-(9Z)-hexadecenoyl-CoA,-4,,C37H58N7O18P3S,,
+3h9Zhxdcoa_x,(R)-3-hydroxy-(9Z)-hexadecenoyl-CoA,-4,,C37H58N7O18P3S,,
+3hhxdACP_c,(R)-3-hydroxy-palmitoyl-[acp],0,,C37H58N7O18P3S,,
+3hhxdACP_m,(R)-3-hydroxy-palmitoyl-[acp],0,,C37H58N7O18P3S,,
+3h7Z10Z13Zhxdcoa_m,"(R)-3-hydroxy-(7Z,10Z,13Z)-hexadecatrienoyl-CoA",-4,,C37H59N7O18P3S,,
+3h7Z10Z13Zhxdcoa_x,"(R)-3-hydroxy-(7Z,10Z,13Z)-hexadecatrienoyl-CoA",-4,,C37H59N7O18P3S,,
+2Ehxdcoa_m,(2E)-hexadecenoyl-CoA,-4,,C37H60N7O17P3S,,5280766
+2Ehxdcoa_x,(2E)-hexadecenoyl-CoA,-4,,C37H60N7O17P3S,,5280766
+7Zhxdcoa_m,(7Z)-hexadecenoyl-CoA,-4,,C37H60N7O17P3S,CHEBI:87698,
+7Zhxdcoa_x,(7Z)-hexadecenoyl-CoA,-4,,C37H60N7O17P3S,CHEBI:87698,
+9Zhxdcoa_c,(9Z)-palmitoleoyl-CoA,-4,,C37H60N7O17P3S,CHEBI:61540,25244393
+9Zhxdcoa_m,(9Z)-palmitoleoyl-CoA,-4,,C37H60N7O17P3S,CHEBI:61540,25244393
+9Zhxdcoa_x,(9Z)-palmitoleoyl-CoA,-4,,C37H60N7O17P3S,CHEBI:61540,25244393
+7Z10Z13Zhxdcoa_m,"(7Z,10Z,13Z)-hexadecatrienoyl-CoA",-4,,C37H61N7O17P3S,,
+7Z10Z13Zhxdcoa_x,"(7Z,10Z,13Z)-hexadecatrienoyl-CoA",-4,,C37H61N7O17P3S,,
+3hhxdcoa_m,(R)-3-hydroxy-palmitoyl-CoA,-4,,C37H62N7O18P3S,CHEBI:74278,
+3hhxdcoa_x,(R)-3-hydroxy-palmitoyl-CoA,-4,,C37H62N7O18P3S,CHEBI:74278,
+3hp4a5mobz_m,3-hexaprenyl-4-amino-5-methoxybenzoate,-1,,C38H56NO3,,90657812
+2E10Ehpdcoa_m,"(2E,10E)-heptadecadienoyl-CoA",-4,,C38H60N7O17P3S,,86289627
+2E10Ehpdcoa_x,"(2E,10E)-heptadecadienoyl-CoA",-4,,C38H60N7O17P3S,,86289627
+2E10Zhpdcoa_m,"(2E,10Z)-heptadecadienoyl-CoA",-4,,C38H60N7O17P3S,,86289627
+2E10Zhpdcoa_x,"(2E,10Z)-heptadecadienoyl-CoA",-4,,C38H60N7O17P3S,,86289627
+3o10Ehpdcoa_m,3-oxo-(10E)-heptadecenoyl-CoA,-4,,C38H60N7O18P3S,,
+3o10Ehpdcoa_x,3-oxo-(10E)-heptadecenoyl-CoA,-4,,C38H60N7O18P3S,,
+3o10Zhpdcoa_m,3-oxo-(10Z)-heptadecenoyl-CoA,-4,,C38H60N7O18P3S,,
+3o10Zhpdcoa_x,3-oxo-(10Z)-heptadecenoyl-CoA,-4,,C38H60N7O18P3S,,
+10Ehpdcoa_c,(10E)-heptadecenoyl-CoA,-4,,C38H62N7O17P3S,,90657576
+10Ehpdcoa_m,(10E)-heptadecenoyl-CoA,-4,,C38H62N7O17P3S,,90657576
+10Ehpdcoa_x,(10E)-heptadecenoyl-CoA,-4,,C38H62N7O17P3S,,90657576
+10Zhpdcoa_c,(10Z)-heptadecenoyl-CoA,-4,,C38H62N7O17P3S,,90657528
+10Zhpdcoa_m,(10Z)-heptadecenoyl-CoA,-4,,C38H62N7O17P3S,,90657528
+10Zhpdcoa_x,(10Z)-heptadecenoyl-CoA,-4,,C38H62N7O17P3S,,90657528
+2Ehpdcoa_m,(2E)-heptadecenoyl-CoA,-4,,C38H62N7O17P3S,CHEBI:77551,86289270
+2Ehpdcoa_x,(2E)-heptadecenoyl-CoA,-4,,C38H62N7O17P3S,CHEBI:77551,86289270
+3h10Ehpdcoa_m,(R)-3-hydroxy-(10E)-heptadecenoyl-CoA,-4,,C38H62N7O18P3S,,
+3h10Ehpdcoa_x,(R)-3-hydroxy-(10E)-heptadecenoyl-CoA,-4,,C38H62N7O18P3S,,
+3h10Zhpdcoa_m,(R)-3-hydroxy-(10Z)-heptadecenoyl-CoA,-4,,C38H62N7O18P3S,,
+3h10Zhpdcoa_x,(R)-3-hydroxy-(10Z)-heptadecenoyl-CoA,-4,,C38H62N7O18P3S,,
+3ohpdcoa_m,3-oxo-heptadecanoyl-CoA,-4,,C38H62N7O18P3S,,
+3ohpdcoa_x,3-oxo-heptadecanoyl-CoA,-4,,C38H62N7O18P3S,,
+hpdcoa_c,heptadecanoyl-CoA,-4,,C38H64N7O17P3S,ChEBI:74307,
+hpdcoa_m,heptadecanoyl-CoA,-4,,C38H64N7O17P3S,ChEBI:74307,
+hpdcoa_x,heptadecanoyl-CoA,-4,,C38H64N7O17P3S,ChEBI:74307,
+3hhpdcoa_m,(R)-3-hydroxy-heptadecanoyl-CoA,-4,,C38H64N7O18P3S,,
+3hhpdcoa_x,(R)-3-hydroxy-heptadecanoyl-CoA ,-4,,C38H64N7O18P3S,,
+2E9Z12Zlnlccoa_m,"(2E,9Z,12Z)-linoleoyl-CoA",-4,,C39H58N7O17P3S,,
+2E9Z12Zlnlccoa_x,"(2E,9Z,12Z)-linoleoyl-CoA",-4,,C39H58N7O17P3S,,
+3o9Z12Zlnlccoa_m,"3-oxo-(9Z,12Z)-Linoleoyl-CoA",-4,,C39H58N7O18P3S,,
+3o9Z12Zlnlccoa_x,"3-oxo-(9Z,12Z)-Linoleoyl-CoA",-4,,C39H58N7O18P3S,,
+2E9Zocdcoa_m,"(2E,9Z)-octadecadienoyl-CoA",-4,,C39H60N7O17P3S,,
+2E9Zocdcoa_x,"(2E,9Z)-octadecadienoyl-CoA",-4,,C39H60N7O17P3S,,
+3h9Z12Zlnlccoa_m,"(R)-3-hydroxy-(9Z,12Z)-Linoleoyl-CoA",-4,,C39H60N7O18P3S,,
+3h9Z12Zlnlccoa_x,"(R)-3-hydroxy-(9Z,12Z)-Linoleoyl-CoA",-4,,C39H60N7O18P3S,,
+3o9Zocdcoa_m,3-oxo-(9Z)-octadecenoyl-CoA,-4,,C39H60N7O18P3S,,
+3o9Zocdcoa_x,3-oxo-(9Z)-octadecenoyl-CoA,-4,,C39H60N7O18P3S,,
+q6h2_m,ubiquinol-6,0,,C39H60O4,ChEBI:52970,
+2E9Z12Z15Zlnlncgcoa_m,"(2E,9Z,12Z,15Z)-alpha-linolenoyl-CoA",-4,,C39H61N7O17P3S,,
+2E9Z12Z15Zlnlncgcoa_x,"(2E,9Z,12Z,15Z)-alpha-linolenoyl-CoA",-4,,C39H61N7O17P3S,,
+9Z12Zlnlccoa_c,"(9Z,12Z)-linoleoyl-CoA",-4,,C39H62N7O17P3S,,52922023
+9Z12Zlnlccoa_m,"(9Z,12Z)-linoleoyl-CoA",-4,,C39H62N7O17P3S,,52922023
+9Z12Zlnlccoa_x,"(9Z,12Z)-linoleoyl-CoA",-4,,C39H62N7O17P3S,,52922023
+3h9Zocdcoa_m,(R)-3-hydroxy-(9Z)-octadecenoyl-CoA,-4,,C39H62N7O18P3S,,
+3h9Zocdcoa_x,(R)-3-hydroxy-(9Z)-octadecenoyl-CoA,-4,,C39H62N7O18P3S,,
+9Z12Z15Zlnlncgcoa_c,"(9Z,12Z,15Z)-alpha-linolenoyl-CoA",-4,,C39H63N7O17P3S,,
+9Z12Z15Zlnlncgcoa_m,"(9Z,12Z,15Z)-alpha-linolenoyl-CoA",-4,,C39H63N7O17P3S,,
+9Z12Z15Zlnlncgcoa_x,"(9Z,12Z,15Z)-alpha-linolenoyl-CoA",-4,,C39H63N7O17P3S,,
+3o9Z12Z15Zlnlncgcoa_m,"3-oxo-(9Z,12Z,15Z)-alpha-Linolenoyl-CoA",-4,,C39H63N7O18P3S,,
+3o9Z12Z15Zlnlncgcoa_x,"3-oxo-(9Z,12Z,15Z)-alpha-Linolenoyl-CoA",-4,,C39H63N7O18P3S,,
+9Zocdcoa_c,(9Z)-oleoyl-CoA,-4,,C39H64N7O17P3S,CHEBI:57387,5497111
+9Zocdcoa_m,(9Z)-oleoyl-CoA,-4,,C39H64N7O17P3S,CHEBI:57387,5497111
+9Zocdcoa_x,(9Z)-oleoyl-CoA,-4,,C39H64N7O17P3S,CHEBI:57387,5497111
+3h9Z12Z15Zlnlncgcoa_m,"(R)-3-hydroxy-(9Z,12Z,15Z)-alpha-Linolenoyl-CoA ",-4,,C39H65N7O18P3S,,
+3h9Z12Z15Zlnlncgcoa_x,"(R)-3-hydroxy-(9Z,12Z,15Z)-alpha-Linolenoyl-CoA",-4,,C39H65N7O18P3S,,
+3hocdACP_c,(R)-3-hydroxy-stearoyl-[acp],0,,C39H66N7O18P3S,,
+3hocdACP_m,(R)-3-hydroxy-stearoyl-[acp],0,,C39H66N7O18P3S,,
+3hocdcoa_m,(R)-3-hydroxy-stearoyl-CoA,-4,,C39H66N7O18P3S,,
+3hocdcoa_x,(R)-3-hydroxy-stearoyl-CoA,-4,,C39H66N7O18P3S,,
+metha_c,N-methylethanolamine,0,,C3H9NO,ChEBI:21763,
+metha_e,N-methylethanolamine,0,,C3H9NO,ChEBI:21763,
+torularhodinaldehyde_c,torularhodinaldehyde,0,,C40H52O,,73656889
+torularhodin_c,torularhodin,0,,C40H52O2,,5281248
+torularhodin_e,torularhodin,0,,C40H52O2,,5281248
+2Earachcoa_r,(2E)-icosenoyl-CoA,-4,,C41H68N7O17P3S,CHEBI:74691,
+2Earachcoa_x,(2E)-icosenoyl-CoA,-4,,C41H68N7O17P3S,CHEBI:74691,
+3oarachcoa_r,3-oxo-icosanoyl-CoA(4-),-4,,C41H68N7O18P3S,CHEBI:65115,
+3oarachcoa_x,3-oxo-icosanoyl-CoA(4-),-4,,C41H68N7O18P3S,CHEBI:65115,
+3harachcoa_r,(R)-3-hydroxy-icosanoyl-CoA(4-),-4,,C41H70N7O18P3S,,
+3harachcoa_x,(R)-3-hydroxy-icosanoyl-CoA(4-),-4,,C41H70N7O18P3S,,
+cer1_24_c,ceramide A (C24),0,,C42H85NO3,ChEBI:52961,5283577
+cer3_24_c,ceramide C (C24),0,,C42H85NO3,ChEBI:52373,90658029
+cer2_24_c,ceramide B (C24),0,,C42H85NO4,ChEBI:52979,10462091
+cer4_24_c,ceramide D (C24),0,,C42H85NO6,ChEBI:60256,53356672
+cer4_24_e,ceramide D (C24),0,,C42H85NO6,ChEBI:60256,53356672
+2Ebehencoa_r,(2E)-docosenoyl-CoA,-4,,C43H72N7O17P3S,CHEBI:74692,
+2Ebehencoa_x,(2E)-docosenoyl-CoA,-4,,C43H72N7O17P3S,CHEBI:74692,
+3obehencoa_r,3-oxo-docosanoyl-CoA(4-),-4,,C43H72N7O18P3S,CHEBI:71451,
+3obehencoa_x,3-oxo-docosanoyl-CoA(4-),-4,,C43H72N7O18P3S,CHEBI:71451,
+3hbehencoa_r,(3S)-3-hydroxy-docosanoyl-CoA(4-),-4,,C43H74N7O18P3S,,
+3hbehencoa_x,(3S)-3-hydroxy-docosanoyl-CoA(4-),-4,,C43H74N7O18P3S,,
+cer1_26_c,ceramide A (C26),0,,C44H87NO3,ChEBI:52962,644245
+cer3_26_c,ceramide C (C26),0,,C44H89NO3,CHEBI:52374,90657332
+cer2_26_c,ceramide B (C26),0,,C44H89NO4,ChEBI:52980,10417280
+cer4_26_c,ceramide D (C26),0,,C44H89NO6,ChEBI:60384,53356671
+cer4_26_e,ceramide D (C26),0,,C44H89NO6,ChEBI:60384,53356671
+2Etccoa_r,(2E)-tetracosenoyl-CoA,-4,,C45H76N7O17P3S,,134159936
+2Etccoa_x,(2E)-tetracosenoyl-CoA,-4,,C45H76N7O17P3S,,134159936
+3otccoa_r,3-oxo-tetracosanoyl-CoA,-4,,C45H76N7O18P3S,,
+3otccoa_x,3-oxo-tetracosanoyl-CoA,-4,,C45H76N7O18P3S,,
+3htccoa_r,(R)-3-hydroxy-tetracosanoyl-CoA,-4,,C45H78N7O18P3S,CHEBI:76377,
+3htccoa_x,(R)-3-hydroxy-tetracosanoyl-CoA,-4,,C45H78N7O18P3S,CHEBI:76377,
+2Ehxccoa_r,(2E)-hexacosenoyl-CoA,-4,,C47H80N7O17P3S,,134159934
+2Ehxccoa_x,(2E)-hexacosenoyl-CoA,-4,,C47H80N7O17P3S,,134159934
+3ohxccoa_r,3-oxo-hexacosanoyl-CoA(4-),-4,,C47H80N7O18P3S,CHEBI:73980,
+3ohxccoa_x,3-oxo-hexacosanoyl-CoA(4-),-4,,C47H80N7O18P3S,CHEBI:73980,
+hxccoa_c,hexacosanoyl-CoA,-4,,C47H82N7O17P3S,ChEBI:52966,
+hxccoa_r,hexacosanoyl-CoA,-4,,C47H82N7O17P3S,ChEBI:52966,
+hxccoa_x,hexacosanoyl-CoA,-4,,C47H82N7O17P3S,ChEBI:52966,
+3hhxccoa_x,(R)-3-hydroxy-hexacosanoyl-CoA,-4,,C47H82N7O18P3S,CHEBI:76378,
+3hxccoa_r,(S)-3-hydroxyhexacosanoyl-CoA,-4,,C47H86N7O18P3S,CHEBI:52976,
+spmylin_24_c,sphingomyelin 24,0,,C47H93N2O6P,ChEBI:74535,44260126
+spmylin_24_e,sphingomyelin 24,0,,C47H93N2O6P,ChEBI:74535,44260126
+ipc124_c,"inositol phosphorylceramide, ceramide-1 (24C)",0,,C48H95NO11P,,
+ipc324_c,"inositol phosphorylceramide, ceramide-3 (24C)",0,,C48H95NO11P,,
+ipc224_c,"inositol phosphorylceramide, ceramide-2 (24C)",0,,C48H95NO12P,,
+ipc424_c,"inositol phosphorylceramide, ceramide-4 (24C)",0,,C48H95NO14P,,
+gcylcer_24_c,beta-D-glucosyl-N-acylsphingosine 24,0,,C48H95O8N,,
+hemeA_c,heme A,0,,C49H56FeN4O6,ChEBI:24479,
+hemeA_e,heme A,0,,C49H56FeN4O6,ChEBI:24479,
+spmylin_26_c,sphingomyelin 26,0,,C49H97N2O6P,CHEBI:84476,44260128
+spmylin_26_e,sphingomyelin 26,0,,C49H97N2O6P,CHEBI:84476,44260128
+threitolL_c,L-threitol,0,,C4H10O4,ChEBI:42090,
+threitolL_e,L-threitol,0,,C4H10O4,ChEBI:42090,
+methionol_c,methionol,0,,C4H10OS,ChEBI:49019,
+methionol_e,methionol,0,,C4H10OS,ChEBI:49019,
+dmetha_c,"N,N-dimethylethanolamine",0,,C4H11NO,ChEBI:271436,
+dmetha_e,"N,N-dimethylethanolamine",0,,C4H11NO,ChEBI:271436,
+dea_c,diethylammonium,0,,C4H12N,ChEBI:132181,
+dea_e,diethylammonium,0,,C4H12N,ChEBI:132181,
+2mppal_c,2-methylpropanal,0,,C4H8O,ChEBI:48943,
+2mppal_e,2-methylpropanal,0,,C4H8O,ChEBI:48943,
+3mppal_c,3-methylthiopropanal,0,,C4H8OS,,
+3mppal_e,3-methylthiopropanal,0,,C4H8OS,,
+ipc126_c,"inositol phosphorylceramide, ceramide-1 (26C)",0,,C50H99NO11P,,
+ipc326_c,"inositol phosphorylceramide, ceramide-3 (26C)",0,,C50H99NO11P,,
+ipc226_c,"inositol phosphorylceramide, ceramide-2 (26C)",0,,C50H99NO12P,,
+ipc426_c,"inositol phosphorylceramide, ceramide-4 (26C)",0,,C50H99NO14P,,
+gcylcer_26_c,beta-D-glucosyl-N-acylsphingosine 26,0,,C50H99O8N,,
+m1mpdol_c,alpha-D-mannosyl-beta-D-mannosyl-diacylchitobiosyldiphosphodolichol,0,,C53H92N2O27P2,,
+mipc124_c,"mannose-inositol phosphorylceramide, ceramide-1 (24C)",0,,C54H105NO16P,,
+mipc324_c,"mannose-inositol phosphorylceramide, ceramide-3 (24C)",0,,C54H105NO16P,,
+mipc224_c,"mannose-inositol phosphorylceramide, ceramide-2 (24C)",0,,C54H105NO17P,,
+mipc424_c,"mannose-inositol phosphorylceramide, ceramide-4 (24C)",0,,C54H105NO19P,,
+mipc126_c,"mannose-inositol phosphorylceramide, ceramide-1 (26C)",0,,C56H109NO16P,,
+mipc326_c,"mannose-inositol phosphorylceramide, ceramide-3 (26C)",0,,C56H109NO16P,,
+mipc226_c,"mannose-inositol phosphorylceramide, ceramide-2 (26C)",0,,C56H109NO17P,,
+mipc426_c,"mannose-inositol phosphorylceramide, ceramide-4 (26C)",0,,C56H109NO19P,,
+m2mpdol_c,(alpha-D-mannosyl)2-beta-D-mannosyl-diacetylchitobiosyldiphosphodolichol,0,,C59H102N2O32P2,,
+d5r_c,D-5-deoxyribose,0,,C5H10O4,ChEBI:62012,
+d5ru1p_c,D-5-deoxyribulose 1-phosphate,0,,C5H11O7P,,
+2mbtoh_c,2-methylbutan-1-ol,0,,C5H12O,ChEBI:48945,
+2mbtoh_e,2-methylbutan-1-ol,0,,C5H12O,ChEBI:48945,
+2mba_c,2-methylbutyrate,-1,,C5H9O2,ChEBI:48946,
+2mba_e,2-methylbutyrate,-1,,C5H9O2,ChEBI:48946,
+3hiv_c,3-hydroxyisovalerate,-1,,C5H9O3,ChEBI:37084,
+3hiv_e,3-hydroxyisovalerate,-1,,C5H9O3,ChEBI:37084,
+desmeninol_c,2-hydroxy-4-methylthiobutanoate,-1,,C5H9O3S,,21262170
+desmeninol_e,2-hydroxy-4-methylthiobutanoate,-1,,C5H9O3S,,21262170
+xylnD_c,D-xylonate,-1,,C5H9O6,ChEBI:17746,
+xylnD_e,D-xylonate,-1,,C5H9O6,ChEBI:17746,
+mip2c124_c,"mannose-(inositol-P)2-ceramide, ceramide-1 (24C)",0,,C60H117NO24P2,,
+mip2c324_c,"mannose-(inositol-P)2-ceramide, ceramide-3 (24C)",0,,C60H117NO24P2,,
+mip2c224_c,"mannose-(inositol-P)2-ceramide, ceramide-2 (24C)",0,,C60H117NO25P2,,
+mip2c424_c,"mannose-(inositol-P)2-ceramide, ceramide-4 (24C)",0,,C60H117NO27P2,,
+mip2c126_c,"mannose-(inositol-P)2-ceramide, ceramide-1 (26C)",0,,C62H119NO24P2,,
+mip2c326_c,"mannose-(inositol-P)2-ceramide, ceramide-3 (26C)",0,,C62H121NO24P2,,
+mip2c226_c,"mannose-(inositol-P)2-ceramide, ceramide-2 (26C)",0,,C62H121NO25P2,,
+mip2c426_c,"mannose-(inositol-P)2-ceramide, ceramide-4 (26C)",0,,C62H121NO27P2,,
+tridcdp_c,tridecaprenyl diphosphate,-3,,C65H105O7P2,ChEBI:53040,
+glcur1p_c,D-glucuronate 1-phosphate,-1,,C6H11O10P,ChEBI:28547,
+ibutac_c,isobutyl acetate,0,,C6H12O2,ChEBI:50569,
+ibutac_e,isobutyl acetate,0,,C6H12O2,ChEBI:50569,
+hexuL_c,L-xylo-3-hexulose,0,,C6H12O6,ChEBI:134214,
+hexuL_e,L-xylo-3-hexulose,0,,C6H12O6,ChEBI:134214,
+ppmi12345p_c,"6-diphospho-1D-myo-inositol (1,2,3,4,5)pentakisphosphate",-13,,C6H6O27P7,CHEBI:140374,
+ppmi12356p_c,4-diphospho-1D-myo-inositol pentakisphosphate,-13,,C6H6O27P7,ChEBI:53064,
+ppmi1234p_c,"5,6-bisdiphosphoinositol-1D-myoinositol (1,2,3,4)tetrakisphosphate(14-)",-14,,C6H6O30P8,ChEBI:52965,
+ppmi1236p_c,"1,5-bisdiphosphoinositol-1D-myo-inositol (1,2,3,6)tetrakisphosphate(14-)",-14,,C6H6O30P8,ChEBI:74945,
+ppmi2346p_c,"1,5-bis(diphospho)-1D-myo-inositol 2,3,4,6-tetrakisphosphate(13-)",-13,,C6H7O30P8,ChEBI:74945,
+tetdcdp_c,tetradecaprenyl diphosphate,-3,,C70H113O7P2,ChEBI:53039,
+pendcdp_c,pentadecaprenyl diphosphate,-3,,C75H121O7P2,ChEBI:53038,
+succser_m,O-succinyl-L-serinate(1-),-1,,C7H10NO6,ChEBI:136856,
+hpta_c,heptanoate,-1,,C7H13O2,ChEBI:32362,
+hpta_e,heptanoate,-1,,C7H13O2,ChEBI:32362,
+hpta_m,heptanoate,-1,,C7H13O2,ChEBI:32362,
+hpta_x,heptanoate,-1,,C7H13O2,ChEBI:32362,
+2mbac_c,2-methylbutyl acetate,0,,C7H14O2,ChEBI:50585,
+2mbac_e,2-methylbutyl acetate,0,,C7H14O2,ChEBI:50585,
+madg_e,methyl alpha-D-glucopyranoside,0,,C7H14O6,ChEBI:320061,
+mbdg_e,methyl beta-D-glucopyranoside,0,,C7H14O6,ChEBI:320055,
+24dhb_c,"2,4-dihydroxybenzoate",-1,,C7H5O4,,54712708
+mhquinone_c,methoxyhydroquinone,0,,C7H8O3,,69988
+hexdcdp_c,hexadecaprenyl diphosphate,-3,,C80H129O7P2,ChEBI:53037,
+hepdcdp_c,heptadecaprenyl diphosphate,-3,,C85H137O7P2,ChEBI:53036,44224044
+2EglutmeACP_c,(2E)-glutarate-methylester-[acp],0,,C8H11O3S1R,,
+glutmeACP_c,glutarate-methylester-[acp],0,,C8H13O3SR,,
+3hglutmeACP_c,3-hydroxyglutarate-methylester-[acp],0,,C8H13O4SR,,
+34dhstyrene_c,vinylcatechol,0,,C8H8O2,,441226
+34dhstyrene_e,vinylcatechol,0,,C8H8O2,,441226
+octdcdp_c,octadecaprenyl diphosphate,-3,,C90H145O7P2,ChEBI:53035,
+nondcdp_c,nonadecaprenyl diphosphate,-3,,C95H153O7P2,ChEBI:53034,
+34dmbza_c,veratric acid,0,,C9H10O4,ChEBI:296881,
+34dmbza_e,veratric acid,0,,C9H10O4,ChEBI:296881,
+syringald_c,syringic aldehyde,0,,C9H10O4,ChEBI:67380,
+syringald_e,syringic aldehyde,0,,C9H10O4,ChEBI:67380,
+3h45dmbza_c,"3-hydroxy-4,5-dimethoxy benzoic acid",0,,C9H10O5,ChEBI:88603,
+34dmbzol_c,veratryl alcohol,0,,C9H12O3,ChEBI:62150,
+34dmbzol_e,veratryl alcohol,0,,C9H12O3,ChEBI:62150,
+dhbiopt_c,dihydrobiopterin,0,,C9H13N5O3,ChEBI:43029,
+nna_c,nonanoate,-1,,C9H17O2,ChEBI:32361,
+nna_e,nonanoate,-1,,C9H17O2,ChEBI:32361,
+nna_m,nonanoate,-1,,C9H17O2,ChEBI:32361,
+nna_x,nonanoate,-1,,C9H17O2,ChEBI:32361,
+e3phopa_c,(E)-3-phenyl-3-keto-propanoic acid,0,,C9H8O3,,
+e34hph3opa_c,(E)-3-(4-hydroxyphenyl)-3-oxo-propanoic acid,0,,C9H8O4,,
+e334dhph3opa_c,"(E)-3-(3,4-dihydroxyphenyl)-3-oxo-propanoic acid",0,,C9H8O6,,
+e3phehpa_c,(E)-3-phenyl-3-hydroxy-propanoic acid,0,,C9H9O3,,
+e34hph3hpa_c,(E)-3-(4-hydroxyphenyl)-3-hydroxy-propanoic acid,0,,C9H9O4,,
+2hfer_c,2-hydroxy ferulate,0,,,,
+34dmvbz_c,"3,4-dimethoxy vinyl benzene",0,,,,
+3kglutmeACP_c,3-ketoglutarate-methylester-[acp],0,,,,
+3kpimemeACP_c,3-ketopimelate-methylester-[acp],0,,,,
+ash_1g_c,ash 1 g,0,,,,
+ash_1g_e,ash 1 g,0,,,,
+asperfuranone_intermediate2_c,asperfuranone_intermediate2,0,,,,
+asperfuranone_intermediate3_c,asperfuranone_intermediate3,0,,,,
+asperfuranone_intermediate4_c,asperfuranone_intermediate4,0,,,,
+asperfuranone_intermediate5_c,asperfuranone_intermediate5,0,,,,
+asperfuranone_intermediate6_c,asperfuranone_intermediate6,0,,,,
+asperfuranone_intermediate7_c,asperfuranone_intermediate7,0,,,,
+asperfuranone_intermediate8_c,asperfuranone_intermediate8,0,,,,
+atrochrysone_carboxylate_c,atrochrysone carboxylate,0,,,,
+atrochrysone_thioester_c,atrochrysone thioester,0,,,,
+biomass_1g_c,biomass 1 gDCW,0,,,,
+clpn_monounsat_1g_m,cardiolipin 1 g (monounsaturated),0,,,,
+clpn_polyunsat_1g_m,cardiolipin 1 g (polyunsaturated),0,,,,
+clpn_sat_1g_m,cardiolipin 1 g (saturated),0,,,,
+g1m8mpdol_c,alpha-D-glucosyl-(alpha-D-mannosyl)8-beta-D-mannosyl-diacetylchitobiosyldiphosphodolichol,0,,,,
+g2m8mpdol_c,(alpha-D-Glucosyl)2-(alpha-D-mannosyl)8-beta-D-mannosyl-diacetylchitobiosyldiphosphodolichol,0,,,,
+g3m8mpdol_c,(alpha-D-Glucosyl)3-(alpha-D-mannosyl)8-beta-D-mannosyl-diacetylchitobiosyldiphosphodolichol,0,,,,
+g3m8mpdol_e,(alpha-D-glucosyl)2-(alpha-D-mannosyl)8-beta-D-mannosyl-diacetylchitobiosyldiphosphodolichol,0,,,,
+m3mpdol_c,(alpha-D-mannosyl)3-beta-D-mannosyl-diacetylchitobiosyldiphosphodolichol,0,,,,
+m4mpdol_c,(alpha-D-Mannosyl)4-beta-D-mannosyl-diacetylchitobiosyldiphosphodolichol,0,,,,
+m5mpdol_c,(alpha-D-Mannosyl)5-beta-D-mannosyl-diacetylchitobiosyldiphosphodolichol,0,,,,
+m6mpdol_c,(alpha-D-Mannosyl)6-beta-D-mannosyl-diacetylchitobiosyldiphosphodolichol,0,,,,
+m7mpdol_c,(alpha-D-mannosyl)7-beta-D-mannosyl-diacetylchitobiosyldiphosphodolichol,0,,,,
+m8mpdol_c,(alpha-D-mannosyl)8-beta-D-mannosyl-diacetylchitobiosyldiphosphodolichol,0,,,,
+mannan_1g_c,mannan 1 g,0,,,,
+paSCC16_1g_c,phosphatidate 1 g (pmt),0,,,,
+paSCmonounsat_1g_c,phosphatidate 1 g (monounsaturated),0,,,,
+paSCpolyunsat_1g_c,phosphatidate 1 g (polyunsaturated),0,,,,
+paSCsat_1g_c,phosphatidate 1 g (saturated),0,,,,
+pc_monounsat_1g_c,Phosphocholine 1 g (monounsaturated),0,,,,
+pc_polyunsat_1g_c,phosphocholine 1 g (polyunsaturated),0,,,,
+pc_sat_1g_c,phosphocholine 1 g (saturated),0,,,,
+pe_monounsat_1g_c,phosphatidylethanolamine 1 g (monounsaturated),0,,,,
+pe_polyunsat_1g_c,phosphatidylethanolamine 1 g (polyunsaturated),0,,,,
+pe_sat_1g_c,phosphatidylethanolamine 1 g (saturated),0,,,,
+phospholipid_1g_c,phospholipid 1 g,0,,,,
+ppp_c,"di,trans poly-cis-polyprenol",0,,,,
+ps_monounsat_1g_c,phosphoserine 1 g (monounsaturated),0,,,,
+ps_polyunsat_1g_c,Phosphoserine 1 g (polyunsaturated),0,,,,
+ps_sat_1g_c,phosphoserine 1 g (saturated),0,,,,
