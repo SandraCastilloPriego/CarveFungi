@@ -6,8 +6,8 @@ import cobra
 import warnings
 import re
 
-universal_model_path = 'data/reactionDatabase/bigModelv2.20b.sbml'
-universal_csv_path = 'data/reactionDatabase/universal_v2.20.csv'
+universal_model_path = '../data/reactionDatabase/bigModelv2.21b.sbml'
+universal_csv_path = '../data/reactionDatabase/universal_v2.21.csv'
 
 VERY_SMALL_NUMBER_NEG = -0.000000000001
 VERY_SMALL_NUMBER = 0.00000000001
@@ -119,7 +119,7 @@ def get_gene_to_score_dict(fungi_id, annotation_file):
                 genes_list.append(str(key))
         ecs_to_genes_dictionary[ec] = list(set(genes_list))
 
-    with open("results/" + fungi_id + "_GeneEc.npy", 'wb') as handle:
+    with open("../results/" + fungi_id + "_GeneEc.npy", 'wb') as handle:
         pickle.dump(ecs_to_genes_dictionary, handle, protocol=pickle.HIGHEST_PROTOCOL)
     return ec_to_score_final, ecs_to_genes_dictionary
 
@@ -223,7 +223,7 @@ def get_final_score(genes, compartment_label, cutoff, score, compartment_predict
     compartment_prediction_score = []
     for gene in genes:
         for gen in gene:
-            gen_selection = compartment_prediction_dataset[compartment_prediction_dataset['Id'] == gen]
+            gen_selection = compartment_prediction_dataset[compartment_prediction_dataset['Ids'] == gen]
             compartment_prediction_score.append(gen_selection.iloc[0][compartment_label])
     if len(compartment_prediction_score) > 0:
         compartment_prediction_score = np.max(compartment_prediction_score)
@@ -232,29 +232,9 @@ def get_final_score(genes, compartment_label, cutoff, score, compartment_predict
     return (0.00001 + (SCALE - score)) * (compartment_prediction_score - cutoff)
 
 
-def scoring_compartments(sequence_file, compartment_file, universal, ecs_to_genes_dictionary, fungi_id):
-    ids = []
-    seq = []
-    for record in SeqIO.parse(sequence_file, "fasta"):
-        ids.append(str(record.id))
-        seq.append(str(record.seq))
+def scoring_compartments(compartment_file, universal, ecs_to_genes_dictionary, fungi_id):
 
-    compartment_predictions = np.load(compartment_file)
-
-    endo = []
-    mito = []
-    pero = []
-    other = []
-
-    for pred in compartment_predictions:
-        endo.append(pred[0])
-        mito.append(pred[1])
-        pero.append(pred[2])
-        other.append(pred[3])
-
-    dataset = pd.DataFrame(
-        {'Id': ids, 'Sequences': seq, 'Endoplasmic reticulum': endo, 'Mitochondria': mito, 'Peroxisome': pero,
-         'Other': other})
+    dataset = pd.read_csv(compartment_file)
 
     # calculate final scores for each reaction in the universal model
     model = cobra.io.read_sbml_model(universal_model_path)
@@ -272,19 +252,16 @@ def scoring_compartments(sequence_file, compartment_file, universal, ecs_to_gene
         try:
             sel = universal[universal['IDs'].str.contains(id)]
             if len(sel) > 0:
-                final_scores['R_' + reaction.id] = sel.iloc[0]['scores']
+                final_scores[reaction.id] = sel.iloc[0]['scores']
             if '_T' in reaction.id or '_t' in reaction.id:
-                final_scores['R_' + reaction.id] = VERY_SMALL_NUMBER
+                final_scores[reaction.id] = VERY_SMALL_NUMBER
         except:
-            final_scores['R_' + reaction.id] = VERY_SMALL_NUMBER_NEG
+            final_scores[reaction.id] = VERY_SMALL_NUMBER_NEG
 
     final_scores_with_compartments = final_scores.copy()
     for reaction in model.reactions:
-        name = ""
-        if reaction.id.startswith('R_'):
-            name = reaction.id
-        else:
-            name = 'R_' + reaction.id
+
+        name = reaction.id
         if reaction.id.endswith('_E'):
             continue
 
@@ -310,17 +287,17 @@ def scoring_compartments(sequence_file, compartment_file, universal, ecs_to_gene
                     genes = get_genes(ec_number, ecs_to_genes_dictionary)
                     compartment_score=0
                     if 'm' in comp:
-                        compartment_score = get_final_score(genes, "Mitochondria", 0.2, score, dataset)
+                        compartment_score = get_final_score(genes, "M", 0.45, score, dataset)
                     if 'x' in comp:
-                        compartment_score = get_final_score(genes, "Peroxisome", 0.15, score, dataset)
+                        compartment_score = get_final_score(genes, "P", 0.1, score, dataset)
                     if 'c' in comp:
-                        compartment_score = get_final_score(genes, "Other", 0.2, score, dataset)
+                        compartment_score = get_final_score(genes, "O", 0.45, score, dataset)
                     if 'r' in comp:
-                        compartment_score = get_final_score(genes, "Endoplasmic reticulum", 0.15, score, dataset)
+                        compartment_score = get_final_score(genes, "E", 0.2, score, dataset)
                     if 'n' in comp:
-                        compartment_score = get_final_score(genes, "Other", 0.2, score, dataset)
+                        compartment_score = get_final_score(genes, "O", 0.45, score, dataset)
                     if 'g' in comp:
-                        compartment_score = get_final_score(genes, "Other", 0.15, score, dataset)
+                        compartment_score = get_final_score(genes, "O", 0.45, score, dataset)
 
                     if compartment_score < 0:
                         final_scores_with_compartments[name] = compartment_score
@@ -363,10 +340,10 @@ def scoring_compartments(sequence_file, compartment_file, universal, ecs_to_gene
                     final_scores_with_compartments[rxnId] = final_scores[rxnId]
 
     # Adding artificial scores to these reactions (CO2, water and O2 exchanges and complex IV"
-    final_scores_with_compartments["R_UF03227_TCE"] = 6
-    final_scores_with_compartments["R_UF00806_M"] = 6
-    final_scores_with_compartments["R_UF03314_TCE"] = 6
-    final_scores_with_compartments["R_UF03382_TCE"] = 6
+    final_scores_with_compartments["UF03227_TCE"] = 6
+    final_scores_with_compartments["UF00806_M"] = 6
+    final_scores_with_compartments["UF03314_TCE"] = 6
+    final_scores_with_compartments["UF03382_TCE"] = 6
 
 
     # Creating a dataframe with the final scores for reporting
@@ -383,7 +360,7 @@ def scoring_compartments(sequence_file, compartment_file, universal, ecs_to_gene
         try:
             id = id.group(0)
             sel = universal[universal['IDs'].str.contains(id)]
-            reaction = model.reactions.get_by_id(key[2:len(key)])
+            reaction = model.reactions.get_by_id(key)
             if len(sel) > 0:
                 formula.append(reaction.build_reaction_string())
                 definition.append(sel.iloc[0]['Definition'])
@@ -395,7 +372,7 @@ def scoring_compartments(sequence_file, compartment_file, universal, ecs_to_gene
             else:
                 print(key)
         except:
-            reaction = model.reactions.get_by_id(key[2:len(key)])
+            reaction = model.reactions.get_by_id(key)
             formula.append(reaction.build_reaction_string())
             definition.append(reaction.build_reaction_string(use_metabolite_names=True))
             ec.append("")
@@ -412,7 +389,7 @@ def scoring_compartments(sequence_file, compartment_file, universal, ecs_to_gene
     annotation['EC'] = ec
     annotation['Pathways'] = path
     annotation.columns = ['IDs', 'Score', 'Reaction Name', 'Formula', 'Definition', 'EC', 'Pathways']
-    annotation.to_csv("results/" + fungi_id + "_annotations.csv", index=False)
+    annotation.to_csv("../results/" + fungi_id + "_annotations.csv", index=False)
 
     print("Scores calculated")
 

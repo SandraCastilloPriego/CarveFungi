@@ -696,7 +696,7 @@ betald_e,betaine aldehyde,1,C00576,C5H12NO,ChEBI:15710,3855
 glyald_c,D-glyceraldehyde,0,C00577,C3H6O3,ChEBI:17378,3856
 dhlam_m,(R)-dihydrolipoamide,0,C00579,C8H17NOS2,ChEBI:17694,3858
 phaccoa_c,phenylacetyl-CoA(4-),-4,C00582,C29H38N7O17P3S,ChEBI:15537,3861
-pp12ol_c,"Propane-1,2-dio",0,C00583,C3H8O2,ChEBI:16997,3862
+pp12ol_c,"Propane-1,2-diol",0,C00583,C3H8O2,ChEBI:16997,3862
 3hbz_c,3-hydroxybenzoate,-1,C00587,C7H5O3,ChEBI:16193,3866
 3hbz_e,3-hydroxybenzoate,-1,C00587,C7H5O3,ChEBI:16193,3866
 cholp_c,choline phosphate(1-),-1,C00588,C5H13NO4P,ChEBI:18132,3330960

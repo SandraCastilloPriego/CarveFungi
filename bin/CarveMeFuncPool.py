@@ -5,21 +5,59 @@
   Developed at the European Molecular Biology Laboratory (2017-2018). Released under an Apache License. 
    
 '''
-
-from framed import Parameter
-from framed.cobra.ensemble import EnsembleModel, save_ensemble
-from framed.io.sbml import parse_gpr_rule, save_cbmodel
-from framed.model.transformation import disconnected_metabolites
-from framed.solvers import solver_instance
-from framed.solvers.solver import VarType, Status
-from framed import FBA
+import cobra
+import cplex
 from collections import Counter
 import operator
 
 
+class solution:
+    obj=None
+    sol=None
+    def __init__(self, obj, sol):
+        self.obj = obj
+        self.sol = sol
+    def get_variable_names(self):
+        return self.sol.keys()
+    def get_solution(self):
+        return self.sol
+    def get_obj(self):
+        return self.obj
+
+def generate_soln_pool(solver):
+    cpx = solver
+    cpx.parameters.mip.pool.relgap.set(0.001)
+    # cpx.solve()
+    try:
+        cpx.populate_solution_pool()
+    except:
+        print("Exception raised during populate")
+        return []
+    numsol = cpx.solution.pool.get_num()
+    print("The solution pool contains %d solutions." % numsol)
+
+    meanobjval = cpx.solution.pool.get_mean_objective_value()
+    print("The average objective value of the solutions is %.10g." %
+          meanobjval)
+
+    sol_pool = []
+    for i in range(numsol):
+        objval_i = cpx.solution.pool.get_objective_value(i)
+        print("objective:",objval_i)
+        x_i = cpx.solution.pool.get_values(i)
+        print(x_i)
+        var_i = cpx.variables.get_names()
+        print(var_i)
+        sol = {}
+        for k in range(len(x_i)):
+            sol[var_i[k]]=(x_i[k])
+        sol_pool.append(solution(objval_i,sol))
+
+    return sol_pool
+
+
 def minmax_reduction(model, scores, min_growth=0.1, min_atpm=0.1, eps=1e-5, bigM=1e3, default_score=-1.0,
-                     uptake_score=1, soft_score=1.0, soft_constraints=[], hard_constraints=None,
-                     ref_reactions=[], ref_score=0.0, solver=None, debug_output=None, feast=1e-6, opti=1e-5):
+                     uptake_score=1, ref_reactions=[], ref_score=0.0, feast=1e-6, opti=1e-5):
     """ Apply minmax reduction algorithm (MILP).
     Computes a binary reaction vector that optimizes the agreement with reaction scores (maximizes positive scores,
     and minimizes negative scores). It generates a fully connected reaction network (i.e. all reactions must be able
@@ -33,144 +71,99 @@ def minmax_reduction(model, scores, min_growth=0.1, min_atpm=0.1, eps=1e-5, bigM
         bigM (float): maximal reaction flux
         default_score (float): penalty score for reactions without an annotation score (default: -1.0).
         uptake_score (float): penalty score for using uptake reactions (default: 0.0).
-        soft_score (float): score for soft constraints (default: 1.0)
-        soft_constraints (dict): dictionary from reaction id to expected flux direction (-1, 1, 0)
-        hard_constraints (dict): dictionary of flux bounds
-        solver (Solver): solver instance (optional)
     Returns:
         Solution: optimization result
     """
+    problem = cplex.Cplex()
+    problem.parameters.simplex.tolerances.optimality = 1e-5
+    problem.parameters.simplex.tolerances.feasibility= 1e-6
+    #problem.parameters.mip.strategy.variableselect.set(3)
 
-    if not solver:
-        solver = solver_instance(model)
+    variables = {}
+    for reaction in model.reactions:
+        variables[reaction.id] = problem.variables.add(obj=[0], names=[reaction.id], lb=[reaction.lower_bound],
+                                                       ub=[reaction.upper_bound])
+    A = cobra.util.array.create_stoichiometric_matrix(model, array_type="DataFrame")
+    names = A.index
+    A = A.transpose()
+    for name in names:
+        r = A[A[name] != 0]
+        problem.linear_constraints.add(lin_expr=[[r.index, r[name]]], senses=['E'], rhs=[0])
 
-    objective = {}
     scores = scores.copy()
+
     reactions = []
     for r_id in model.reactions:
-        if r_id not in reactions and not r_id.endswith('_E'):
-            reactions.append(r_id)
+        if r_id.id not in reactions and not r_id.id.endswith('_E'):
+            reactions.append(r_id.id)
 
-    if soft_constraints:
-        reactions += [r_id for r_id in soft_constraints if r_id not in reactions]
-    else:
-        soft_constraints = {}
-
-    if hard_constraints:
-        solver.set_bounds(hard_constraints)
 
     # R_UF01847_CE is the ATP maintenance reaction
     # if the default score is lower than 0 set all the reactions to the default score except for the exchange reactions
     # and the ATP maintenance reaction
-
     if default_score != 0:
         for r_id in model.reactions:
-            if r_id not in reactions and r_id not in ref_reactions and not r_id.endswith(
-                    '_E') and r_id != 'R_UF01847_CE':
-                scores[r_id] = default_score
-                reactions.append(r_id)
+            if r_id.id not in ref_reactions and not r_id.id.endswith('_E') and r_id.id != 'UF01847_CE' and r_id.id not in reactions:
+                scores[r_id.id] = default_score
+                reactions.append(r_id.id)
 
     if ref_score != 0:
-        for r_id in ref_reactions:
-            if r_id not in reactions and r_id != 'R_UF01847_CE':
+        for r_id in ref_reactions and r_id not in reactions:
+            if r_id != 'UF01847_CE':
                 scores[r_id] = ref_score
                 reactions.append(r_id)
 
-    if not hasattr(solver, '_carveme_flag'):
-        solver._carveme_flag = True
+    problem.linear_constraints.add(lin_expr=[[['BIOMASS'], [1]]], senses=['G'], rhs=[min_growth], names =['min_growth'])
+    problem.linear_constraints.add(lin_expr=[[['UF01847_CE'], [1]]], senses=['G'], rhs=[min_atpm], names=['min_atpm'])
 
-        solver.add_constraint('min_growth', {'R_BIOMASS': 1}, '>', min_growth, update_problem=False)
-        solver.add_constraint('min_atpm', {'R_UF01847_CE': 1}, '>', min_atpm, update_problem=False)
-
-        solver.neg_vars = []
-        solver.pos_vars = []
-
-        for r_id in reactions:
-            if model.reactions[r_id].lb is None or model.reactions[r_id].lb < 0:
-                y_r = 'yr_' + r_id
-                solver.add_variable(y_r, 0, 1, vartype=VarType.BINARY, update_problem=False)
-                solver.neg_vars.append(y_r)
-            if model.reactions[r_id].ub is None or model.reactions[r_id].ub > 0:
-                y_f = 'yf_' + r_id
-                solver.add_variable(y_f, 0, 1, vartype=VarType.BINARY, update_problem=False)
-                solver.pos_vars.append(y_f)
-
-        if uptake_score != 0:
-            for r_id in model.reactions:
-                if r_id.endswith('_E'):
-                    solver.add_variable('y_' + r_id, 0, 1, vartype=VarType.BINARY, update_problem=False)
-
-        solver.update()
-
-        for r_id in reactions:
-            y_r, y_f = 'yr_' + r_id, 'yf_' + r_id
-            if y_r in solver.neg_vars and y_f in solver.pos_vars:
-                solver.add_constraint('lb_' + r_id, {r_id: 1, y_f: -eps, y_r: bigM}, '>', 0, update_problem=False)
-                solver.add_constraint('ub_' + r_id, {r_id: 1, y_f: -bigM, y_r: eps}, '<', 0, update_problem=False)
-                solver.add_constraint('rev_' + r_id, {y_f: 1, y_r: 1}, '<', 1, update_problem=False)
-            elif y_f in solver.pos_vars:
-                solver.add_constraint('lb_' + r_id, {r_id: 1, y_f: -eps}, '>', 0, update_problem=False)
-                solver.add_constraint('ub_' + r_id, {r_id: 1, y_f: -bigM}, '<', 0, update_problem=False)
-            elif y_r in solver.neg_vars:
-                solver.add_constraint('lb_' + r_id, {r_id: 1, y_r: bigM}, '>', 0, update_problem=False)
-                solver.add_constraint('ub_' + r_id, {r_id: 1, y_r: eps}, '<', 0, update_problem=False)
-
-        if uptake_score != 0:
-            for r_id in model.reactions:
-                if r_id.endswith('_E'):
-                    solver.add_constraint('lb_' + r_id, {r_id: 1, 'y_' + r_id: bigM}, '>', 0, update_problem=False)
-
-        solver.update()
+    neg_vars = []
+    pos_vars = []
 
     for r_id in reactions:
-        y_r, y_f = 'yr_' + r_id, 'yf_' + r_id
-
-        if r_id in soft_constraints:
-            sign = soft_constraints[r_id]
-
-            if sign > 0:
-                w_f, w_r = soft_score, 0
-            elif sign < 0:
-                w_f, w_r = 0, soft_score
-            else:
-                w_f, w_r = -soft_score, -soft_score
-
-        if y_f in solver.pos_vars:
-            if r_id in soft_constraints:
-                objective[y_f] = w_f
-            elif ref_score != 0 and r_id in ref_reactions:
-                objective[y_f] = 2 * scores[r_id] + ref_score
-            else:
-                objective[y_f] = scores[r_id]
-
-        if y_r in solver.neg_vars:
-            if r_id in soft_constraints:
-                objective[y_r] = w_r
-            elif ref_score != 0 and r_id in ref_reactions:
-                objective[y_r] = 2 * scores[r_id] + ref_score
-            else:
-                objective[y_r] = scores[r_id]
+        rxn = model.reactions.get_by_id(r_id)
+        if rxn.lower_bound < 0:
+            y_r = 'yr_' + r_id
+            problem.variables.add(obj=[scores[r_id]], lb=[0], ub=[1], names=[y_r])
+            problem.variables.set_types(y_r, problem.variables.type.binary)
+            neg_vars.append(y_r)
+        if rxn.upper_bound > 0:
+            y_f = 'yf_' + r_id
+            problem.variables.add(obj=[scores[r_id]], lb=[0], ub=[1], names=[y_f])
+            problem.variables.set_types(y_f, problem.variables.type.binary)
+            pos_vars.append(y_f)
 
     if uptake_score != 0:
         for r_id in model.reactions:
-            if r_id.endswith('_E') and r_id not in soft_constraints:
-                objective['y_' + r_id] = uptake_score
+            if r_id.id.endswith('_E'):
+                problem.variables.add(obj=[uptake_score], lb=[0], ub=[1], names=["y_"+r_id.id])
+                problem.variables.set_types("y_"+r_id.id, problem.variables.type.binary)
 
-    if debug_output:
-        solver.write_to_file(debug_output + "_milp_problem.lp")
+    for r_id in reactions:
+        y_r, y_f = 'yr_' + r_id, 'yf_' + r_id
+        if y_r in neg_vars and y_f in pos_vars:
+            problem.linear_constraints.add(lin_expr=[[[r_id, y_f, y_r], [1, -eps, bigM]]], senses=['G'], rhs=[0], names = ['lb_' + r_id])
+            problem.linear_constraints.add(lin_expr=[[[r_id, y_f, y_r], [1, -bigM, eps]]], senses=['L'], rhs=[0], names=['ub_' + r_id])
+            problem.linear_constraints.add(lin_expr=[[[y_f, y_r], [1, 1]]], senses=['L'], rhs=[1], names=['rev_' + r_id])
+        elif y_f in pos_vars:
+            problem.linear_constraints.add(lin_expr=[[[r_id, y_f], [1, -eps]]], senses=['G'], rhs=[0], names=['lb_' + r_id])
+            problem.linear_constraints.add(lin_expr=[[[r_id, y_f], [1, -bigM]]], senses=['L'], rhs=[0], names=['ub_' + r_id])
+        elif y_r in neg_vars:
+            problem.linear_constraints.add(lin_expr=[[[r_id, y_r], [1, bigM]]], senses=['G'], rhs=[0], names=['lb_' + r_id])
+            problem.linear_constraints.add(lin_expr=[[[r_id, y_r], [1, eps]]], senses=['L'], rhs=[0], names=['ub_' + r_id])
 
-    solver.set_parameter(Parameter.INT_FEASIBILITY_TOL, feast)
-    solver.set_parameter(Parameter.OPTIMALITY_TOL, opti)
+    if uptake_score != 0:
+        for r_id in model.reactions:
+            if r_id.id.endswith('_E'):
+                problem.linear_constraints.add(lin_expr=[[[r_id.id, 'y_'+r_id.id], [1, bigM]]], senses=['G'], rhs=[0], names=['lb_' + r_id.id])
 
-    solutions = solver.solve(linear=objective, minimize=False, get_values=True, pool_size=50, pool_gap=0)
+    problem.objective.set_sense(problem.objective.sense.maximize)
+    solutions = generate_soln_pool(problem)
 
     return solutions
 
 
-def carve_model(model, reaction_scores, outputfile=None, min_growth=0.1, min_atpm=0.1, flavor=None, inplace=False,
-                default_score=-0.1, uptake_score=1.0, soft_score=1.0,
-                soft_constraints=None, hard_constraints=None,
-                init_env=None, debug_output=None, eps=1e-5, feast=1e-6, opti=1e-6):
+def carve_model(model, reaction_scores, min_growth=0.1, min_atpm=0.1,
+                default_score=-0.1, uptake_score=1.0, eps=1e-5, feast=1e-6, opti=1e-6):
     """ Reconstruct a metabolic model using the CarveMe approach.
     Args:
         model (CBModel): universal model
@@ -180,10 +173,6 @@ def carve_model(model, reaction_scores, outputfile=None, min_growth=0.1, min_atp
         inplace (bool): Change model in place (default: True)
         default_score (float): penalty for non-annotated intracellular reactions (default: -1.0)
         uptake_score (float): penalty for utilization of extracellular compounds (default: 0.0)
-        soft_score (float): score for soft constraints (default: 1.0)
-        soft_constraints (dict): dictionary from reaction id to expected flux direction (-1, 1, 0)
-        hard_constraints (dict): dictionary of flux bounds
-        init_env (Environment): initialize final model with given Environment (optional)
     Returns:
         CBModel: reconstructed model
     """
@@ -196,56 +185,31 @@ def carve_model(model, reaction_scores, outputfile=None, min_growth=0.1, min_atp
     if uptake_score is None:
         uptake_score = 0.0
 
-    if soft_score is None:
-        soft_score = 1.0
 
-    if soft_constraints:
-        not_in_model = set(soft_constraints) - set(model.reactions)
-        if not_in_model:
-            soft_constraints = {r_id: val for r_id, val in soft_constraints.items() if r_id in model.reactions}
-            warnings.warn("Soft constraints contain reactions not in the model:\n" + "\n".join(not_in_model))
-
-    if hard_constraints:
-        not_in_model = set(hard_constraints) - set(model.reactions)
-        if not_in_model:
-            hard_constraints = {r_id: (lb, ub) for r_id, (lb, ub) in hard_constraints.items() if
-                                r_id in model.reactions}
-            warnings.warn("Hard constraints contain reactions not in the model:\n" + "\n".join(not_in_model))
     reconstructed_model = model.copy()
+
     solutions = minmax_reduction(reconstructed_model, scores, eps=eps, default_score=default_score, uptake_score=uptake_score,
-                                 soft_score=soft_score, soft_constraints=soft_constraints, min_growth=min_growth,
-                                 min_atpm=min_atpm,
-                                 hard_constraints=hard_constraints, debug_output=debug_output, feast=feast, opti=opti)
+                                 min_growth=min_growth, min_atpm=min_atpm, feast=feast, opti=opti)
 
     solutions = select_best_models(solutions)
 
     models = []
     i = 0
-    objective = 0
+    objective = []
     try:
-        for sol in solutions:
+        for sol, obj in solutions.items():
             reconstructed_model = model.copy()
             print("Solution " + str(i))
-            print(sol)
             i = i + 1
-            inactive = inactive_reactions(reconstructed_model, sol, reaction_scores)
+            inactive = inactive_reactions(reconstructed_model, sol)
             reconstructed_model.remove_reactions(inactive)
-            del_metabolites = disconnected_metabolites(reconstructed_model)
-            reconstructed_model.remove_metabolites(del_metabolites)
-            print(FBA(reconstructed_model, objective={'R_BIOMASS': 1}))
+            reconstructed_model, removed = cobra.manipulation.delete.prune_unused_metabolites(reconstructed_model)
+            reconstructed_model.objective = "BIOMASS"
+            print(reconstructed_model.optimize())
             models.append(reconstructed_model)
-            objective = objective + sol.fobj
-        objective = objective / len(solutions)
+            objective.append(obj)
     except:
-        reconstructed_model = model.copy()
-        print(solutions)
-        inactive = inactive_reactions(reconstructed_model, solutions, reaction_scores)
-        reconstructed_model.remove_reactions(inactive)
-        del_metabolites = disconnected_metabolites(reconstructed_model)
-        reconstructed_model.remove_metabolites(del_metabolites)
-        print(FBA(reconstructed_model, objective={'R_BIOMASS': 1}))
-        models.append(reconstructed_model)
-        objective = solutions.fobj
+        raise
 
     return objective, models
 
@@ -253,38 +217,44 @@ def carve_model(model, reaction_scores, outputfile=None, min_growth=0.1, min_atp
 def select_best_models(solutions):
     best_candidates = {}
     for sol in solutions:
-        best_candidates[sol] = sol.fobj
+        best_candidates[sol] = sol.get_obj()
     best_solutions = dict(sorted(best_candidates.items(), key=operator.itemgetter(1), reverse=True)[0:5])
     return best_solutions
 
 
-def inactive_reactions(model, solution, score):
+def inactive_reactions(model, solution):
     inactive = []
 
-    internal = [r_id for r_id in model.reactions if not r_id.endswith('_E')]
-    external = [r_id for r_id in model.reactions if r_id.endswith('_E')]
+    internal = [r_id.id for r_id in model.reactions if not r_id.id.endswith('_E')]
+    external = [r_id.id for r_id in model.reactions if r_id.id.endswith('_E')]
 
-    variable = []
-    sol = []
+    remove=[]
+
+    solu_values=solution.get_solution()
     for r_id in internal:
         threshold = 0.5
-        variable.append(r_id)
-        sol.append(solution.values[r_id])
-        if solution.values.get('yf_' + r_id, 0) < threshold and solution.values.get('yr_' + r_id, 0) < threshold:
-            inactive.append(r_id)
-        variable.append('yf_' + r_id)
-        sol.append(solution.values.get('yf_' + r_id, 0))
-        variable.append('yr_' + r_id)
-        sol.append(solution.values.get('yr_' + r_id, 0))
-    m_r_lookup = model.metabolite_reaction_lookup()
-    inactive_ext = []
+        try:
+            if "yf_" + r_id in solu_values and solu_values['yf_' + r_id] < threshold and "yr_" + r_id in solu_values and \
+                    solu_values['yr_' + r_id] < threshold:
+                inactive.append(r_id)
+            if "yf_" + r_id not in solu_values and "yr_" + r_id in solu_values and solu_values[
+                'yr_' + r_id] < threshold:
+                inactive.append(r_id)
+            if "yf_" + r_id in solu_values and solu_values[
+                'yf_' + r_id] < threshold and "yr_" + r_id not in solu_values:
+                inactive.append(r_id)
+        except:
+            raise
 
+    inactive_ext = []
     for r_id in external:
         try:
-            m_id = model.reactions[r_id].get_substrates()[0]
-            neighbors = m_r_lookup[m_id]
+            neighbors=[]
+            for metabolite in model.reactions.get_by_id(r_id).metabolites:
+                for rxn in metabolite.reactions:
+                    neighbors.append(rxn.id)
             if len(set(neighbors) - set(inactive)) == 1:
                 inactive_ext.append(r_id)
         except:
             print(r_id, m_id, "is there something wrong?")
-    return inactive + inactive_ext
+    return inactive + inactive_ext+remove

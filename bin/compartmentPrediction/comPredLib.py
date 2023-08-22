@@ -1,82 +1,56 @@
 import numpy as np
-aa = ["A", "E", "K", "L", "D", "R", "F", "I", "Q", "W", "G", "S", "H", "N", "M", "P", "Y", "C", "V", "T", "X", "Z", "B",
-      "U", "O"]
-Mass = [0.382, 0.693, 0.688, 0.608, 0.618, 0.839, 0.790, 0.608, 0.688, 1.000, 0.306, 0.468, 0.736, 0.613, 0.705, 0.522,
-        0.876, 0.554, 0.532, 0.543, 0.591, 0.591, 0.591, 0.746, 0.608]
-Hydrophobicity = [0.616, 0.043, 0.283, 0.943, 0.028, 0.00, 1.00, 0.943, 0.251, 0.878, 0.501, 0.359, 0.165, 0.236, 0.738,
-                  0.711,
-                  0.880, 0.680, 0.825, 0.450, 0.5, 0.5, 0.5, 0.5, 0.5]
-Polarity = [8.1, 12.3, 11.3, 4.9, 13, 10.5, 5.2, 5.2, 10.5, 5.4, 9, 9.2, 10.4, 11.6, 5.7, 8, 6.2, 5.5, 5.9, 8.6, 8.3,
-            8.3, 8.3, 8.3, 8.3]
-COOHpka = [2.34, 2.19, 2.18, 2.36, 1.88, 2.17, 1.83, 2.36, 2.17, 2.83, 2.34, 2.21, 1.82, 2.02, 2.28, 1.99, 2.2, 1.96,
-           2.32, 2.09, 2.177, 2.177, 2.177, 2.177, 2.177]
-NH3pka = [9.69, 9.67, 8.95, 9.6, 9.6, 9.04, 9.13, 9.6, 9.13, 9.39, 9.6, 9.15, 9.17, 8.8, 9.21, 10.6, 9.11, 10.128, 9.62,
-          9.1, 9.4144, 9.4144, 9.4144, 9.4144, 9.4144]
-pI = [6, 3.22, 9.74, 5.98, 2.77, 10.76, 5.48, 6.02, 5.65, 5.89, 5.97, 5.58, 7.59, 5.41, 5.74, 6.3, 5.66, 5.07, 5.96,
-      5.6, 6.0195, 6.0195, 6.0195, 6.0195, 6.0195]
-SASA = [1.181, 1.862, 2.258, 1.931, 1.587, 2.56, 2.228, 1.81, 1.932, 2.663, 0.881, 1.298, 2.025, 1.655, 2.034, 1.468,
-        2.368, 1.461, 1.645, 1.525, 1.8186
-    , 1.8186, 1.8186, 1.8186, 1.8186]
-NCISC = [0.07187, 0.006802, 0.017708, 0.051672, -0.02382, 0.043587, 0.037552, 0.21631, 0.049211, 0.037977, 0.179052,
-         0.004627, -0.01069, 0.005392, 0.002683, 0.239531, 0.023599, -0.03661, 0.057004, 0.003352, 0.0488404, 0.0488404,
-         0.0488404, 0.0488404, 0.0488404]
-aa_dict = {}
-for i in range(len(aa)):
-    aa_dict[aa[i]] = Mass[i]
 
-aa_dict2 = {}
-for i in range(len(aa)):
-    aa_dict2[aa[i]] = Hydrophobicity[i]
-
-aa_dict3 = {}
-for i in range(len(aa)):
-    aa_dict3[aa[i]] = Polarity[i]
-
-aa_dict4 = {}
-for i in range(len(aa)):
-    aa_dict4[aa[i]] = COOHpka[i]
-aa_dict5 = {}
-for i in range(len(aa)):
-    aa_dict5[aa[i]] = NH3pka[i]
-aa_dict6 = {}
-for i in range(len(aa)):
-    aa_dict6[aa[i]] = pI[i]
-aa_dict7 = {}
-for i in range(len(aa)):
-    aa_dict7[aa[i]] = SASA[i]
-aa_dict8 = {}
-for i in range(len(aa)):
-    aa_dict8[aa[i]] = NCISC[i]
+X = {"A": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0], "E": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0], "K": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0],
+         "L": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0], "D": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0], "R": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0],
+         "F": [0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0], "I": [0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0], "Q": [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0],
+         "W": [0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0], "G": [0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0], "S": [0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0],
+         "H": [0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0], "N": [0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "M": [0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+         "P": [0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "Y": [0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "C": [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+         "V": [0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "T": [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "X": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+         "Z": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0], "B": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0],
+         "U": [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "O": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0], "ERROR": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
 
 
+chem_feat = {"A": [0.382,0.389,0.400,0.623,0.112,0.559,0.000], "E": [0.693,0.608,-0.778,0.946,0.369,0.299,0.335], "K": [0.689,0.734,-0.867,0.869,0.535,0.905,0.120],
+         "L": [0.608,0.710,0.844,0.377,0.455,0.556,0.000], "D": [0.618,0.505,-0.778,1.000,0.257,0.257,0.502], "R": [0.839,0.832,-1.000,0.808,0.711,1.000,0.236],
+         "F": [0.791,0.835,0.622,0.400,0.709,0.509,0.000], "I": [0.608,0.712,1.000,0.400,0.455,0.559,0.000], "Q": [0.688,0.645,-0.778,0.808,0.440,0.525,0.324],
+         "W": [1.000,1.000,-0.200,0.415,1.000,0.547,0.047], "G": [0.306,0.275,-0.089,0.692,0.000,0.555,0.269], "S": [0.468,0.407,-0.178,0.708,0.152,0.528,0.516],
+         "H": [0.736,0.688,-0.711,0.800,0.562,0.705,0.211], "N": [0.613,0.550,-0.778,0.892,0.328,0.503,0.484], "M": [0.705,0.724,0.422,0.438,0.540,0.533,0.000],
+         "P": [0.521,0.531,-0.356,0.615,0.320,0.602,0.142], "Y": [0.876,0.851,-0.289,0.477,0.729,0.526,0.073], "C": [0.554,0.447,0.556,0.423,0.313,0.471,1.000],
+         "V": [0.532,0.600,0.933,0.454,0.342,0.555,0.000], "T": [0.543,0.518,-0.156,0.662,0.264,0.546,0.258], "X": [0.639,0.628,-0.109,0.640,0.430,0.562,0.226],
+         "Z": [0.691,0.627,-0.778,0.877,0.405,0.412,0.33], "B": [0.616,0.528,-0.778,0.946,0.293,0.38,0.493], "J": [0.608,0.711,0.922,0.389,0.455,0.558,0],
+         "U": [0.554,0.447,0.556,0.423,0.313,0.471,1.000], "O": [0.689,0.734,-0.867,0.869,0.535,0.905,0.120],"ERROR": [0,0,0,0,0,0,0]}
+         
+def get_chemical_features(aa):
+    sequence = np.array([])
+    for i in range(len(aa)):
+        try:
+            if sequence.shape[0] == 0:
+                sequence = np.array(chem_feat[aa[i]]).reshape(1, 7)
+            else:
+                sequence = np.concatenate((sequence, np.array(chem_feat[aa[i]]).reshape(1, 7)))
+        except:
+            if sequence.shape[0] == 0:
+                sequence = np.array(chem_feat["ERROR"]).reshape(1, 7)
+            else:
+                sequence = np.concatenate((sequence, np.array(chem_feat["ERROR"]).reshape(1, 7)))
 
-def getAAfeatures(g):
-    sdataIdx = [aa_dict[c] for c in list(g)]
-    sdataIdx2 = [aa_dict2[c] for c in list(g)]
-    sdataIdx3 = [aa_dict3[c] for c in list(g)]
-    sdataIdx4 = [aa_dict4[c] for c in list(g)]
-    sdataIdx5 = [aa_dict5[c] for c in list(g)]
-    sdataIdx6 = [aa_dict6[c] for c in list(g)]
-    sdataIdx7 = [aa_dict7[c] for c in list(g)]
-    sdataIdx8 = [aa_dict8[c] for c in list(g)]
-    frequencies = np.asarray(sdataIdx)
-    # print("1: ", frequencies.shape)
-    frequencies = np.reshape(frequencies, (1, len(g)))
-    sdataIdx2 = np.reshape(np.asarray(sdataIdx2), (1, len(g)))
-    sdataIdx3 = np.reshape(np.asarray(sdataIdx3), (1, len(g)))
-    sdataIdx4 = np.reshape(np.asarray(sdataIdx4), (1, len(g)))
-    sdataIdx5 = np.reshape(np.asarray(sdataIdx5), (1, len(g)))
-    sdataIdx6 = np.reshape(np.asarray(sdataIdx6), (1, len(g)))
-    sdataIdx7 = np.reshape(np.asarray(sdataIdx7), (1, len(g)))
-    sdataIdx8 = np.reshape(np.asarray(sdataIdx8), (1, len(g)))
-    frequencies = np.concatenate((frequencies, sdataIdx2), axis=0)
-    frequencies = np.concatenate((frequencies, sdataIdx3), axis=0)
-    frequencies = np.concatenate((frequencies, sdataIdx4), axis=0)
-    frequencies = np.concatenate((frequencies, sdataIdx5), axis=0)
-    frequencies = np.concatenate((frequencies, sdataIdx6), axis=0)
-    frequencies = np.concatenate((frequencies, sdataIdx7), axis=0)
-    frequencies = np.concatenate((frequencies, sdataIdx8), axis=0)
-    # print(len(g),  frequencies.shape)
-    # frequencies = np.reshape( frequencies, (len(g), 8))
-    # print(frequencies.shape)
-    return frequencies
+    return sequence
+
+
+def get_binary_sequence(aa):
+    sequence = np.array([])
+    for i in range(len(aa)):
+        try:
+            if sequence.shape[0] == 0:
+                sequence = np.array(X[aa[i]]).reshape(1,21)
+            else:
+                sequence = np.concatenate((sequence, np.array(X[aa[i]]).reshape(1,21)))
+
+        except:
+            if sequence.shape[0] == 0:
+                sequence = np.array(X["ERROR"]).reshape(1, 21)
+            else:
+                sequence = np.concatenate((sequence, np.array(X["ERROR"]).reshape(1, 21)))
+
+    return sequence
