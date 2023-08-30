@@ -169,10 +169,10 @@ def getPrediction(chem_feat, onehot, sec_feat):
     y = model(x)
     return y.numpy()
 
-def predict(organismPath, organism, suma):
-    resultPath = '/scratch/project_2001899/CarveFungi/data/annotations/localization/'
+def predict(organismPath, organism):
+    resultPath = '../../data/annotations/localization/'
 
-    functional_annotation = pd.read_csv('/scratch/project_2001899/CarveFungi/data/annotations/functional/'+organism, skiprows=4, sep="\t",header=None)
+    functional_annotation = pd.read_csv('../../data/annotations/functional/'+organism, skiprows=4, sep="\t",header=None)
     functional_annotation = functional_annotation[functional_annotation[7].notnull()]
     chem_features= np.array([])
     sec_features = np.array([])
@@ -194,12 +194,7 @@ def predict(organismPath, organism, suma):
 
     predictions = getPrediction(chem_features, onehot, sec_features)
     
-    i = 0
-    for p in predictions:
-        if suma[i]:
-            p[2]=p[2]+0.05
-        i=i+1
-
+    
     df = pd.DataFrame(predictions, columns=["E", "M", "P", "O"])
     df["Ids"] = ids
     df.to_csv(resultPath+organism+".loc_pred")
