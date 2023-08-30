@@ -169,16 +169,16 @@ def getPrediction(chem_feat, onehot, sec_feat):
     y = model(x)
     return y.numpy()
 
-def predict(organismPath, organism):
-    resultPath = '../../data/annotations/localization/'
+def predict(organism_fasta_file, organism_EggNog_file, resultPath):
+    #resultPath = '../../data/annotations/localization/'
 
-    functional_annotation = pd.read_csv('../../data/annotations/functional/'+organism, skiprows=4, sep="\t",header=None)
+    functional_annotation = pd.read_csv('../../data/annotations/functional/'+organism_EggNog_file, skiprows=4, sep="\t",header=None)
     functional_annotation = functional_annotation[functional_annotation[7].notnull()]
     chem_features= np.array([])
     sec_features = np.array([])
     ids=[]
     for key, row in functional_annotation.iterrows():
-        train = data_training(row[0],organismPath)
+        train = data_training(row[0],organism_fasta_file)
         ids.append(row[0])
         if chem_features.shape[0]==0:
             chem_features, onehot = train.get_aa()
@@ -197,6 +197,6 @@ def predict(organismPath, organism):
     
     df = pd.DataFrame(predictions, columns=["E", "M", "P", "O"])
     df["Ids"] = ids
-    df.to_csv(resultPath+organism+".loc_pred")
+    df.to_csv(resultPath+organism_EggNog_file+".loc_pred")
 
 
