@@ -9,7 +9,6 @@ Requirements:
 - pandas
 - numpy
 - cobrapy
-- Framed (https://github.com/cdanielmachado/framed)
 - EggNog annotation software: https://github.com/eggnogdb/eggnog-mapper
 - Download the deep learning models from "https://zenodo.org/records/10725786" and copy them into the folder "/bin/compartmentPredictions/deepModels".
 
