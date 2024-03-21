@@ -1,5 +1,5 @@
 '''
-  CarveMe algorithm. Code extracted from: https://github.com/cdanielmachado/carveme								
+  Modified version of the CarveMe algorithm. Code extracted from: https://github.com/cdanielmachado/carveme								
   D. Machado et al, "Fast automated reconstruction of genome-scale metabolic models for microbial species and communities", Nucleic Acids Research, gky537, 2018..
   DOI: https://doi.org/10.1093/nar/gky537							
   Developed at the European Molecular Biology Laboratory (2017-2018). Released under an Apache License. 
