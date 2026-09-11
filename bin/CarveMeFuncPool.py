@@ -1,5 +1,5 @@
 '''
-  Modified version of the CarveMe algorithm. Code extracted from: https://github.com/cdanielmachado/carveme								
+  CarveMe algorithm. Code extracted from: https://github.com/cdanielmachado/carveme								
   D. Machado et al, "Fast automated reconstruction of genome-scale metabolic models for microbial species and communities", Nucleic Acids Research, gky537, 2018..
   DOI: https://doi.org/10.1093/nar/gky537							
   Developed at the European Molecular Biology Laboratory (2017-2018). Released under an Apache License. 
@@ -7,9 +7,7 @@
 '''
 import cobra
 import cplex
-from collections import Counter
 import operator
-
 
 class solution:
     obj=None
@@ -45,9 +43,9 @@ def generate_soln_pool(solver):
         objval_i = cpx.solution.pool.get_objective_value(i)
         print("objective:",objval_i)
         x_i = cpx.solution.pool.get_values(i)
-        print(x_i)
+        #print(x_i)
         var_i = cpx.variables.get_names()
-        print(var_i)
+        #print(var_i)
         sol = {}
         for k in range(len(x_i)):
             sol[var_i[k]]=(x_i[k])
@@ -88,7 +86,12 @@ def minmax_reduction(model, scores, min_growth=0.1, min_atpm=0.1, eps=1e-5, bigM
     A = A.transpose()
     for name in names:
         r = A[A[name] != 0]
-        problem.linear_constraints.add(lin_expr=[[r.index, r[name]]], senses=['E'], rhs=[0])
+        # Convert index and values to plain Python lists to avoid pandas
+        # positional-indexing behavior (and the FutureWarning when
+        # integer keys are treated as positions). CPLEX expects lists.
+        indices = list(r.index)
+        coeffs = r[name].astype(float).tolist()
+        problem.linear_constraints.add(lin_expr=[[indices, coeffs]], senses=['E'], rhs=[0])
 
     scores = scores.copy()
 
@@ -113,7 +116,7 @@ def minmax_reduction(model, scores, min_growth=0.1, min_atpm=0.1, eps=1e-5, bigM
                 scores[r_id] = ref_score
                 reactions.append(r_id)
 
-    problem.linear_constraints.add(lin_expr=[[['BIOMASS'], [1]]], senses=['G'], rhs=[min_growth], names =['min_growth'])
+    problem.linear_constraints.add(lin_expr=[[['BIOMASS_C'], [1]]], senses=['G'], rhs=[min_growth], names =['min_growth'])
     problem.linear_constraints.add(lin_expr=[[['UF01847_CE'], [1]]], senses=['G'], rhs=[min_atpm], names=['min_atpm'])
 
     neg_vars = []
@@ -122,15 +125,21 @@ def minmax_reduction(model, scores, min_growth=0.1, min_atpm=0.1, eps=1e-5, bigM
     for r_id in reactions:
         rxn = model.reactions.get_by_id(r_id)
         if rxn.lower_bound < 0:
-            y_r = 'yr_' + r_id
-            problem.variables.add(obj=[scores[r_id]], lb=[0], ub=[1], names=[y_r])
-            problem.variables.set_types(y_r, problem.variables.type.binary)
-            neg_vars.append(y_r)
+            try:
+                y_r = 'yr_' + r_id            
+                problem.variables.add(obj=[scores[r_id]], lb=[0], ub=[1], names=[y_r])
+                problem.variables.set_types(y_r, problem.variables.type.binary)
+                neg_vars.append(y_r)
+            except:
+                pass
         if rxn.upper_bound > 0:
-            y_f = 'yf_' + r_id
-            problem.variables.add(obj=[scores[r_id]], lb=[0], ub=[1], names=[y_f])
-            problem.variables.set_types(y_f, problem.variables.type.binary)
-            pos_vars.append(y_f)
+            try:
+                y_f = 'yf_' + r_id
+                problem.variables.add(obj=[scores[r_id]], lb=[0], ub=[1], names=[y_f])
+                problem.variables.set_types(y_f, problem.variables.type.binary)
+                pos_vars.append(y_f)
+            except:
+                pass
 
     if uptake_score != 0:
         for r_id in model.reactions:
@@ -204,7 +213,7 @@ def carve_model(model, reaction_scores, min_growth=0.1, min_atpm=0.1,
             inactive = inactive_reactions(reconstructed_model, sol)
             reconstructed_model.remove_reactions(inactive)
             reconstructed_model, removed = cobra.manipulation.delete.prune_unused_metabolites(reconstructed_model)
-            reconstructed_model.objective = "BIOMASS"
+            reconstructed_model.objective = "BIOMASS_C"
             print(reconstructed_model.optimize())
             models.append(reconstructed_model)
             objective.append(obj)
