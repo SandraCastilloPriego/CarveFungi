@@ -51,8 +51,18 @@ def _score_by_gene(annotations):
     """Build a nested dict gene->ec->max_score from the annotation dataframe."""
     gene_ec = {}
     for _, row in annotations.iterrows():
-        gene = row['#query']
-        score = row['score']
+        try:
+            gene = row['#query']
+        except KeyError:
+            gene = row['#query_name']
+        try:
+            score = float(row['score'])
+        except (KeyError, ValueError, TypeError):
+            try:
+                score = float(row['seed_ortholog_score'])
+            except (ValueError, TypeError):
+                score = VERY_SMALL_NUMBER_NEG
+        
         for ec in row['EC'].split(','):
             gene_ec.setdefault(gene, {}).setdefault(ec, score)
             gene_ec[gene][ec] = max(gene_ec[gene][ec], score)
